@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name keebio_parts)(type KiCad)(uri /home/ding/kicad_keyboard_library/keebio_parts.pretty)(options "")(descr ""))
+  (lib (name switches)(type KiCad)(uri /home/ding/kicad_keyboard_library/switches)(options "")(descr ""))
+  (lib (name keyboard_parts)(type KiCad)(uri /home/ding/kicad_keyboard_library/keyboard_parts.pretty)(options "")(descr ""))
+  (lib (name keyswitches)(type KiCad)(uri /home/ding/kicad_keyboard_library/keyswitches.pretty)(options "")(descr ""))
+  (lib (name Display)(type KiCad)(uri /home/ding/kicad_keyboard_library/Display.pretty)(options "")(descr ""))
+)

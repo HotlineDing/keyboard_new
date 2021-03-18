@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name keyboard_parts)(type Legacy)(uri /home/ding/kicad_keyboard_library/keyboard_library/keyboard_parts.lib)(options "")(descr ""))
+  (lib (name keebio)(type Legacy)(uri /home/ding/kicad_keyboard_library/keebio.lib)(options "")(descr ""))
+  (lib (name deskdocker_v1-rescue)(type Legacy)(uri ${KIPRJMOD}/deskdocker_v1-rescue.lib)(options "")(descr ""))
+)
