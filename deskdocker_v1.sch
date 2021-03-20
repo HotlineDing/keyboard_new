@@ -695,17 +695,6 @@ Connection ~ 2250 5400
 Wire Wire Line
 	1500 5850 1500 6600
 Connection ~ 1500 5850
-$Comp
-L keyboard_parts:GND #PWR0103
-U 1 1 6057E641
-P 11050 650
-F 0 "#PWR0103" H 11050 700 20  0001 C CNN
-F 1 "GND" H 11050 709 30  0000 C CNN
-F 2 "" H 11050 650 60  0000 C CNN
-F 3 "" H 11050 650 60  0000 C CNN
-	1    11050 650 
-	-1   0    0    1   
-$EndComp
 Text GLabel 4350 4750 1    50   Input ~ 0
 COL4
 Text GLabel 3350 4750 1    50   Input ~ 0
@@ -741,9 +730,6 @@ F 3 "" H 5650 7350 60  0000 C CNN
 	1    5650 7350
 	1    0    0    -1  
 $EndComp
-Connection ~ 10700 650 
-Wire Wire Line
-	10700 650  11050 650 
 Wire Wire Line
 	9400 650  10700 650 
 Connection ~ 9400 650 
@@ -754,17 +740,6 @@ Wire Wire Line
 	6750 650  8050 650 
 Wire Wire Line
 	7450 2200 7450 2450
-$Comp
-L keyboard_parts:GND #PWR0112
-U 1 1 60652038
-P 5750 2450
-F 0 "#PWR0112" H 5750 2500 20  0001 C CNN
-F 1 "GND" H 5750 2509 30  0000 C CNN
-F 2 "" H 5750 2450 60  0000 C CNN
-F 3 "" H 5750 2450 60  0000 C CNN
-	1    5750 2450
-	1    0    0    -1  
-$EndComp
 Connection ~ 10100 1500
 Wire Wire Line
 	10700 1500 10100 1500
@@ -1322,17 +1297,6 @@ Wire Wire Line
 	9100 4100 9100 4250
 Wire Wire Line
 	9900 4100 9900 4250
-$Comp
-L keyboard_parts:GND #PWR04
-U 1 1 60898964
-P 10700 3750
-F 0 "#PWR04" H 10700 3800 20  0001 C CNN
-F 1 "GND" H 10700 3809 30  0000 C CNN
-F 2 "" H 10700 3750 60  0000 C CNN
-F 3 "" H 10700 3750 60  0000 C CNN
-	1    10700 3750
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	10700 3750 10400 3750
 Wire Wire Line
@@ -1575,17 +1539,6 @@ Wire Wire Line
 Connection ~ 9100 4750
 Wire Wire Line
 	9100 4750 9900 4750
-$Comp
-L keyboard_parts:GND #PWR05
-U 1 1 609D54AC
-P 10700 4750
-F 0 "#PWR05" H 10700 4800 20  0001 C CNN
-F 1 "GND" H 10700 4809 30  0000 C CNN
-F 2 "" H 10700 4750 60  0000 C CNN
-F 3 "" H 10700 4750 60  0000 C CNN
-	1    10700 4750
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	9900 4750 10700 4750
 Connection ~ 9900 4750
@@ -1668,17 +1621,6 @@ Wire Wire Line
 Connection ~ 9600 2650
 Wire Wire Line
 	9600 2650 8800 2650
-$Comp
-L keyboard_parts:GND #PWR0101
-U 1 1 605EDDF6
-P -3400 4050
-F 0 "#PWR0101" H -3400 4100 20  0001 C CNN
-F 1 "GND" H -3400 3950 30  0000 C CNN
-F 2 "" H -3400 4050 60  0000 C CNN
-F 3 "" H -3400 4050 60  0000 C CNN
-	1    -3400 4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	-1000 2000 -900 2000
 Wire Wire Line
@@ -1703,17 +1645,6 @@ Wire Wire Line
 	-400 800  -400 600 
 Text GLabel -3550 1200 0    50   Input ~ 0
 D-
-$Comp
-L keyboard_parts:GND #PWR0106
-U 1 1 608BE9BC
-P -5850 2550
-F 0 "#PWR0106" H -5850 2600 20  0001 C CNN
-F 1 "GND" V -5850 2350 30  0000 L CNN
-F 2 "" H -5850 2550 60  0000 C CNN
-F 3 "" H -5850 2550 60  0000 C CNN
-	1    -5850 2550
-	0    1    1    0   
-$EndComp
 Text GLabel 3850 1300 2    50   Input ~ 0
 D-
 Text GLabel 3850 1500 2    50   Input ~ 0
@@ -1910,28 +1841,6 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4900 13
 	1    4750 1350
 	1    0    0    -1  
 $EndComp
-$Comp
-L keyboard_parts:GND #PWR0110
-U 1 1 606E47AB
-P 2200 2250
-F 0 "#PWR0110" H 2200 2300 20  0001 C CNN
-F 1 "GND" H 2300 2250 30  0000 C CNN
-F 2 "" H 2200 2250 60  0000 C CNN
-F 3 "" H 2200 2250 60  0000 C CNN
-	1    2200 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:GND #PWR0111
-U 1 1 6070C745
-P 2500 2250
-F 0 "#PWR0111" H 2500 2300 20  0001 C CNN
-F 1 "GND" H 2600 2250 30  0000 C CNN
-F 2 "" H 2500 2250 60  0000 C CNN
-F 3 "" H 2500 2250 60  0000 C CNN
-	1    2500 2250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3100 1250 3150 1250
 Wire Wire Line
@@ -2019,17 +1928,6 @@ $EndComp
 Wire Wire Line
 	-2300 -550 -2000 -550
 Connection ~ -2300 -550
-$Comp
-L keyboard_parts:GND #PWR0116
-U 1 1 60897F06
-P -1600 -50
-F 0 "#PWR0116" H -1600 0   20  0001 C CNN
-F 1 "GND" H -1600 -150 30  0000 C CNN
-F 2 "" H -1600 -50 60  0000 C CNN
-F 3 "" H -1600 -50 60  0000 C CNN
-	1    -1600 -50 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	-1600 -50  -1600 -150
 Wire Wire Line
@@ -2064,17 +1962,6 @@ F 1 "10uF" H -859 -345 50  0000 L CNN
 F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H -950 -300 50  0001 C CNN
 F 3 "~" H -950 -300 50  0001 C CNN
 	1    -950 -300
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:GND #PWR0118
-U 1 1 609E6F55
-P -950 -50
-F 0 "#PWR0118" H -950 0   20  0001 C CNN
-F 1 "GND" H -950 -150 30  0000 C CNN
-F 2 "" H -950 -50 60  0000 C CNN
-F 3 "" H -950 -50 60  0000 C CNN
-	1    -950 -50 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2115,30 +2002,8 @@ Wire Wire Line
 Wire Wire Line
 	0    -550 0    -450
 Connection ~ -450 -550
-$Comp
-L keyboard_parts:GND #PWR0119
-U 1 1 60AEAAFC
-P -450 -50
-F 0 "#PWR0119" H -450 0   20  0001 C CNN
-F 1 "GND" H -450 -150 30  0000 C CNN
-F 2 "" H -450 -50 60  0000 C CNN
-F 3 "" H -450 -50 60  0000 C CNN
-	1    -450 -50 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	-450 -150 -450 -50 
-$Comp
-L keyboard_parts:GND #PWR0120
-U 1 1 60B6DE10
-P 0 -50
-F 0 "#PWR0120" H 0   0   20  0001 C CNN
-F 1 "GND" H 0   -150 30  0000 C CNN
-F 2 "" H 0   -50 60  0000 C CNN
-F 3 "" H 0   -50 60  0000 C CNN
-	1    0    -50 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	0    -150 0    -50 
 Wire Wire Line
@@ -2182,17 +2047,6 @@ F 2 "LED_SMD:LED_0603_1608Metric" H 600 200 50  0001 C CNN
 F 3 "~" H 600 200 50  0001 C CNN
 	1    600  200 
 	0    -1   -1   0   
-$EndComp
-$Comp
-L keyboard_parts:GND #PWR0122
-U 1 1 60BCCF66
-P 600 450
-F 0 "#PWR0122" H 600 500 20  0001 C CNN
-F 1 "GND" H 600 350 30  0000 C CNN
-F 2 "" H 600 450 60  0000 C CNN
-F 3 "" H 600 450 60  0000 C CNN
-	1    600  450 
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	600  350  600  450 
@@ -2679,10 +2533,10 @@ F 3 "" H -2300 -50 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 608216F9
 P -4200 600
-F 0 "#PWR?" H -4200 350 50  0001 C CNN
+F 0 "#PWR0104" H -4200 350 50  0001 C CNN
 F 1 "GND" H -4195 427 50  0000 C CNN
 F 2 "" H -4200 600 50  0001 C CNN
 F 3 "" H -4200 600 50  0001 C CNN
@@ -2690,10 +2544,10 @@ F 3 "" H -4200 600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 608914A8
 P -3900 600
-F 0 "#PWR?" H -3900 350 50  0001 C CNN
+F 0 "#PWR0105" H -3900 350 50  0001 C CNN
 F 1 "GND" H -3895 427 50  0000 C CNN
 F 2 "" H -3900 600 50  0001 C CNN
 F 3 "" H -3900 600 50  0001 C CNN
@@ -2701,10 +2555,10 @@ F 3 "" H -3900 600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 60901457
 P -650 600
-F 0 "#PWR?" H -650 350 50  0001 C CNN
+F 0 "#PWR0107" H -650 350 50  0001 C CNN
 F 1 "GND" H -645 427 50  0000 C CNN
 F 2 "" H -650 600 50  0001 C CNN
 F 3 "" H -650 600 50  0001 C CNN
@@ -2712,10 +2566,10 @@ F 3 "" H -650 600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0110
 U 1 1 6097058F
 P -400 600
-F 0 "#PWR?" H -400 350 50  0001 C CNN
+F 0 "#PWR0110" H -400 350 50  0001 C CNN
 F 1 "GND" H -395 427 50  0000 C CNN
 F 2 "" H -400 600 50  0001 C CNN
 F 3 "" H -400 600 50  0001 C CNN
@@ -2723,10 +2577,10 @@ F 3 "" H -400 600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0111
 U 1 1 609E183F
 P 1950 2700
-F 0 "#PWR?" H 1950 2450 50  0001 C CNN
+F 0 "#PWR0111" H 1950 2450 50  0001 C CNN
 F 1 "GND" H 1955 2527 50  0000 C CNN
 F 2 "" H 1950 2700 50  0001 C CNN
 F 3 "" H 1950 2700 50  0001 C CNN
@@ -2734,14 +2588,160 @@ F 3 "" H 1950 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0114
 U 1 1 60A517B4
 P 1850 3750
-F 0 "#PWR?" H 1850 3500 50  0001 C CNN
+F 0 "#PWR0114" H 1850 3500 50  0001 C CNN
 F 1 "GND" V 1850 3550 50  0000 C CNN
 F 2 "" H 1850 3750 50  0001 C CNN
 F 3 "" H 1850 3750 50  0001 C CNN
 	1    1850 3750
 	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 60ACEA75
+P 2200 2250
+F 0 "#PWR0125" H 2200 2000 50  0001 C CNN
+F 1 "GND" H 2205 2077 50  0000 C CNN
+F 2 "" H 2200 2250 50  0001 C CNN
+F 3 "" H 2200 2250 50  0001 C CNN
+	1    2200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0128
+U 1 1 60B0610C
+P 2500 2250
+F 0 "#PWR0128" H 2500 2000 50  0001 C CNN
+F 1 "GND" H 2505 2077 50  0000 C CNN
+F 2 "" H 2500 2250 50  0001 C CNN
+F 3 "" H 2500 2250 50  0001 C CNN
+	1    2500 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 10700 650 
+Wire Wire Line
+	10700 650  11050 650 
+$Comp
+L power:GND #PWR?
+U 1 1 60B7B7D5
+P 11050 650
+F 0 "#PWR?" H 11050 400 50  0001 C CNN
+F 1 "GND" H 11055 477 50  0000 C CNN
+F 2 "" H 11050 650 50  0001 C CNN
+F 3 "" H 11050 650 50  0001 C CNN
+	1    11050 650 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60BB3973
+P 10700 3750
+F 0 "#PWR?" H 10700 3500 50  0001 C CNN
+F 1 "GND" H 10705 3577 50  0000 C CNN
+F 2 "" H 10700 3750 50  0001 C CNN
+F 3 "" H 10700 3750 50  0001 C CNN
+	1    10700 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60BEB6B1
+P 10700 4750
+F 0 "#PWR?" H 10700 4500 50  0001 C CNN
+F 1 "GND" H 10705 4577 50  0000 C CNN
+F 2 "" H 10700 4750 50  0001 C CNN
+F 3 "" H 10700 4750 50  0001 C CNN
+	1    10700 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C24D30
+P 5750 2450
+F 0 "#PWR?" H 5750 2200 50  0001 C CNN
+F 1 "GND" H 5755 2277 50  0000 C CNN
+F 2 "" H 5750 2450 50  0001 C CNN
+F 3 "" H 5750 2450 50  0001 C CNN
+	1    5750 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60CD4DDF
+P -3400 4050
+F 0 "#PWR?" H -3400 3800 50  0001 C CNN
+F 1 "GND" H -3395 3877 50  0000 C CNN
+F 2 "" H -3400 4050 50  0001 C CNN
+F 3 "" H -3400 4050 50  0001 C CNN
+	1    -3400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60D45238
+P -1600 -50
+F 0 "#PWR?" H -1600 -300 50  0001 C CNN
+F 1 "GND" H -1595 -223 50  0000 C CNN
+F 2 "" H -1600 -50 50  0001 C CNN
+F 3 "" H -1600 -50 50  0001 C CNN
+	1    -1600 -50 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60D7C583
+P -950 -50
+F 0 "#PWR?" H -950 -300 50  0001 C CNN
+F 1 "GND" H -945 -223 50  0000 C CNN
+F 2 "" H -950 -50 50  0001 C CNN
+F 3 "" H -950 -50 50  0001 C CNN
+	1    -950 -50 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60DB3EA6
+P -450 -50
+F 0 "#PWR?" H -450 -300 50  0001 C CNN
+F 1 "GND" H -445 -223 50  0000 C CNN
+F 2 "" H -450 -50 50  0001 C CNN
+F 3 "" H -450 -50 50  0001 C CNN
+	1    -450 -50 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60DEB135
+P 0 -50
+F 0 "#PWR?" H 0   -300 50  0001 C CNN
+F 1 "GND" H 5   -223 50  0000 C CNN
+F 2 "" H 0   -50 50  0001 C CNN
+F 3 "" H 0   -50 50  0001 C CNN
+	1    0    -50 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E22BFC
+P 600 450
+F 0 "#PWR?" H 600 200 50  0001 C CNN
+F 1 "GND" H 605 277 50  0000 C CNN
+F 2 "" H 600 450 50  0001 C CNN
+F 3 "" H 600 450 50  0001 C CNN
+	1    600  450 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E5C8DE
+P -5850 2550
+F 0 "#PWR?" H -5850 2300 50  0001 C CNN
+F 1 "GND" H -5845 2377 50  0000 C CNN
+F 2 "" H -5850 2550 50  0001 C CNN
+F 3 "" H -5850 2550 50  0001 C CNN
+	1    -5850 2550
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
