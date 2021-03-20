@@ -4,4 +4,6 @@
   (lib (name keyboard_parts)(type KiCad)(uri /home/ding/kicad_keyboard_library/keyboard_parts.pretty)(options "")(descr ""))
   (lib (name keyswitches)(type KiCad)(uri /home/ding/kicad_keyboard_library/keyswitches.pretty)(options "")(descr ""))
   (lib (name Display)(type KiCad)(uri /home/ding/kicad_keyboard_library/Display.pretty)(options "")(descr ""))
+  (lib (name private)(type KiCad)(uri ${KIPRJMOD}/private.pretty)(options "")(descr ""))
+  (lib (name Type-C)(type KiCad)(uri /home/ding/kicad_keyboard_library/Type-C.pretty)(options "")(descr ""))
 )
