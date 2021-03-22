@@ -13,1799 +13,927 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L keyboard_parts:SW_PUSH SW1
-U 1 1 6063DEB9
-P 950 5100
-F 0 "SW1" H 950 5355 50  0000 C CNN
-F 1 "SW_PUSH" H 950 5264 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 950 5100 60  0001 C CNN
-F 3 "" H 950 5100 60  0000 C CNN
-	1    950  5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW2
-U 1 1 6063E22B
-P 1950 5100
-F 0 "SW2" H 1950 5355 50  0000 C CNN
-F 1 "SW_PUSH" H 1950 5264 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 1950 5100 60  0001 C CNN
-F 3 "" H 1950 5100 60  0000 C CNN
-	1    1950 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH RESET_SW1
-U 1 1 606B5FE8
-P 1450 2700
-F 0 "RESET_SW1" H 1450 2955 50  0000 C CNN
-F 1 "SW_PUSH" H 1450 2864 50  0000 C CNN
-F 2 "keebio_parts:SW_Tactile_SPST_Angled_MJTP1117" H 1450 2700 60  0001 C CNN
-F 3 "" H 1450 2700 60  0000 C CNN
-	1    1450 2700
-	1    0    0    -1  
-$EndComp
-Text GLabel 1150 2700 0    50   Input ~ 0
-RESET
-Wire Wire Line
-	650  4750 650  5100
-$Comp
-L Device:D D2
-U 1 1 606C31D0
-P 2250 5250
-F 0 "D2" V 2296 5367 50  0000 C BNN
-F 1 "D" V 2205 5170 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 2250 5250 50  0001 C CNN
-F 3 "~" H 2250 5250 50  0001 C CNN
-	1    2250 5250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1500 4750 1500 5100
-Wire Wire Line
-	1500 5100 1650 5100
-$Comp
-L keyboard_parts:SW_PUSH SW3
-U 1 1 606C6A74
-P 2800 5100
-F 0 "SW3" H 2800 5355 50  0000 C CNN
-F 1 "SW_PUSH" H 2800 5264 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 2800 5100 60  0001 C CNN
-F 3 "" H 2800 5100 60  0000 C CNN
-	1    2800 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW4
-U 1 1 606C6A7A
-P 3800 5100
-F 0 "SW4" H 3800 5355 50  0000 C CNN
-F 1 "SW_PUSH" H 3800 5264 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 3800 5100 60  0001 C CNN
-F 3 "" H 3800 5100 60  0000 C CNN
-	1    3800 5100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2500 4750 2500 5100
-$Comp
-L Device:D D3
-U 1 1 606C6A8B
-P 3100 5250
-F 0 "D3" V 3146 5367 50  0000 C BNN
-F 1 "D" V 3055 5170 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 3100 5250 50  0001 C CNN
-F 3 "~" H 3100 5250 50  0001 C CNN
-	1    3100 5250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3100 5400 4100 5400
-Wire Wire Line
-	3100 5400 2250 5400
-Connection ~ 3100 5400
-Wire Wire Line
-	3350 4750 3350 5100
-Wire Wire Line
-	3350 5100 3500 5100
-$Comp
-L Device:D D4
-U 1 1 606C6A91
-P 4100 5250
-F 0 "D4" V 4146 5367 50  0000 C BNN
-F 1 "D" V 4055 5170 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 4100 5250 50  0001 C CNN
-F 3 "~" H 4100 5250 50  0001 C CNN
-	1    4100 5250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW5
-U 1 1 606C9656
-P 4650 5100
-F 0 "SW5" H 4650 5355 50  0000 C CNN
-F 1 "SW_PUSH" H 4650 5264 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 4650 5100 60  0001 C CNN
-F 3 "" H 4650 5100 60  0000 C CNN
-	1    4650 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW6
-U 1 1 606C965C
-P 5650 5100
-F 0 "SW6" H 5650 5355 50  0000 C CNN
-F 1 "SW_PUSH" H 5650 5264 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 5650 5100 60  0001 C CNN
-F 3 "" H 5650 5100 60  0000 C CNN
-	1    5650 5100
-	1    0    0    -1  
-$EndComp
-Text GLabel 5200 4750 1    50   Input ~ 0
-COL5
-Wire Wire Line
-	4350 4750 4350 5100
-$Comp
-L Device:D D5
-U 1 1 606C966D
-P 4950 5250
-F 0 "D5" V 4996 5367 50  0000 C BNN
-F 1 "D" V 4905 5170 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 4950 5250 50  0001 C CNN
-F 3 "~" H 4950 5250 50  0001 C CNN
-	1    4950 5250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D6
-U 1 1 606C9673
-P 5950 5250
-F 0 "D6" V 5996 5367 50  0000 C BNN
-F 1 "D" V 5905 5170 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 5950 5250 50  0001 C CNN
-F 3 "~" H 5950 5250 50  0001 C CNN
-	1    5950 5250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4950 5400 5950 5400
-Connection ~ 4950 5400
-Wire Wire Line
-	5200 4750 5200 5100
-Wire Wire Line
-	5200 5100 5350 5100
-Wire Wire Line
-	1250 5400 2250 5400
-$Comp
-L Device:D D1
-U 1 1 606C0569
-P 1250 5250
-F 0 "D1" V 1296 5367 50  0000 C BNN
-F 1 "D" V 1250 5150 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 1250 5250 50  0001 C CNN
-F 3 "~" H 1250 5250 50  0001 C CNN
-	1    1250 5250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW7
-U 1 1 606ED57C
-P 950 5850
-F 0 "SW7" H 950 6105 50  0000 C CNN
-F 1 "SW_PUSH" H 950 6014 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 950 5850 60  0001 C CNN
-F 3 "" H 950 5850 60  0000 C CNN
-	1    950  5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW8
-U 1 1 606ED582
-P 1950 5850
-F 0 "SW8" H 1950 6105 50  0000 C CNN
-F 1 "SW_PUSH" H 1950 6014 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 1950 5850 60  0001 C CNN
-F 3 "" H 1950 5850 60  0000 C CNN
-	1    1950 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D8
-U 1 1 606ED589
-P 2250 6000
-F 0 "D8" V 2296 6117 50  0000 C BNN
-F 1 "D" V 2205 5920 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 2250 6000 50  0001 C CNN
-F 3 "~" H 2250 6000 50  0001 C CNN
-	1    2250 6000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1500 5850 1650 5850
-$Comp
-L keyboard_parts:SW_PUSH SW9
-U 1 1 606ED591
-P 2800 5850
-F 0 "SW9" H 2800 6105 50  0000 C CNN
-F 1 "SW_PUSH" H 2800 6014 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 2800 5850 60  0001 C CNN
-F 3 "" H 2800 5850 60  0000 C CNN
-	1    2800 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW10
-U 1 1 606ED597
-P 3800 5850
-F 0 "SW10" H 3800 6105 50  0000 C CNN
-F 1 "SW_PUSH" H 3800 6014 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 3800 5850 60  0001 C CNN
-F 3 "" H 3800 5850 60  0000 C CNN
-	1    3800 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D9
-U 1 1 606ED59E
-P 3100 6000
-F 0 "D9" V 3146 6117 50  0000 C BNN
-F 1 "D" V 3055 5920 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 3100 6000 50  0001 C CNN
-F 3 "~" H 3100 6000 50  0001 C CNN
-	1    3100 6000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3100 6150 4100 6150
-Wire Wire Line
-	3100 6150 2250 6150
-Connection ~ 3100 6150
-Wire Wire Line
-	3350 5850 3500 5850
-$Comp
-L Device:D D10
-U 1 1 606ED5A9
-P 4100 6000
-F 0 "D10" V 4146 6117 50  0000 C BNN
-F 1 "D" V 4055 5920 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 4100 6000 50  0001 C CNN
-F 3 "~" H 4100 6000 50  0001 C CNN
-	1    4100 6000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW11
-U 1 1 606ED5AF
-P 4650 5850
-F 0 "SW11" H 4650 6105 50  0000 C CNN
-F 1 "SW_PUSH" H 4650 6014 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 4650 5850 60  0001 C CNN
-F 3 "" H 4650 5850 60  0000 C CNN
-	1    4650 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW12
-U 1 1 606ED5B5
-P 5650 5850
-F 0 "SW12" H 5650 6105 50  0000 C CNN
-F 1 "SW_PUSH" H 5650 6014 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 5650 5850 60  0001 C CNN
-F 3 "" H 5650 5850 60  0000 C CNN
-	1    5650 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D11
-U 1 1 606ED5BC
-P 4950 6000
-F 0 "D11" V 4996 6117 50  0000 C BNN
-F 1 "D" V 4905 5920 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 4950 6000 50  0001 C CNN
-F 3 "~" H 4950 6000 50  0001 C CNN
-	1    4950 6000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D12
-U 1 1 606ED5C2
-P 5950 6000
-F 0 "D12" V 5996 6117 50  0000 C BNN
-F 1 "D" V 5905 5920 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 5950 6000 50  0001 C CNN
-F 3 "~" H 5950 6000 50  0001 C CNN
-	1    5950 6000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4950 6150 5950 6150
-Wire Wire Line
-	4950 6150 4100 6150
-Connection ~ 4950 6150
-Wire Wire Line
-	5200 5850 5350 5850
-Wire Wire Line
-	1250 6150 2250 6150
-$Comp
-L Device:D D7
-U 1 1 606ED5D0
-P 1250 6000
-F 0 "D7" V 1296 6117 50  0000 C BNN
-F 1 "D" V 1250 5900 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 1250 6000 50  0001 C CNN
-F 3 "~" H 1250 6000 50  0001 C CNN
-	1    1250 6000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1100 5400 1250 5400
-Connection ~ 1250 5400
-Wire Wire Line
-	650  5100 650  5850
-Connection ~ 650  5100
-Wire Wire Line
-	1500 5100 1500 5850
-Connection ~ 1500 5100
-Wire Wire Line
-	2500 5100 2500 5850
-Connection ~ 2500 5100
-Wire Wire Line
-	3350 5100 3350 5850
-Connection ~ 3350 5100
-Connection ~ 4350 5100
-Wire Wire Line
-	5200 5100 5200 5850
-Connection ~ 5200 5100
-Text GLabel 1100 6150 0    50   Input ~ 0
-ROW1
-Wire Wire Line
-	1100 6150 1250 6150
-Connection ~ 1250 6150
-$Comp
-L keyboard_parts:SW_PUSH SW13
-U 1 1 6070968D
-P 950 6600
-F 0 "SW13" H 950 6855 50  0000 C CNN
-F 1 "SW_PUSH" H 950 6764 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 950 6600 60  0001 C CNN
-F 3 "" H 950 6600 60  0000 C CNN
-	1    950  6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW14
-U 1 1 60709693
-P 1950 6600
-F 0 "SW14" H 1950 6855 50  0000 C CNN
-F 1 "SW_PUSH" H 1950 6764 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 1950 6600 60  0001 C CNN
-F 3 "" H 1950 6600 60  0000 C CNN
-	1    1950 6600
-	1    0    0    -1  
-$EndComp
-Text GLabel 1100 6900 0    50   Input ~ 0
-ROW2
-$Comp
-L Device:D D14
-U 1 1 6070969B
-P 2250 6750
-F 0 "D14" V 2296 6867 50  0000 C BNN
-F 1 "D" V 2205 6670 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 2250 6750 50  0001 C CNN
-F 3 "~" H 2250 6750 50  0001 C CNN
-	1    2250 6750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1500 6600 1650 6600
-$Comp
-L keyboard_parts:SW_PUSH SW15
-U 1 1 607096A3
-P 2800 6600
-F 0 "SW15" H 2800 6855 50  0000 C CNN
-F 1 "SW_PUSH" H 2800 6764 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 2800 6600 60  0001 C CNN
-F 3 "" H 2800 6600 60  0000 C CNN
-	1    2800 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW16
-U 1 1 607096A9
-P 3800 6600
-F 0 "SW16" H 3800 6855 50  0000 C CNN
-F 1 "SW_PUSH" H 3800 6764 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 3800 6600 60  0001 C CNN
-F 3 "" H 3800 6600 60  0000 C CNN
-	1    3800 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D15
-U 1 1 607096B0
-P 3100 6750
-F 0 "D15" V 3146 6867 50  0000 C BNN
-F 1 "D" V 3055 6670 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 3100 6750 50  0001 C CNN
-F 3 "~" H 3100 6750 50  0001 C CNN
-	1    3100 6750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3100 6900 4100 6900
-Wire Wire Line
-	3100 6900 2250 6900
-Connection ~ 3100 6900
-Wire Wire Line
-	3350 6600 3500 6600
-$Comp
-L Device:D D16
-U 1 1 607096BB
-P 4100 6750
-F 0 "D16" V 4146 6867 50  0000 C BNN
-F 1 "D" V 4055 6670 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 4100 6750 50  0001 C CNN
-F 3 "~" H 4100 6750 50  0001 C CNN
-	1    4100 6750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW17
-U 1 1 607096C1
-P 4650 6600
-F 0 "SW17" H 4650 6855 50  0000 C CNN
-F 1 "SW_PUSH" H 4650 6764 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 4650 6600 60  0001 C CNN
-F 3 "" H 4650 6600 60  0000 C CNN
-	1    4650 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW18
-U 1 1 607096C7
-P 5650 6600
-F 0 "SW18" H 5650 6855 50  0000 C CNN
-F 1 "SW_PUSH" H 5650 6764 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 5650 6600 60  0001 C CNN
-F 3 "" H 5650 6600 60  0000 C CNN
-	1    5650 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D17
-U 1 1 607096CE
-P 4950 6750
-F 0 "D17" V 4996 6867 50  0000 C BNN
-F 1 "D" V 4905 6670 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 4950 6750 50  0001 C CNN
-F 3 "~" H 4950 6750 50  0001 C CNN
-	1    4950 6750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D18
-U 1 1 607096D4
-P 5950 6750
-F 0 "D18" V 5996 6867 50  0000 C BNN
-F 1 "D" V 5905 6670 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 5950 6750 50  0001 C CNN
-F 3 "~" H 5950 6750 50  0001 C CNN
-	1    5950 6750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4950 6900 5950 6900
-Wire Wire Line
-	4950 6900 4100 6900
-Connection ~ 4950 6900
-Wire Wire Line
-	5200 6600 5350 6600
-Wire Wire Line
-	1250 6900 2250 6900
-$Comp
-L Device:D D13
-U 1 1 607096E0
-P 1250 6750
-F 0 "D13" V 1296 6867 50  0000 C BNN
-F 1 "D" V 1250 6650 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 1250 6750 50  0001 C CNN
-F 3 "~" H 1250 6750 50  0001 C CNN
-	1    1250 6750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW19
-U 1 1 607096E6
-P 950 7350
-F 0 "SW19" H 950 7605 50  0000 C CNN
-F 1 "SW_PUSH" H 950 7514 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 950 7350 60  0001 C CNN
-F 3 "" H 950 7350 60  0000 C CNN
-	1    950  7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW20
-U 1 1 607096EC
-P 1950 7350
-F 0 "SW20" H 1950 7605 50  0000 C CNN
-F 1 "SW_PUSH" H 1950 7514 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 1950 7350 60  0001 C CNN
-F 3 "" H 1950 7350 60  0000 C CNN
-	1    1950 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D20
-U 1 1 607096F2
-P 2250 7500
-F 0 "D20" V 2296 7617 50  0000 C BNN
-F 1 "D" V 2205 7420 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 2250 7500 50  0001 C CNN
-F 3 "~" H 2250 7500 50  0001 C CNN
-	1    2250 7500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1500 7350 1650 7350
-$Comp
-L keyboard_parts:SW_PUSH SW21
-U 1 1 607096F9
-P 2800 7350
-F 0 "SW21" H 2800 7605 50  0000 C CNN
-F 1 "SW_PUSH" H 2800 7514 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 2800 7350 60  0001 C CNN
-F 3 "" H 2800 7350 60  0000 C CNN
-	1    2800 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW22
-U 1 1 607096FF
-P 3800 7350
-F 0 "SW22" H 3800 7605 50  0000 C CNN
-F 1 "SW_PUSH" H 3800 7514 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_MX" H 3800 7350 60  0001 C CNN
-F 3 "" H 3800 7350 60  0000 C CNN
-	1    3800 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D21
-U 1 1 60709705
-P 3100 7500
-F 0 "D21" V 3146 7617 50  0000 C BNN
-F 1 "D" V 3055 7420 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 3100 7500 50  0001 C CNN
-F 3 "~" H 3100 7500 50  0001 C CNN
-	1    3100 7500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3100 7650 4100 7650
-Wire Wire Line
-	3100 7650 2250 7650
-Connection ~ 3100 7650
-Wire Wire Line
-	3350 7350 3500 7350
-$Comp
-L Device:D D22
-U 1 1 6070970F
-P 4100 7500
-F 0 "D22" V 4146 7617 50  0000 C BNN
-F 1 "D" V 4055 7420 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 4100 7500 50  0001 C CNN
-F 3 "~" H 4100 7500 50  0001 C CNN
-	1    4100 7500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW23
-U 1 1 60709715
-P 4650 7350
-F 0 "SW23" H 4650 7605 50  0000 C CNN
-F 1 "SW_PUSH" H 4650 7514 50  0000 C CNN
-F 2 "keebio_parts:MX-Alps_Switch_Cutout-1u_2u" H 4650 7350 60  0001 C CNN
-F 3 "" H 4650 7350 60  0000 C CNN
-	1    4650 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D23
-U 1 1 60709721
-P 4950 7500
-F 0 "D23" V 4996 7617 50  0000 C BNN
-F 1 "D" V 4905 7420 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 4950 7500 50  0001 C CNN
-F 3 "~" H 4950 7500 50  0001 C CNN
-	1    4950 7500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4950 7650 4100 7650
-Wire Wire Line
-	5200 7350 5350 7350
-Wire Wire Line
-	1250 7650 2250 7650
-$Comp
-L Device:D D19
-U 1 1 60709732
-P 1250 7500
-F 0 "D19" V 1296 7617 50  0000 C BNN
-F 1 "D" V 1250 7400 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 1250 7500 50  0001 C CNN
-F 3 "~" H 1250 7500 50  0001 C CNN
-	1    1250 7500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1100 6900 1250 6900
-Connection ~ 1250 6900
-Wire Wire Line
-	650  6600 650  7350
-Connection ~ 650  6600
-Wire Wire Line
-	1500 6600 1500 7350
-Connection ~ 1500 6600
-Wire Wire Line
-	2500 6600 2500 7350
-Connection ~ 2500 6600
-Wire Wire Line
-	3350 6600 3350 7350
-Connection ~ 3350 6600
-Wire Wire Line
-	4350 6600 4350 7350
-Connection ~ 4350 6600
-Wire Wire Line
-	5200 6600 5200 7350
-Connection ~ 5200 6600
 Text GLabel 1100 7650 0    50   Input ~ 0
 ROW3
-Wire Wire Line
-	1100 7650 1250 7650
-Connection ~ 1250 7650
-Wire Wire Line
-	650  5850 650  6600
-Connection ~ 650  5850
-Wire Wire Line
-	2500 5850 2500 6600
-Connection ~ 2500 5850
-Wire Wire Line
-	3350 5850 3350 6600
-Connection ~ 3350 5850
-Wire Wire Line
-	4350 5850 4350 6600
-Connection ~ 4350 5850
-Wire Wire Line
-	5200 5850 5200 6600
-Connection ~ 5200 5850
-Connection ~ 2250 6900
-Connection ~ 2250 7650
-Connection ~ 4100 7650
-Connection ~ 4100 6900
-Connection ~ 4100 6150
-Wire Wire Line
-	4350 5100 4350 5850
-Wire Wire Line
-	4950 5400 4100 5400
-Connection ~ 4100 5400
-Connection ~ 2250 6150
-Connection ~ 2250 5400
-Wire Wire Line
-	1500 5850 1500 6600
-Connection ~ 1500 5850
-Text GLabel 4350 4750 1    50   Input ~ 0
-COL4
-Text GLabel 3350 4750 1    50   Input ~ 0
-COL3
-Text GLabel 2500 4750 1    50   Input ~ 0
-COL2
-Text GLabel 1500 4750 1    50   Input ~ 0
-COL1
-Text GLabel 650  4750 1    50   Input ~ 0
-COL0
-Connection ~ 4950 7650
-Wire Wire Line
-	4950 7650 5950 7650
-$Comp
-L Device:D D24
-U 1 1 60709727
-P 5950 7500
-F 0 "D24" V 5996 7617 50  0000 C BNN
-F 1 "D" V 5905 7420 50  0000 R CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H 5950 7500 50  0001 C CNN
-F 3 "~" H 5950 7500 50  0001 C CNN
-	1    5950 7500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L keyboard_parts:SW_PUSH SW24
-U 1 1 6070971B
-P 5650 7350
-F 0 "SW24" H 5650 7605 50  0000 C CNN
-F 1 "SW_PUSH" H 5650 7514 50  0000 C CNN
-F 2 "keebio_parts:MX-Alps_Switch_Cutout-1u_2u" H 5650 7350 60  0001 C CNN
-F 3 "" H 5650 7350 60  0000 C CNN
-	1    5650 7350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9400 650  10700 650 
-Connection ~ 9400 650 
-Connection ~ 8050 650 
-Wire Wire Line
-	8050 650  9400 650 
-Wire Wire Line
-	6750 650  8050 650 
-Wire Wire Line
-	7450 2200 7450 2450
-Connection ~ 10100 1500
-Wire Wire Line
-	10700 1500 10100 1500
-Wire Wire Line
-	10700 2000 10700 1500
-Wire Wire Line
-	9400 1500 10100 1500
-Connection ~ 9400 1500
-Wire Wire Line
-	9400 2000 9400 1500
-Wire Wire Line
-	8800 1500 9400 1500
-Wire Wire Line
-	8050 1500 8800 1500
-Connection ~ 8050 1500
-Wire Wire Line
-	8050 2000 8050 1500
-Wire Wire Line
-	6750 1500 6150 1500
-Connection ~ 6750 1500
-Wire Wire Line
-	6750 2000 6750 1500
-Wire Wire Line
-	7100 2200 6750 2200
-Wire Wire Line
-	7100 2000 7100 2200
-Wire Wire Line
-	7450 2000 7100 2000
-Wire Wire Line
-	8400 2200 8050 2200
-Wire Wire Line
-	8400 2000 8400 2200
-Wire Wire Line
-	8800 2000 8400 2000
-Wire Wire Line
-	9750 2200 9400 2200
-Wire Wire Line
-	9750 2000 9750 2200
-Wire Wire Line
-	10100 2000 9750 2000
-Wire Wire Line
-	10850 2200 10700 2200
-Wire Wire Line
-	10850 1250 10850 2200
-Wire Wire Line
-	10700 1250 10850 1250
-$Comp
-L keyboard_parts:WS2812_LED L7
-U 1 1 60597C90
-P 7750 2100
-F 0 "L7" H 7750 1747 50  0000 C CNN
-F 1 "WS2812_LED" H 7750 1832 42  0000 C CNN
-F 2 "keebio_parts:WS2812B" H 7750 2250 50  0001 C CNN
-F 3 "" H 7750 2250 50  0001 C CNN
-	1    7750 2100
-	-1   0    0    1   
-$EndComp
-$Comp
-L keyboard_parts:WS2812_LED L5
-U 1 1 60597CA6
-P 10400 2100
-F 0 "L5" H 10400 1747 50  0000 C CNN
-F 1 "WS2812_LED" H 10400 1832 42  0000 C CNN
-F 2 "keebio_parts:WS2812B" H 10400 2250 50  0001 C CNN
-F 3 "" H 10400 2250 50  0001 C CNN
-	1    10400 2100
-	-1   0    0    1   
-$EndComp
-$Comp
-L keyboard_parts:WS2812_LED L6
-U 1 1 60597CA0
-P 9100 2100
-F 0 "L6" H 9100 1747 50  0000 C CNN
-F 1 "WS2812_LED" H 9100 1832 42  0000 C CNN
-F 2 "keebio_parts:WS2812B" H 9100 2250 50  0001 C CNN
-F 3 "" H 9100 2250 50  0001 C CNN
-	1    9100 2100
-	-1   0    0    1   
-$EndComp
-$Comp
-L keyboard_parts:WS2812_LED L8
-U 1 1 60597C8A
-P 6450 2100
-F 0 "L8" H 6450 1747 50  0000 C CNN
-F 1 "WS2812_LED" H 6450 1832 42  0000 C CNN
-F 2 "keebio_parts:WS2812B" H 6450 2250 50  0001 C CNN
-F 3 "" H 6450 2250 50  0001 C CNN
-	1    6450 2100
-	-1   0    0    1   
-$EndComp
-Connection ~ 8800 1500
-Connection ~ 7450 1500
-Wire Wire Line
-	7450 1500 8050 1500
-Wire Wire Line
-	8400 1050 8800 1050
-Wire Wire Line
-	8400 1250 8400 1050
-Wire Wire Line
-	8050 1250 8400 1250
-Wire Wire Line
-	10700 1050 10700 650 
-Wire Wire Line
-	9400 1050 9400 650 
-Wire Wire Line
-	10100 1250 10100 1500
-Wire Wire Line
-	8800 1250 8800 1500
-Wire Wire Line
-	9750 1050 10100 1050
-Wire Wire Line
-	9750 1250 9750 1050
-Wire Wire Line
-	9400 1250 9750 1250
-$Comp
-L keyboard_parts:WS2812_LED L4
-U 1 1 6058757F
-P 10400 1150
-F 0 "L4" H 10400 1503 50  0000 C CNN
-F 1 "WS2812_LED" H 10400 1418 42  0000 C CNN
-F 2 "keebio_parts:WS2812B" H 10400 1300 50  0001 C CNN
-F 3 "" H 10400 1300 50  0001 C CNN
-	1    10400 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:WS2812_LED L3
-U 1 1 60587579
-P 9100 1150
-F 0 "L3" H 9100 1503 50  0000 C CNN
-F 1 "WS2812_LED" H 9100 1418 42  0000 C CNN
-F 2 "keebio_parts:WS2812B" H 9100 1300 50  0001 C CNN
-F 3 "" H 9100 1300 50  0001 C CNN
-	1    9100 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 1050 8050 650 
-Wire Wire Line
-	6750 1050 6750 650 
-Connection ~ 6150 1500
-Wire Wire Line
-	7450 1500 6750 1500
-Wire Wire Line
-	7450 1250 7450 1500
-Wire Wire Line
-	6150 1500 5800 1500
-Wire Wire Line
-	6150 1250 6150 1500
-$Comp
-L power:VCC #PWR0113
-U 1 1 6056D6B6
-P 5800 1500
-F 0 "#PWR0113" H 5800 1350 50  0001 C CNN
-F 1 "VCC" H 5815 1673 50  0000 C CNN
-F 2 "" H 5800 1500 50  0001 C CNN
-F 3 "" H 5800 1500 50  0001 C CNN
-	1    5800 1500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7100 1050 7450 1050
-Wire Wire Line
-	7100 1250 7100 1050
-Wire Wire Line
-	6750 1250 7100 1250
-$Comp
-L keyboard_parts:WS2812_LED L2
-U 1 1 6054B129
-P 7750 1150
-F 0 "L2" H 7750 1503 50  0000 C CNN
-F 1 "WS2812_LED" H 7750 1418 42  0000 C CNN
-F 2 "keebio_parts:WS2812B" H 7750 1300 50  0001 C CNN
-F 3 "" H 7750 1300 50  0001 C CNN
-	1    7750 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:WS2812_LED L1
-U 1 1 60542481
-P 6450 1150
-F 0 "L1" H 6450 1503 50  0000 C CNN
-F 1 "WS2812_LED" H 6450 1418 42  0000 C CNN
-F 2 "keebio_parts:WS2812B" H 6450 1300 50  0001 C CNN
-F 3 "" H 6450 1300 50  0001 C CNN
-	1    6450 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6150 2000 5900 2000
-Text GLabel 6150 1050 0    50   Input ~ 0
-LED
-Wire Wire Line
-	5750 2450 6150 2450
-Wire Wire Line
-	8800 2200 8800 2450
-Connection ~ 7450 2450
-Wire Wire Line
-	10100 2200 10100 2450
-Connection ~ 8800 2450
-Wire Wire Line
-	6150 2200 6150 2450
-Connection ~ 6150 2450
-$Comp
-L keebio:Hole H1
-U 1 1 60561A20
-P 3550 3000
-F 0 "H1" H 3736 3053 60  0000 L CNN
-F 1 "Hole" H 3736 2947 60  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 3550 3000 60  0001 C CNN
-F 3 "" H 3550 3000 60  0001 C CNN
-	1    3550 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:SK6812_mini L9
-U 1 1 60578ABF
-P 6150 2900
-F 0 "L9" H 6150 2900 50  0000 C CNN
-F 1 "SK6812_mini" H 6150 2700 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 6150 2700 50  0001 C CNN
-F 3 "" H 6150 2700 50  0001 C CNN
-	1    6150 2900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5900 2000 5900 2800
-Wire Wire Line
-	6400 3000 6550 3000
-Wire Wire Line
-	6550 3000 6550 2800
-Wire Wire Line
-	6550 2800 6700 2800
-Wire Wire Line
-	7200 3000 7350 3000
-Wire Wire Line
-	7350 3000 7350 2800
-Wire Wire Line
-	7350 2800 7500 2800
-Wire Wire Line
-	8000 3000 8150 3000
-Wire Wire Line
-	8150 3000 8150 2800
-Wire Wire Line
-	8150 2800 8300 2800
-$Comp
-L keyboard_parts:SK6812_mini L13
-U 1 1 6078A03A
-P 9350 2900
-F 0 "L13" H 9350 2900 50  0000 C CNN
-F 1 "SK6812_mini" H 9350 2700 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 9350 2700 50  0001 C CNN
-F 3 "" H 9350 2700 50  0001 C CNN
-	1    9350 2900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8800 3000 8950 3000
-Wire Wire Line
-	8950 3000 8950 2800
-Wire Wire Line
-	8950 2800 9100 2800
-$Comp
-L keyboard_parts:SK6812_mini L14
-U 1 1 6078E8F5
-P 10150 2900
-F 0 "L14" H 10150 2900 50  0000 C CNN
-F 1 "SK6812_mini" H 10150 2700 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 10150 2700 50  0001 C CNN
-F 3 "" H 10150 2700 50  0001 C CNN
-	1    10150 2900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9600 3000 9750 3000
-Wire Wire Line
-	9750 3000 9750 2800
-Wire Wire Line
-	9750 2800 9900 2800
-$Comp
-L power:VCC #PWR01
-U 1 1 607A47CD
-P 5600 3200
-F 0 "#PWR01" H 5600 3050 50  0001 C CNN
-F 1 "VCC" H 5615 3373 50  0000 C CNN
-F 2 "" H 5600 3200 50  0001 C CNN
-F 3 "" H 5600 3200 50  0001 C CNN
-	1    5600 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 3000 5900 3200
-Wire Wire Line
-	5900 3200 5600 3200
-Wire Wire Line
-	5900 3200 6400 3200
-Wire Wire Line
-	6700 3200 6700 3000
-Connection ~ 5900 3200
-Wire Wire Line
-	6700 3200 7200 3200
-Wire Wire Line
-	7500 3200 7500 3000
-Connection ~ 6700 3200
-Wire Wire Line
-	7500 3200 8000 3200
-Wire Wire Line
-	8300 3200 8300 3000
-Connection ~ 7500 3200
-Wire Wire Line
-	8300 3200 8800 3200
-Wire Wire Line
-	9100 3200 9100 3000
-Connection ~ 8300 3200
-Wire Wire Line
-	9100 3200 9600 3200
-Wire Wire Line
-	9900 3200 9900 3000
-Connection ~ 9100 3200
-$Comp
-L keyboard_parts:SK6812_mini L15
-U 1 1 60803E86
-P 10150 3450
-F 0 "L15" H 10150 3450 50  0000 C CNN
-F 1 "SK6812_mini" H 10150 3250 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 10150 3250 50  0001 C CNN
-F 3 "" H 10150 3250 50  0001 C CNN
-	1    10150 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10400 3000 10600 3000
-Wire Wire Line
-	10600 3000 10600 3550
-Wire Wire Line
-	10600 3550 10400 3550
-Wire Wire Line
-	10400 3350 10400 3200
-Wire Wire Line
-	10400 3200 9900 3200
-Connection ~ 9900 3200
-$Comp
-L keyboard_parts:SK6812_mini L16
-U 1 1 60827EF7
-P 9350 3450
-F 0 "L16" H 9350 3450 50  0000 C CNN
-F 1 "SK6812_mini" H 9350 3250 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 9350 3250 50  0001 C CNN
-F 3 "" H 9350 3250 50  0001 C CNN
-	1    9350 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9900 3350 9750 3350
-Wire Wire Line
-	9750 3350 9750 3550
-Wire Wire Line
-	9750 3550 9600 3550
-$Comp
-L keyboard_parts:SK6812_mini L17
-U 1 1 60836139
-P 8550 3450
-F 0 "L17" H 8550 3450 50  0000 C CNN
-F 1 "SK6812_mini" H 8550 3250 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 8550 3250 50  0001 C CNN
-F 3 "" H 8550 3250 50  0001 C CNN
-	1    8550 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9100 3350 8950 3350
-Wire Wire Line
-	8950 3350 8950 3550
-Wire Wire Line
-	8950 3550 8800 3550
-$Comp
-L keyboard_parts:SK6812_mini L18
-U 1 1 608449F0
-P 7750 3450
-F 0 "L18" H 7750 3450 50  0000 C CNN
-F 1 "SK6812_mini" H 7750 3250 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 7750 3250 50  0001 C CNN
-F 3 "" H 7750 3250 50  0001 C CNN
-	1    7750 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 3350 8150 3350
-Wire Wire Line
-	8150 3350 8150 3550
-Wire Wire Line
-	8150 3550 8000 3550
-$Comp
-L keyboard_parts:SK6812_mini L19
-U 1 1 6084C0A6
-P 6950 3450
-F 0 "L19" H 6950 3450 50  0000 C CNN
-F 1 "SK6812_mini" H 6950 3250 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 6950 3250 50  0001 C CNN
-F 3 "" H 6950 3250 50  0001 C CNN
-	1    6950 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 3350 7350 3350
-Wire Wire Line
-	7350 3350 7350 3550
-Wire Wire Line
-	7350 3550 7200 3550
-$Comp
-L keyboard_parts:SK6812_mini L20
-U 1 1 60853B86
-P 6150 3450
-F 0 "L20" H 6150 3450 50  0000 C CNN
-F 1 "SK6812_mini" H 6150 3250 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 6150 3250 50  0001 C CNN
-F 3 "" H 6150 3250 50  0001 C CNN
-	1    6150 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 3350 6550 3350
-Wire Wire Line
-	6550 3350 6550 3550
-Wire Wire Line
-	6550 3550 6400 3550
-Wire Wire Line
-	9600 3350 9600 3200
-Connection ~ 9600 3200
-Wire Wire Line
-	9600 3200 9900 3200
-Wire Wire Line
-	8800 3350 8800 3200
-Connection ~ 8800 3200
-Wire Wire Line
-	8800 3200 9100 3200
-Wire Wire Line
-	8000 3350 8000 3200
-Connection ~ 8000 3200
-Wire Wire Line
-	8000 3200 8300 3200
-Wire Wire Line
-	7200 3350 7200 3200
-Connection ~ 7200 3200
-Wire Wire Line
-	7200 3200 7500 3200
-Wire Wire Line
-	6400 3350 6400 3200
-Connection ~ 6400 3200
-Wire Wire Line
-	6400 3200 6700 3200
-$Comp
-L keyboard_parts:SK6812_mini L21
-U 1 1 6088D155
-P 6150 4000
-F 0 "L21" H 6150 4000 50  0000 C CNN
-F 1 "SK6812_mini" H 6150 3800 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 6150 3800 50  0001 C CNN
-F 3 "" H 6150 3800 50  0001 C CNN
-	1    6150 4000
-	-1   0    0    1   
-$EndComp
-$Comp
-L keyboard_parts:SK6812_mini L22
-U 1 1 6088D15B
-P 6950 4000
-F 0 "L22" H 6950 4000 50  0000 C CNN
-F 1 "SK6812_mini" H 6950 3800 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 6950 3800 50  0001 C CNN
-F 3 "" H 6950 3800 50  0001 C CNN
-	1    6950 4000
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6400 4100 6550 4100
-Wire Wire Line
-	6550 4100 6550 3900
-Wire Wire Line
-	6550 3900 6700 3900
-$Comp
-L keyboard_parts:SK6812_mini L23
-U 1 1 6088D164
-P 7750 4000
-F 0 "L23" H 7750 4000 50  0000 C CNN
-F 1 "SK6812_mini" H 7750 3800 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 7750 3800 50  0001 C CNN
-F 3 "" H 7750 3800 50  0001 C CNN
-	1    7750 4000
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7200 4100 7350 4100
-Wire Wire Line
-	7350 4100 7350 3900
-Wire Wire Line
-	7350 3900 7500 3900
-$Comp
-L keyboard_parts:SK6812_mini L24
-U 1 1 6088D16D
-P 8550 4000
-F 0 "L24" H 8550 4000 50  0000 C CNN
-F 1 "SK6812_mini" H 8550 3800 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 8550 3800 50  0001 C CNN
-F 3 "" H 8550 3800 50  0001 C CNN
-	1    8550 4000
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8000 4100 8150 4100
-Wire Wire Line
-	8150 4100 8150 3900
-Wire Wire Line
-	8150 3900 8300 3900
-$Comp
-L keyboard_parts:SK6812_mini L25
-U 1 1 6088D176
-P 9350 4000
-F 0 "L25" H 9350 4000 50  0000 C CNN
-F 1 "SK6812_mini" H 9350 3800 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 9350 3800 50  0001 C CNN
-F 3 "" H 9350 3800 50  0001 C CNN
-	1    9350 4000
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8800 4100 8950 4100
-Wire Wire Line
-	8950 4100 8950 3900
-Wire Wire Line
-	8950 3900 9100 3900
-$Comp
-L keyboard_parts:SK6812_mini L26
-U 1 1 6088D17F
-P 10150 4000
-F 0 "L26" H 10150 4000 50  0000 C CNN
-F 1 "SK6812_mini" H 10150 3800 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 10150 3800 50  0001 C CNN
-F 3 "" H 10150 3800 50  0001 C CNN
-	1    10150 4000
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9600 4100 9750 4100
-Wire Wire Line
-	9750 4100 9750 3900
-Wire Wire Line
-	9750 3900 9900 3900
-Wire Wire Line
-	6700 4100 6700 4250
-Wire Wire Line
-	7500 4100 7500 4250
-Wire Wire Line
-	8300 4100 8300 4250
-Wire Wire Line
-	9100 4100 9100 4250
-Wire Wire Line
-	9900 4100 9900 4250
-Wire Wire Line
-	10700 3750 10400 3750
-Wire Wire Line
-	5900 3750 5900 3550
-Wire Wire Line
-	5900 3750 6400 3750
-Wire Wire Line
-	6400 3750 6400 3900
-Wire Wire Line
-	6400 3750 6700 3750
-Wire Wire Line
-	6700 3750 6700 3550
-Connection ~ 6400 3750
-Wire Wire Line
-	6700 3750 7200 3750
-Wire Wire Line
-	7200 3750 7200 3900
-Connection ~ 6700 3750
-Wire Wire Line
-	7200 3750 7500 3750
-Wire Wire Line
-	7500 3750 7500 3550
-Connection ~ 7200 3750
-Wire Wire Line
-	7500 3750 8000 3750
-Wire Wire Line
-	8000 3750 8000 3900
-Connection ~ 7500 3750
-Wire Wire Line
-	8000 3750 8300 3750
-Wire Wire Line
-	8300 3750 8300 3550
-Connection ~ 8000 3750
-Wire Wire Line
-	8300 3750 8800 3750
-Wire Wire Line
-	10400 3750 10400 3900
-Connection ~ 8300 3750
-Wire Wire Line
-	9900 3550 9900 3750
-Connection ~ 9900 3750
-Wire Wire Line
-	9900 3750 10400 3750
-Connection ~ 9100 3750
-Wire Wire Line
-	9100 3750 9600 3750
-Wire Wire Line
-	9100 3550 9100 3750
-Wire Wire Line
-	8800 3900 8800 3750
-Connection ~ 8800 3750
-Wire Wire Line
-	8800 3750 9100 3750
-Wire Wire Line
-	9600 3900 9600 3750
-Connection ~ 9600 3750
-Wire Wire Line
-	9600 3750 9900 3750
-Wire Wire Line
-	5900 3350 5800 3350
-Wire Wire Line
-	5800 3350 5800 3900
-Wire Wire Line
-	5800 3900 5900 3900
-Connection ~ 10400 3750
-$Comp
-L keyboard_parts:SK6812_mini L27
-U 1 1 60974657
-P 10150 4500
-F 0 "L27" H 10150 4500 50  0000 C CNN
-F 1 "SK6812_mini" H 10150 4300 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 10150 4300 50  0001 C CNN
-F 3 "" H 10150 4300 50  0001 C CNN
-	1    10150 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:SK6812_mini L28
-U 1 1 6097465D
-P 9350 4500
-F 0 "L28" H 9350 4500 50  0000 C CNN
-F 1 "SK6812_mini" H 9350 4300 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 9350 4300 50  0001 C CNN
-F 3 "" H 9350 4300 50  0001 C CNN
-	1    9350 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9900 4400 9750 4400
-Wire Wire Line
-	9750 4400 9750 4600
-Wire Wire Line
-	9750 4600 9600 4600
-$Comp
-L keyboard_parts:SK6812_mini L29
-U 1 1 60974666
-P 8550 4500
-F 0 "L29" H 8550 4500 50  0000 C CNN
-F 1 "SK6812_mini" H 8550 4300 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 8550 4300 50  0001 C CNN
-F 3 "" H 8550 4300 50  0001 C CNN
-	1    8550 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9100 4400 8950 4400
-Wire Wire Line
-	8950 4400 8950 4600
-Wire Wire Line
-	8950 4600 8800 4600
-$Comp
-L keyboard_parts:SK6812_mini L30
-U 1 1 6097466F
-P 7750 4500
-F 0 "L30" H 7750 4500 50  0000 C CNN
-F 1 "SK6812_mini" H 7750 4300 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 7750 4300 50  0001 C CNN
-F 3 "" H 7750 4300 50  0001 C CNN
-	1    7750 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 4400 8150 4400
-Wire Wire Line
-	8150 4400 8150 4600
-Wire Wire Line
-	8150 4600 8000 4600
-$Comp
-L keyboard_parts:SK6812_mini L31
-U 1 1 60974678
-P 6950 4500
-F 0 "L31" H 6950 4500 50  0000 C CNN
-F 1 "SK6812_mini" H 6950 4300 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 6950 4300 50  0001 C CNN
-F 3 "" H 6950 4300 50  0001 C CNN
-	1    6950 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 4400 7350 4400
-Wire Wire Line
-	7350 4400 7350 4600
-Wire Wire Line
-	7350 4600 7200 4600
-$Comp
-L keyboard_parts:SK6812_mini L32
-U 1 1 60974681
-P 6150 4500
-F 0 "L32" H 6150 4500 50  0000 C CNN
-F 1 "SK6812_mini" H 6150 4300 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 6150 4300 50  0001 C CNN
-F 3 "" H 6150 4300 50  0001 C CNN
-	1    6150 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 4400 6550 4400
-Wire Wire Line
-	6550 4400 6550 4600
-Wire Wire Line
-	6550 4600 6400 4600
-Wire Wire Line
-	9600 4400 9600 4250
-Wire Wire Line
-	8800 4400 8800 4250
-Wire Wire Line
-	8000 4400 8000 4250
-Wire Wire Line
-	7200 4400 7200 4250
-Wire Wire Line
-	6400 4400 6400 4250
-Wire Wire Line
-	9900 4750 9900 4600
-Wire Wire Line
-	9100 4750 9100 4600
-Wire Wire Line
-	8300 4750 8300 4600
-Wire Wire Line
-	5900 4750 5900 4600
-Wire Wire Line
-	7500 4600 7500 4750
-Wire Wire Line
-	6700 4600 6700 4750
-Wire Wire Line
-	6400 4250 6700 4250
-Connection ~ 6700 4250
-Wire Wire Line
-	6700 4250 7200 4250
-Connection ~ 7200 4250
-Wire Wire Line
-	7200 4250 7500 4250
-Connection ~ 7500 4250
-Wire Wire Line
-	7500 4250 8000 4250
-Connection ~ 8000 4250
-Wire Wire Line
-	8000 4250 8300 4250
-Connection ~ 8300 4250
-Wire Wire Line
-	8300 4250 8800 4250
-Connection ~ 8800 4250
-Wire Wire Line
-	8800 4250 9100 4250
-Connection ~ 9100 4250
-Wire Wire Line
-	9100 4250 9600 4250
-Connection ~ 9600 4250
-Wire Wire Line
-	9600 4250 9900 4250
-Wire Wire Line
-	5900 4100 5900 4250
-Wire Wire Line
-	5900 4250 6400 4250
-Connection ~ 6400 4250
-$Comp
-L power:VCC #PWR02
-U 1 1 609AAAC3
-P 5600 4250
-F 0 "#PWR02" H 5600 4100 50  0001 C CNN
-F 1 "VCC" H 5615 4423 50  0000 C CNN
-F 2 "" H 5600 4250 50  0001 C CNN
-F 3 "" H 5600 4250 50  0001 C CNN
-	1    5600 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 4250 5600 4250
-Connection ~ 5900 4250
-Wire Wire Line
-	5900 4750 6700 4750
-Connection ~ 6700 4750
-Wire Wire Line
-	6700 4750 7500 4750
-Connection ~ 7500 4750
-Wire Wire Line
-	7500 4750 8300 4750
-Connection ~ 8300 4750
-Wire Wire Line
-	8300 4750 9100 4750
-Connection ~ 9100 4750
-Wire Wire Line
-	9100 4750 9900 4750
-Wire Wire Line
-	9900 4750 10700 4750
-Connection ~ 9900 4750
-Wire Wire Line
-	9900 4250 10400 4250
-Wire Wire Line
-	10400 4250 10400 4400
-Connection ~ 9900 4250
-Wire Wire Line
-	10400 4100 10600 4100
-Wire Wire Line
-	10600 4100 10600 4600
-Wire Wire Line
-	10600 4600 10400 4600
-NoConn ~ 5800 4400
-Wire Wire Line
-	5900 4400 5800 4400
-Wire Wire Line
-	7450 2450 8800 2450
-Wire Wire Line
-	8800 2450 10100 2450
-Wire Wire Line
-	6150 2450 7450 2450
-Wire Wire Line
-	6400 2800 6400 2650
-Wire Wire Line
-	6400 2650 7200 2650
-Wire Wire Line
-	7200 2650 7200 2800
-Wire Wire Line
-	10400 2800 10400 2650
-Connection ~ 7200 2650
-Wire Wire Line
-	8000 2800 8000 2650
-Wire Wire Line
-	10400 2650 9600 2650
-Wire Wire Line
-	8000 2650 7200 2650
-Connection ~ 8000 2650
-$Comp
-L keyboard_parts:SK6812_mini L10
-U 1 1 60779B84
-P 6950 2900
-F 0 "L10" H 6950 2900 50  0000 C CNN
-F 1 "SK6812_mini" H 6950 2700 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 6950 2700 50  0001 C CNN
-F 3 "" H 6950 2700 50  0001 C CNN
-	1    6950 2900
-	-1   0    0    1   
-$EndComp
-$Comp
-L keyboard_parts:SK6812_mini L11
-U 1 1 60781831
-P 7750 2900
-F 0 "L11" H 7750 2900 50  0000 C CNN
-F 1 "SK6812_mini" H 7750 2700 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 7750 2700 50  0001 C CNN
-F 3 "" H 7750 2700 50  0001 C CNN
-	1    7750 2900
-	-1   0    0    1   
-$EndComp
-$Comp
-L keyboard_parts:SK6812_mini L12
-U 1 1 60785A9B
-P 8550 2900
-F 0 "L12" H 8550 2900 50  0000 C CNN
-F 1 "SK6812_mini" H 8550 2700 50  0001 C CNN
-F 2 "keebio_parts:SK6812-MINI-E" H 8550 2700 50  0001 C CNN
-F 3 "" H 8550 2700 50  0001 C CNN
-	1    8550 2900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8800 2800 8800 2650
-Connection ~ 8800 2650
-Wire Wire Line
-	8800 2650 8000 2650
-Wire Wire Line
-	9600 2800 9600 2650
-Connection ~ 9600 2650
-Wire Wire Line
-	9600 2650 8800 2650
-Wire Wire Line
-	-1000 2000 -900 2000
-Wire Wire Line
-	-900 2000 -900 1000
-Wire Wire Line
-	-1000 3000 -900 3000
-Wire Wire Line
-	-1000 1000 -900 1000
-Connection ~ -900 1000
-$Comp
-L Device:C_Small C1
-U 1 1 607A0A59
-P -400 900
-F 0 "C1" V -500 900 50  0000 C CNN
-F 1 "0.1uF" V -300 900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H -400 900 50  0001 C CNN
-F 3 "~" H -400 900 50  0001 C CNN
-	1    -400 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-400 800  -400 600 
-Text GLabel -3550 1200 0    50   Input ~ 0
+Text GLabel -4050 1100 0    50   Input ~ 0
 D-
-Text GLabel 3850 1300 2    50   Input ~ 0
-D-
-Text GLabel 3850 1500 2    50   Input ~ 0
-D+
-$Comp
-L Device:R_US R5
-U 1 1 608DE27F
-P 3500 1300
-F 0 "R5" V 3450 1150 50  0000 C CNN
-F 1 "22" V 3450 1450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3540 1290 50  0001 C CNN
-F 3 "~" H 3500 1300 50  0001 C CNN
-	1    3500 1300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R7
-U 1 1 60900530
-P 3500 1500
-F 0 "R7" V 3450 1350 50  0000 C CNN
-F 1 "22" V 3450 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3540 1490 50  0001 C CNN
-F 3 "~" H 3500 1500 50  0001 C CNN
-	1    3500 1500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3650 1300 3850 1300
-Wire Wire Line
-	3650 1500 3850 1500
-Text GLabel -500 1800 2    50   Input ~ 0
-A0
-Text GLabel -500 1700 2    50   Input ~ 0
-A1
-Wire Wire Line
-	-1000 1800 -500 1800
-Wire Wire Line
-	-1000 1700 -500 1700
-Text GLabel -500 1600 2    50   Input ~ 0
-A2
-Text GLabel -500 1500 2    50   Input ~ 0
-A3
-Wire Wire Line
-	-1000 1500 -500 1500
-Wire Wire Line
-	-1000 1600 -500 1600
-NoConn ~ -500 1400
-NoConn ~ -500 1300
-Wire Wire Line
-	-1000 1300 -500 1300
-Wire Wire Line
-	-1000 1400 -500 1400
-Text Notes -450 1350 0    50   ~ 0
-A5
-Text Notes -450 1450 0    50   ~ 0
-A4
-Text GLabel -3550 2900 0    50   Input ~ 0
+Text GLabel -4050 2800 0    50   Input ~ 0
 RX
-Text GLabel -3550 3000 0    50   Input ~ 0
+Text GLabel -4050 2900 0    50   Input ~ 0
 TX
-Text GLabel -3550 2700 0    50   Input ~ 0
+Text GLabel -4050 2600 0    50   Input ~ 0
 D3
-Text GLabel -3550 2800 0    50   Input ~ 0
+Text GLabel -4050 2700 0    50   Input ~ 0
 D2
-Text GLabel -500 2900 2    50   Input ~ 0
-D4
-Wire Wire Line
-	-1000 2900 -500 2900
-Text GLabel -500 2300 2    50   Input ~ 0
-D5
-Wire Wire Line
-	-1000 2300 -500 2300
-Text GLabel -500 2700 2    50   Input ~ 0
-D6
-Text GLabel -3550 1000 0    50   Input ~ 0
+Text GLabel -4050 900  0    50   Input ~ 0
 D7
-Text GLabel -500 2600 2    50   Input ~ 0
-D8
-Text GLabel -500 2500 2    50   Input ~ 0
-D9
-Connection ~ -900 2000
-Text GLabel -500 2400 2    50   Input ~ 0
-D10
-Wire Wire Line
-	-900 3000 -900 2000
-Wire Wire Line
-	-500 2400 -1000 2400
-Wire Wire Line
-	-1000 2500 -500 2500
-Wire Wire Line
-	-500 2600 -1000 2600
-Wire Wire Line
-	-1000 2700 -500 2700
 $Comp
 L Device:C C5
 U 1 1 6076C5F2
-P -4200 900
-F 0 "C5" V -4250 800 50  0000 C CNN
-F 1 "1uF" V -4250 1000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H -4162 750 50  0001 C CNN
-F 3 "~" H -4200 900 50  0001 C CNN
-	1    -4200 900 
+P -4700 800
+F 0 "C5" V -4750 700 50  0000 C CNN
+F 1 "1uF" V -4750 900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -4662 650 50  0001 C CNN
+F 3 "~" H -4700 800 50  0001 C CNN
+	1    -4700 800 
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	-4200 600  -4200 750 
+	-4700 500  -4700 650 
 $Comp
 L power:VCC #PWR0108
 U 1 1 607BA2AD
-P -3400 600
-F 0 "#PWR0108" H -3400 450 50  0001 C CNN
-F 1 "VCC" H -3385 773 50  0000 C CNN
-F 2 "" H -3400 600 50  0001 C CNN
-F 3 "" H -3400 600 50  0001 C CNN
-	1    -3400 600 
+P -3900 500
+F 0 "#PWR0108" H -3900 350 50  0001 C CNN
+F 1 "VCC" H -3885 673 50  0000 C CNN
+F 2 "" H -3900 500 50  0001 C CNN
+F 3 "" H -3900 500 50  0001 C CNN
+	1    -3900 500 
+	1    0    0    -1  
+$EndComp
+Text GLabel -3700 500  1    50   Input ~ 0
+UVCC
+Wire Wire Line
+	-3650 1000 -3700 1000
+Wire Wire Line
+	-3650 1500 -3700 1500
+Wire Wire Line
+	-3700 1500 -3700 1000
+Text Notes -3750 2100 0    50   ~ 0
+D11
+NoConn ~ -3700 2000
+Wire Wire Line
+	-3650 2000 -3700 2000
+$Comp
+L power:VCC #PWR0102
+U 1 1 607E4B98
+P -3650 3950
+F 0 "#PWR0102" H -3650 3800 50  0001 C CNN
+F 1 "VCC" H -3635 4123 50  0000 C CNN
+F 2 "" H -3650 3950 50  0001 C CNN
+F 3 "" H -3650 3950 50  0001 C CNN
+	1    -3650 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-3650 3750 -3650 3950
+Wire Wire Line
+	-3650 3000 -3650 3150
+$Comp
+L keyboard_parts:ATMEGA32U4 U1
+U 1 1 60590795
+P -2600 1950
+F 0 "U1" H -2575 3287 60  0000 C CNN
+F 1 "ATMEGA32U4" H -2575 3181 60  0000 C CNN
+F 2 "keebio_parts:ATMEGA32U4-AU" H -2600 1950 60  0001 C CNN
+F 3 "" H -2600 1950 60  0000 C CNN
+	1    -2600 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR0109
-U 1 1 60806344
-P -900 600
-F 0 "#PWR0109" H -900 450 50  0001 C CNN
-F 1 "VCC" H -885 773 50  0000 C CNN
-F 2 "" H -900 600 50  0001 C CNN
-F 3 "" H -900 600 50  0001 C CNN
-	1    -900 600 
+L power:VCC #PWR0115
+U 1 1 608EE946
+P -5050 500
+F 0 "#PWR0115" H -5050 350 50  0001 C CNN
+F 1 "VCC" H -5035 673 50  0000 C CNN
+F 2 "" H -5050 500 50  0001 C CNN
+F 3 "" H -5050 500 50  0001 C CNN
+	1    -5050 500 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 2700 1950 2700
+	-5050 1100 -5050 1000
 $Comp
-L keebio:Hole H2
-U 1 1 60586C70
-P 4200 3000
-F 0 "H2" H 4386 3053 60  0000 L CNN
-F 1 "Hole" H 4386 2947 60  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4200 3000 60  0001 C CNN
-F 3 "" H 4200 3000 60  0001 C CNN
-	1    4200 3000
+L Device:R_Small_US R6
+U 1 1 608EE94D
+P -5050 1200
+F 0 "R6" H -4982 1246 50  0000 L CNN
+F 1 "330" H -4982 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H -5050 1200 50  0001 C CNN
+F 3 "~" H -5050 1200 50  0001 C CNN
+	1    -5050 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-5050 700  -5050 500 
+$Comp
+L Device:LED D29
+U 1 1 608EE955
+P -5050 850
+F 0 "D29" V -5103 930 50  0000 L CNN
+F 1 "Yellow" V -5012 930 50  0000 L CNN
+F 2 "" H -5050 850 50  0001 C CNN
+F 3 "~" H -5050 850 50  0001 C CNN
+	1    -5050 850 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-4700 1400 -4700 950 
+Wire Wire Line
+	-4700 1400 -3650 1400
+$Comp
+L Device:R_US R2
+U 1 1 60679433
+P -4350 3700
+F 0 "R2" H -4500 3800 50  0000 L CNN
+F 1 "10k" H -4550 3600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V -4310 3690 50  0001 C CNN
+F 3 "~" H -4350 3700 50  0001 C CNN
+	1    -4350 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-4350 3950 -4350 3850
+$Comp
+L power:VCC #PWR0127
+U 1 1 60E570C7
+P -4350 3950
+F 0 "#PWR0127" H -4350 3800 50  0001 C CNN
+F 1 "VCC" H -4335 4123 50  0000 C CNN
+F 2 "" H -4350 3950 50  0001 C CNN
+F 3 "" H -4350 3950 50  0001 C CNN
+	1    -4350 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-3650 1300 -4400 1300
+Wire Wire Line
+	-4400 500  -4400 1300
+Wire Wire Line
+	-3900 2300 -3650 2300
+Wire Wire Line
+	-3900 2300 -3900 3950
+Text GLabel -4050 1200 0    50   Input ~ 0
+D+
+Wire Wire Line
+	-5050 1600 -5050 1300
+Wire Wire Line
+	-3900 500  -3900 2200
+Text GLabel -4050 1700 0    50   Input ~ 0
+SCK
+Text GLabel -4050 1800 0    50   Input ~ 0
+MOSI
+Text GLabel -4050 1900 0    50   Input ~ 0
+MISO
+Wire Wire Line
+	-4050 900  -3650 900 
+Wire Wire Line
+	-4050 1100 -3650 1100
+Wire Wire Line
+	-4050 1200 -3650 1200
+Wire Wire Line
+	-4050 1700 -3650 1700
+Wire Wire Line
+	-4050 1800 -3650 1800
+Wire Wire Line
+	-4050 1900 -3650 1900
+Wire Wire Line
+	-4050 2600 -3650 2600
+Wire Wire Line
+	-4050 2700 -3650 2700
+Wire Wire Line
+	-4050 2800 -3650 2800
+Wire Wire Line
+	-4050 2900 -3650 2900
+Wire Wire Line
+	-3900 2200 -3650 2200
+Wire Wire Line
+	-3700 1000 -3700 500 
+Connection ~ -3700 1000
+Wire Wire Line
+	-5050 1600 -3650 1600
+Text GLabel -4450 3100 0    50   Input ~ 0
+RESET
+Wire Wire Line
+	-4450 3100 -4350 3100
+Connection ~ -4350 3100
+Wire Wire Line
+	-4350 3100 -4350 3550
+Wire Wire Line
+	-4350 2100 -4350 3100
+Wire Wire Line
+	-4350 2100 -3650 2100
+Wire Wire Line
+	-5250 2500 -3650 2500
+Wire Wire Line
+	-5250 2400 -3650 2400
+Wire Wire Line
+	-6150 2450 -6150 2750
+Connection ~ -6150 2450
+Wire Wire Line
+	-6350 2450 -6150 2450
+Connection ~ -5400 2750
+Wire Wire Line
+	-5600 2750 -5400 2750
+Wire Wire Line
+	-6150 2750 -6000 2750
+Wire Wire Line
+	-6150 2150 -6150 2450
+Wire Wire Line
+	-6000 2150 -6150 2150
+Connection ~ -5400 2150
+Wire Wire Line
+	-5600 2150 -5400 2150
+$Comp
+L keyboard_parts:C C2
+U 1 1 60849CE6
+P -5800 2750
+F 0 "C2" V -5650 2750 50  0000 C CNN
+F 1 "22pF" V -5550 2750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -5800 2750 60  0001 C CNN
+F 3 "" H -5800 2750 60  0000 C CNN
+	1    -5800 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:C C4
+U 1 1 60848A7B
+P -5800 2150
+F 0 "C4" V -6067 2150 50  0000 C CNN
+F 1 "22pF" V -5976 2150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -5800 2150 60  0001 C CNN
+F 3 "" H -5800 2150 60  0000 C CNN
+	1    -5800 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-5250 2750 -5250 2500
+Wire Wire Line
+	-5400 2750 -5250 2750
+Wire Wire Line
+	-5250 2150 -5400 2150
+Wire Wire Line
+	-5250 2400 -5250 2150
+$Comp
+L keyboard_parts:XTAL X1
+U 1 1 6080F4C1
+P -5400 2450
+F 0 "X1" V -5400 2200 60  0000 L CNN
+F 1 "16Mhz" V -5300 2150 60  0000 L CNN
+F 2 "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm" H -5400 2450 60  0001 C CNN
+F 3 "" H -5400 2450 60  0000 C CNN
+	1    -5400 2450
+	0    1    1    0   
+$EndComp
+Text GLabel -1100 5250 0    50   Input ~ 0
+A3
+Text GLabel -1100 5400 0    50   Input ~ 0
+A2
+Text GLabel -1100 5550 0    50   Input ~ 0
+A1
+Text GLabel -1100 5700 0    50   Input ~ 0
+A0
+Text GLabel -550 5250 2    50   Input ~ 0
+ROW0
+Text GLabel -550 5400 2    50   Input ~ 0
+ROW1
+Text GLabel -550 5550 2    50   Input ~ 0
+ROW2
+Text GLabel -550 5700 2    50   Input ~ 0
+ROW3
+Wire Wire Line
+	-1100 5250 -550 5250
+Wire Wire Line
+	-1100 5400 -550 5400
+Wire Wire Line
+	-1100 5550 -550 5550
+Wire Wire Line
+	-1100 5700 -550 5700
+$Comp
+L power:GND #PWR0104
+U 1 1 608216F9
+P -4700 500
+F 0 "#PWR0104" H -4700 250 50  0001 C CNN
+F 1 "GND" H -4695 327 50  0000 C CNN
+F 2 "" H -4700 500 50  0001 C CNN
+F 3 "" H -4700 500 50  0001 C CNN
+	1    -4700 500 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 608914A8
+P -4400 500
+F 0 "#PWR0105" H -4400 250 50  0001 C CNN
+F 1 "GND" H -4395 327 50  0000 C CNN
+F 2 "" H -4400 500 50  0001 C CNN
+F 3 "" H -4400 500 50  0001 C CNN
+	1    -4400 500 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 60CD4DDF
+P -3900 3950
+F 0 "#PWR0101" H -3900 3700 50  0001 C CNN
+F 1 "GND" H -3895 3777 50  0000 C CNN
+F 2 "" H -3900 3950 50  0001 C CNN
+F 3 "" H -3900 3950 50  0001 C CNN
+	1    -3900 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L keebio:Hole H3
-U 1 1 605AF07F
-P 3550 3450
-F 0 "H3" H 3736 3503 60  0000 L CNN
-F 1 "Hole" H 3736 3397 60  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 3550 3450 60  0001 C CNN
-F 3 "" H 3550 3450 60  0001 C CNN
-	1    3550 3450
+L power:GND #PWR0103
+U 1 1 60E5C8DE
+P -6350 2450
+F 0 "#PWR0103" H -6350 2200 50  0001 C CNN
+F 1 "GND" H -6345 2277 50  0000 C CNN
+F 2 "" H -6350 2450 50  0001 C CNN
+F 3 "" H -6350 2450 50  0001 C CNN
+	1    -6350 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D26
+U 1 1 606594E0
+P -3650 3600
+F 0 "D26" V -3703 3680 50  0000 L CNN
+F 1 "Green" V -3612 3680 50  0000 L CNN
+F 2 "" H -3650 3600 50  0001 C CNN
+F 3 "~" H -3650 3600 50  0001 C CNN
+	1    -3650 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R8
+U 1 1 6084A57C
+P -3650 3250
+F 0 "R8" H -3582 3296 50  0000 L CNN
+F 1 "330" H -3582 3205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H -3650 3250 50  0001 C CNN
+F 3 "~" H -3650 3250 50  0001 C CNN
+	1    -3650 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3650 3350 -3650 3450
+$Comp
+L power:GND #PWR0106
+U 1 1 60D45238
+P -2400 -800
+F 0 "#PWR0106" H -2400 -1050 50  0001 C CNN
+F 1 "GND" H -2395 -973 50  0000 C CNN
+F 2 "" H -2400 -800 50  0001 C CNN
+F 3 "" H -2400 -800 50  0001 C CNN
+	1    -2400 -800
 	1    0    0    -1  
 $EndComp
 $Comp
-L keebio:Hole H4
-U 1 1 605D755C
-P 4200 3450
-F 0 "H4" H 4386 3503 60  0000 L CNN
-F 1 "Hole" H 4386 3397 60  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4200 3450 60  0001 C CNN
-F 3 "" H 4200 3450 60  0001 C CNN
-	1    4200 3450
+L power:GND #PWR0123
+U 1 1 607E6824
+P -3100 -800
+F 0 "#PWR0123" H -3100 -1050 50  0001 C CNN
+F 1 "GND" H -3095 -973 50  0000 C CNN
+F 2 "" H -3100 -800 50  0001 C CNN
+F 3 "" H -3100 -800 50  0001 C CNN
+	1    -3100 -800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 60774B53
+P -3950 -900
+F 0 "#PWR0117" H -3950 -1150 50  0001 C CNN
+F 1 "GND" H -3945 -1073 50  0000 C CNN
+F 2 "" H -3950 -900 50  0001 C CNN
+F 3 "" H -3950 -900 50  0001 C CNN
+	1    -3950 -900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP1
+U 1 1 60E3FD21
+P -2450 -2050
+F 0 "JP1" H -2450 -1786 50  0000 C CNN
+F 1 "Jumper" H -2450 -1877 50  0000 C CNN
+F 2 "keyboard_parts:SOLDER_JUMPER_2" H -2450 -2050 50  0001 C CNN
+F 3 "~" H -2450 -2050 50  0001 C CNN
+	1    -2450 -2050
+	1    0    0    -1  
+$EndComp
+Text GLabel -3950 -1400 0    50   Input ~ 0
+UVCC
+Wire Wire Line
+	-3950 -1000 -3950 -900
+Wire Wire Line
+	-3950 -1400 -3950 -1300
+$Comp
+L Device:C C3
+U 1 1 60D8F0AC
+P -3950 -1150
+F 0 "C3" H -3835 -1104 50  0000 L CNN
+F 1 "1uF" H -3835 -1195 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -3912 -1300 50  0001 C CNN
+F 3 "~" H -3950 -1150 50  0001 C CNN
+	1    -3950 -1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3500 -1650 -3400 -1650
+Connection ~ -3500 -1650
+Wire Wire Line
+	-3500 -2050 -2750 -2050
+Wire Wire Line
+	-3500 -1650 -3500 -2050
+Wire Wire Line
+	-2100 -1300 -1750 -1300
+Wire Wire Line
+	-3100 -950 -3100 -800
+Wire Wire Line
+	-3100 -1300 -3100 -1150
+$Comp
+L Device:CP1_Small C19
+U 1 1 6093E73B
+P -3100 -1050
+F 0 "C19" H -3009 -1004 50  0000 L CNN
+F 1 "10uF" H -3009 -1095 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H -3100 -1050 50  0001 C CNN
+F 3 "~" H -3100 -1050 50  0001 C CNN
+	1    -3100 -1050
+	1    0    0    -1  
+$EndComp
+NoConn ~ -2100 -1200
+Wire Wire Line
+	-2800 -1300 -2700 -1300
+Connection ~ -2800 -1300
+Wire Wire Line
+	-2800 -1200 -2700 -1200
+Wire Wire Line
+	-2800 -1300 -2800 -1200
+Wire Wire Line
+	-2400 -800 -2400 -900
+Connection ~ -3100 -1300
+Wire Wire Line
+	-3100 -1300 -2800 -1300
+$Comp
+L Regulator_Linear:MIC5219-5.0YMM U2
+U 1 1 60843220
+P -2400 -1200
+F 0 "U2" H -2400 -858 50  0000 C CNN
+F 1 "MIC5219-5.0YMM" H -2400 -949 50  0000 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H -2400 -875 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf" H -2400 -1200 50  0001 C CNN
+	1    -2400 -1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3100 -1300 -3250 -1300
+Wire Wire Line
+	-3100 -1650 -3100 -1300
+Wire Wire Line
+	-3750 -1650 -3500 -1650
+Text GLabel -3250 -1300 0    50   Input ~ 0
+RAW
+$Comp
+L Device:D D25
+U 1 1 607F0B43
+P -3250 -1650
+F 0 "D25" H -3250 -1867 50  0000 C CNN
+F 1 "D" H -3250 -1776 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H -3250 -1650 50  0001 C CNN
+F 3 "~" H -3250 -1650 50  0001 C CNN
+	1    -3250 -1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-4650 -1650 -4250 -1650
+Text GLabel -4650 -1650 0    50   Input ~ 0
+UVCC
+$Comp
+L keyboard_parts:PPTC F1
+U 1 1 6060CBCC
+P -4000 -1650
+F 0 "F1" H -4000 -1410 50  0000 C CNN
+F 1 "PPTC" H -4000 -1501 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" V -4000 -1650 60  0001 C CNN
+F 3 "" V -4000 -1650 60  0000 C CNN
+	1    -4000 -1650
+	1    0    0    -1  
+$EndComp
+Connection ~ -1750 -1300
+Connection ~ 4950 7650
+Connection ~ 4100 7650
+Connection ~ 2250 7650
+Wire Wire Line
+	4950 7650 5950 7650
+Wire Wire Line
+	4950 7650 4100 7650
+Connection ~ 3100 7650
+Wire Wire Line
+	3100 7650 2250 7650
+Wire Wire Line
+	3100 7650 4100 7650
+Wire Wire Line
+	-1750 -950 -1750 -800
+Wire Wire Line
+	-1750 -1300 -1750 -1150
+$Comp
+L Device:CP1_Small C6
+U 1 1 609BC551
+P -1750 -1050
+F 0 "C6" H -1659 -1004 50  0000 L CNN
+F 1 "10uF" H -1659 -1095 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H -1750 -1050 50  0001 C CNN
+F 3 "~" H -1750 -1050 50  0001 C CNN
+	1    -1750 -1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 60A66C17
+P -1250 -1050
+F 0 "C7" H -1135 -1004 50  0000 L CNN
+F 1 "1uF" H -1135 -1095 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -1212 -1200 50  0001 C CNN
+F 3 "~" H -1250 -1050 50  0001 C CNN
+	1    -1250 -1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 60A69A80
+P -800 -1050
+F 0 "C8" H -685 -1004 50  0000 L CNN
+F 1 "1uF" H -685 -1095 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -762 -1200 50  0001 C CNN
+F 3 "~" H -800 -1050 50  0001 C CNN
+	1    -800 -1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1750 -1300 -1250 -1300
+Wire Wire Line
+	-1250 -1300 -1250 -1200
+Wire Wire Line
+	-1250 -1300 -800 -1300
+Wire Wire Line
+	-800 -1300 -800 -1200
+Connection ~ -1250 -1300
+Wire Wire Line
+	-1250 -900 -1250 -800
+Wire Wire Line
+	-800 -900 -800 -800
+Wire Wire Line
+	-1250 -2050 -1250 -1300
+$Comp
+L power:VCC #PWR0121
+U 1 1 60BC841F
+P -200 -1450
+F 0 "#PWR0121" H -200 -1600 50  0001 C CNN
+F 1 "VCC" H -185 -1277 50  0000 C CNN
+F 2 "" H -200 -1450 50  0001 C CNN
+F 3 "" H -200 -1450 50  0001 C CNN
+	1    -200 -1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 60BC9C7D
+P -200 -1000
+F 0 "R1" H -132 -954 50  0000 L CNN
+F 1 "1K" H -132 -1045 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V -160 -1010 50  0001 C CNN
+F 3 "~" H -200 -1000 50  0001 C CNN
+	1    -200 -1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED RED1
+U 1 1 60BCAFF0
+P -200 -550
+F 0 "RED1" V -161 -668 50  0000 R CNN
+F 1 "LED1" V -252 -668 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H -200 -550 50  0001 C CNN
+F 3 "~" H -200 -550 50  0001 C CNN
+	1    -200 -550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-200 -850 -200 -700
+Wire Wire Line
+	-200 -1450 -200 -1300
+Wire Wire Line
+	-200 -1300 -800 -1300
+Connection ~ -200 -1300
+Wire Wire Line
+	-200 -1300 -200 -1150
+Connection ~ -800 -1300
+Wire Wire Line
+	-2150 -2050 -1250 -2050
+$Comp
+L power:GND #PWR0112
+U 1 1 60D7C583
+P -1750 -800
+F 0 "#PWR0112" H -1750 -1050 50  0001 C CNN
+F 1 "GND" H -1745 -973 50  0000 C CNN
+F 2 "" H -1750 -800 50  0001 C CNN
+F 3 "" H -1750 -800 50  0001 C CNN
+	1    -1750 -800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 60DB3EA6
+P -1250 -800
+F 0 "#PWR0116" H -1250 -1050 50  0001 C CNN
+F 1 "GND" H -1245 -973 50  0000 C CNN
+F 2 "" H -1250 -800 50  0001 C CNN
+F 3 "" H -1250 -800 50  0001 C CNN
+	1    -1250 -800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 60DEB135
+P -800 -800
+F 0 "#PWR0118" H -800 -1050 50  0001 C CNN
+F 1 "GND" H -795 -973 50  0000 C CNN
+F 2 "" H -800 -800 50  0001 C CNN
+F 3 "" H -800 -800 50  0001 C CNN
+	1    -800 -800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5900 2800 0    50   Input ~ 0
+LED_2
+$Comp
+L power:GND #PWR0119
+U 1 1 60E22BFC
+P -200 -300
+F 0 "#PWR0119" H -200 -550 50  0001 C CNN
+F 1 "GND" H -195 -473 50  0000 C CNN
+F 2 "" H -200 -300 50  0001 C CNN
+F 3 "" H -200 -300 50  0001 C CNN
+	1    -200 -300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 60C24D30
+P 5750 2450
+F 0 "#PWR0120" H 5750 2200 50  0001 C CNN
+F 1 "GND" H 5755 2277 50  0000 C CNN
+F 2 "" H 5750 2450 50  0001 C CNN
+F 3 "" H 5750 2450 50  0001 C CNN
+	1    5750 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 60BEB6B1
+P 10700 4750
+F 0 "#PWR0122" H 10700 4500 50  0001 C CNN
+F 1 "GND" H 10705 4577 50  0000 C CNN
+F 2 "" H 10700 4750 50  0001 C CNN
+F 3 "" H 10700 4750 50  0001 C CNN
+	1    10700 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0129
+U 1 1 60BB3973
+P 10700 3750
+F 0 "#PWR0129" H 10700 3500 50  0001 C CNN
+F 1 "GND" H 10705 3577 50  0000 C CNN
+F 2 "" H 10700 3750 50  0001 C CNN
+F 3 "" H 10700 3750 50  0001 C CNN
+	1    10700 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0130
+U 1 1 60B7B7D5
+P 11050 650
+F 0 "#PWR0130" H 11050 400 50  0001 C CNN
+F 1 "GND" H 11055 477 50  0000 C CNN
+F 2 "" H 11050 650 50  0001 C CNN
+F 3 "" H 11050 650 50  0001 C CNN
+	1    11050 650 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10700 650  11050 650 
+Connection ~ 10700 650 
+$Comp
+L power:GND #PWR0128
+U 1 1 60B0610C
+P 1650 2300
+F 0 "#PWR0128" H 1650 2050 50  0001 C CNN
+F 1 "GND" H 1655 2127 50  0000 C CNN
+F 2 "" H 1650 2300 50  0001 C CNN
+F 3 "" H 1650 2300 50  0001 C CNN
+	1    1650 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 60ACEA75
+P 1350 2300
+F 0 "#PWR0125" H 1350 2050 50  0001 C CNN
+F 1 "GND" H 1355 2127 50  0000 C CNN
+F 2 "" H 1350 2300 50  0001 C CNN
+F 3 "" H 1350 2300 50  0001 C CNN
+	1    1350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 60A517B4
+P 1850 3750
+F 0 "#PWR0114" H 1850 3500 50  0001 C CNN
+F 1 "GND" V 1850 3550 50  0000 C CNN
+F 2 "" H 1850 3750 50  0001 C CNN
+F 3 "" H 1850 3750 50  0001 C CNN
+	1    1850 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 609E183F
+P 2050 3000
+F 0 "#PWR0111" H 2050 2750 50  0001 C CNN
+F 1 "GND" H 2055 2827 50  0000 C CNN
+F 2 "" H 2050 3000 50  0001 C CNN
+F 3 "" H 2050 3000 50  0001 C CNN
+	1    2050 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 6097058F
+P -900 500
+F 0 "#PWR0110" H -900 250 50  0001 C CNN
+F 1 "GND" H -895 327 50  0000 C CNN
+F 2 "" H -900 500 50  0001 C CNN
+F 3 "" H -900 500 50  0001 C CNN
+	1    -900 500 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 60901457
+P -1150 500
+F 0 "#PWR0107" H -1150 250 50  0001 C CNN
+F 1 "GND" H -1145 327 50  0000 C CNN
+F 2 "" H -1150 500 50  0001 C CNN
+F 3 "" H -1150 500 50  0001 C CNN
+	1    -1150 500 
+	-1   0    0    1   
+$EndComp
+Text GLabel 1100 5400 0    50   Input ~ 0
+ROW0
+Wire Wire Line
+	-1150 1000 -1150 1800
+Connection ~ -1150 1000
+Wire Wire Line
+	-1500 1000 -1150 1000
+Wire Wire Line
+	-1150 1800 -1150 2000
+Connection ~ -1150 1800
+Wire Wire Line
+	-1500 1800 -1150 1800
+Wire Wire Line
+	-1150 2000 -1150 3000
+Connection ~ -1150 2000
+Wire Wire Line
+	-1500 2000 -1150 2000
+Wire Wire Line
+	-1150 500  -1150 1000
+Wire Wire Line
+	-1500 3000 -1150 3000
+Wire Wire Line
+	-1500 1100 -900 1100
+Wire Wire Line
+	-900 1100 -900 900 
+Wire Wire Line
+	-1400 500  -1400 900 
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 6056609A
+P 1650 1400
+F 0 "J1" H 1757 2267 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1757 2176 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1800 1400 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1800 1400 50  0001 C CNN
+	1    1650 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1350 2500 1350
+Wire Wire Line
+	2300 1550 2500 1550
+Wire Wire Line
+	1300 3750 1850 3750
+Wire Wire Line
+	1300 3650 1850 3650
+Wire Wire Line
+	1300 3550 1850 3550
+Wire Wire Line
+	1300 3450 1850 3450
+Text GLabel 1850 3450 2    50   Input ~ 0
+SDA
+Text GLabel 1850 3550 2    50   Input ~ 0
+SCL
+$Comp
+L power:VCC #PWR0126
+U 1 1 60797298
+P 1850 3650
+F 0 "#PWR0126" H 1850 3500 50  0001 C CNN
+F 1 "VCC" V 1850 3800 50  0000 L CNN
+F 2 "" H 1850 3650 50  0001 C CNN
+F 3 "" H 1850 3650 50  0001 C CNN
+	1    1850 3650
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3000 1100 3000 1150
+Connection ~ 3000 1100
+Wire Wire Line
+	2800 1100 3000 1100
+Wire Wire Line
+	3000 1000 3000 1100
+Wire Wire Line
+	2800 1000 3000 1000
+$Comp
+L keyboard_parts:GND #PWR0124
+U 1 1 606E6309
+P 3000 1150
+F 0 "#PWR0124" H 3000 1200 20  0001 C CNN
+F 1 "GND" H 3100 1150 30  0000 C CNN
+F 2 "" H 3000 1150 60  0000 C CNN
+F 3 "" H 3000 1150 60  0000 C CNN
+	1    3000 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1100 2500 1100
+Wire Wire Line
+	2250 1000 2500 1000
+$Comp
+L Device:R_US R4
+U 1 1 60657B13
+P 2650 1100
+F 0 "R4" V 2600 950 50  0000 C CNN
+F 1 "5.1k" V 2600 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2690 1090 50  0001 C CNN
+F 3 "~" H 2650 1100 50  0001 C CNN
+	1    2650 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 60628AD4
+P 2650 1000
+F 0 "R3" V 2600 850 50  0000 C CNN
+F 1 "5.1k" V 2600 1150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2690 990 50  0001 C CNN
+F 3 "~" H 2650 1000 50  0001 C CNN
+	1    2650 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Private:OLED J3
+U 1 1 6061FF7E
+P 1150 3550
+F 0 "J3" H 1208 3875 50  0000 C CNN
+F 1 "OLED" H 1208 3784 50  0000 C CNN
+F 2 "Display:Generic_0.96in-128x64-OLED-Display-IIC" H 1000 3300 50  0001 C CNN
+F 3 "" H 1050 3300 50  0001 C CNN
+	1    1150 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1550 2300 1500
+Connection ~ 2300 1550
+Wire Wire Line
+	2300 1350 2300 1400
+Connection ~ 2300 1350
+Wire Wire Line
+	-200 -400 -200 -300
+Wire Wire Line
+	2250 800  2450 800 
+Text GLabel 2450 800  2    50   Input ~ 0
+UVCC
+Wire Wire Line
+	2300 1600 2300 1550
+Wire Wire Line
+	2250 1600 2300 1600
+Wire Wire Line
+	2250 1500 2300 1500
+Wire Wire Line
+	2300 1400 2250 1400
+Wire Wire Line
+	2300 1300 2300 1350
+Wire Wire Line
+	2250 1300 2300 1300
+$Comp
+L keebio:Hole H6
+U 1 1 60628537
+P 4200 3900
+F 0 "H6" H 4386 3953 60  0000 L CNN
+F 1 "Hole" H 4386 3847 60  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 4200 3900 60  0001 C CNN
+F 3 "" H 4200 3900 60  0001 C CNN
+	1    4200 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1820,928 +948,2018 @@ F 3 "" H 3550 3900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keebio:Hole H6
-U 1 1 60628537
-P 4200 3900
-F 0 "H6" H 4386 3953 60  0000 L CNN
-F 1 "Hole" H 4386 3847 60  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 4200 3900 60  0001 C CNN
-F 3 "" H 4200 3900 60  0001 C CNN
-	1    4200 3900
+L keebio:Hole H4
+U 1 1 605D755C
+P 4200 3450
+F 0 "H4" H 4386 3503 60  0000 L CNN
+F 1 "Hole" H 4386 3397 60  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 4200 3450 60  0001 C CNN
+F 3 "" H 4200 3450 60  0001 C CNN
+	1    4200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:Hole H3
+U 1 1 605AF07F
+P 3550 3450
+F 0 "H3" H 3736 3503 60  0000 L CNN
+F 1 "Hole" H 3736 3397 60  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 3550 3450 60  0001 C CNN
+F 3 "" H 3550 3450 60  0001 C CNN
+	1    3550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:Hole H2
+U 1 1 60586C70
+P 4200 3000
+F 0 "H2" H 4386 3053 60  0000 L CNN
+F 1 "Hole" H 4386 2947 60  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 4200 3000 60  0001 C CNN
+F 3 "" H 4200 3000 60  0001 C CNN
+	1    4200 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3000 2050 3000
+$Comp
+L power:VCC #PWR0109
+U 1 1 60806344
+P -1400 500
+F 0 "#PWR0109" H -1400 350 50  0001 C CNN
+F 1 "VCC" H -1385 673 50  0000 C CNN
+F 2 "" H -1400 500 50  0001 C CNN
+F 3 "" H -1400 500 50  0001 C CNN
+	1    -1400 500 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1000 2500 -1500 2500
+Wire Wire Line
+	-1500 2400 -1000 2400
+Wire Wire Line
+	-1000 2300 -1500 2300
+Wire Wire Line
+	-1400 2900 -1400 1900
+Text GLabel -1000 2300 2    50   Input ~ 0
+D10
+Connection ~ -1400 1900
+Text GLabel -1000 2400 2    50   Input ~ 0
+D9
+Text GLabel -1000 2500 2    50   Input ~ 0
+D8
+Wire Wire Line
+	-1500 2200 -1000 2200
+Text GLabel -1000 2200 2    50   Input ~ 0
+D5
+Wire Wire Line
+	-1500 2800 -1000 2800
+Text GLabel -1000 2800 2    50   Input ~ 0
+D4
+Wire Wire Line
+	-1500 1300 -1000 1300
+Wire Wire Line
+	-1500 1200 -1000 1200
+Wire Wire Line
+	-1500 1500 -1000 1500
+Wire Wire Line
+	-1500 1400 -1000 1400
+Text GLabel -1000 1400 2    50   Input ~ 0
+A3
+Text GLabel -1000 1500 2    50   Input ~ 0
+A2
+Wire Wire Line
+	-1500 1600 -1000 1600
+Wire Wire Line
+	-1500 1700 -1000 1700
+Text GLabel -1000 1600 2    50   Input ~ 0
+A1
+Text GLabel -1000 1700 2    50   Input ~ 0
+A0
+Wire Wire Line
+	2800 1550 3000 1550
+Wire Wire Line
+	2800 1350 3000 1350
+$Comp
+L Device:R_US R7
+U 1 1 60900530
+P 2650 1550
+F 0 "R7" V 2600 1400 50  0000 C CNN
+F 1 "22" V 2600 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2690 1540 50  0001 C CNN
+F 3 "~" H 2650 1550 50  0001 C CNN
+	1    2650 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 608DE27F
+P 2650 1350
+F 0 "R5" V 2600 1200 50  0000 C CNN
+F 1 "22" V 2600 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2690 1340 50  0001 C CNN
+F 3 "~" H 2650 1350 50  0001 C CNN
+	1    2650 1350
+	0    1    1    0   
+$EndComp
+Text GLabel 3000 1550 2    50   Input ~ 0
+D+
+Text GLabel 3000 1350 2    50   Input ~ 0
+D-
+Wire Wire Line
+	-900 700  -900 500 
+$Comp
+L Device:C_Small C1
+U 1 1 607A0A59
+P -900 800
+F 0 "C1" V -1000 800 50  0000 C CNN
+F 1 "0.1uF" V -800 800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -900 800 50  0001 C CNN
+F 3 "~" H -900 800 50  0001 C CNN
+	1    -900 800 
+	1    0    0    -1  
+$EndComp
+Connection ~ -1400 900 
+Wire Wire Line
+	-1500 900  -1400 900 
+Wire Wire Line
+	-1500 2900 -1400 2900
+Wire Wire Line
+	-1400 1900 -1400 900 
+Wire Wire Line
+	-1500 1900 -1400 1900
+Wire Wire Line
+	9600 2650 8800 2650
+Connection ~ 9600 2650
+Wire Wire Line
+	9600 2800 9600 2650
+Wire Wire Line
+	8800 2650 8000 2650
+Connection ~ 8800 2650
+Wire Wire Line
+	8800 2800 8800 2650
+$Comp
+L keyboard_parts:SK6812_mini L12
+U 1 1 60785A9B
+P 8550 2900
+F 0 "L12" H 8550 2900 50  0000 C CNN
+F 1 "SK6812_mini" H 8550 2700 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 8550 2700 50  0001 C CNN
+F 3 "" H 8550 2700 50  0001 C CNN
+	1    8550 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:SK6812_mini L11
+U 1 1 60781831
+P 7750 2900
+F 0 "L11" H 7750 2900 50  0000 C CNN
+F 1 "SK6812_mini" H 7750 2700 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 7750 2700 50  0001 C CNN
+F 3 "" H 7750 2700 50  0001 C CNN
+	1    7750 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:SK6812_mini L10
+U 1 1 60779B84
+P 6950 2900
+F 0 "L10" H 6950 2900 50  0000 C CNN
+F 1 "SK6812_mini" H 6950 2700 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 6950 2700 50  0001 C CNN
+F 3 "" H 6950 2700 50  0001 C CNN
+	1    6950 2900
+	-1   0    0    1   
+$EndComp
+Connection ~ 8000 2650
+Wire Wire Line
+	8000 2650 7200 2650
+Wire Wire Line
+	10400 2650 9600 2650
+Wire Wire Line
+	8000 2800 8000 2650
+Connection ~ 7200 2650
+Wire Wire Line
+	10400 2800 10400 2650
+Wire Wire Line
+	7200 2650 7200 2800
+Wire Wire Line
+	6400 2650 7200 2650
+Wire Wire Line
+	6400 2800 6400 2650
+Wire Wire Line
+	6150 2450 7450 2450
+Wire Wire Line
+	8800 2450 10100 2450
+Wire Wire Line
+	7450 2450 8800 2450
+Wire Wire Line
+	5900 4400 5800 4400
+NoConn ~ 5800 4400
+Wire Wire Line
+	10600 4600 10400 4600
+Wire Wire Line
+	10600 4100 10600 4600
+Wire Wire Line
+	10400 4100 10600 4100
+Connection ~ 9900 4250
+Wire Wire Line
+	10400 4250 10400 4400
+Wire Wire Line
+	9900 4250 10400 4250
+Connection ~ 9900 4750
+Wire Wire Line
+	9900 4750 10700 4750
+Wire Wire Line
+	9100 4750 9900 4750
+Connection ~ 9100 4750
+Wire Wire Line
+	8300 4750 9100 4750
+Connection ~ 8300 4750
+Wire Wire Line
+	7500 4750 8300 4750
+Connection ~ 7500 4750
+Wire Wire Line
+	6700 4750 7500 4750
+Connection ~ 6700 4750
+Wire Wire Line
+	5900 4750 6700 4750
+Connection ~ 5900 4250
+Wire Wire Line
+	5900 4250 5600 4250
+$Comp
+L power:VCC #PWR02
+U 1 1 609AAAC3
+P 5600 4250
+F 0 "#PWR02" H 5600 4100 50  0001 C CNN
+F 1 "VCC" H 5615 4423 50  0000 C CNN
+F 2 "" H 5600 4250 50  0001 C CNN
+F 3 "" H 5600 4250 50  0001 C CNN
+	1    5600 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 6400 4250
+Wire Wire Line
+	5900 4250 6400 4250
+Wire Wire Line
+	5900 4100 5900 4250
+Wire Wire Line
+	9600 4250 9900 4250
+Connection ~ 9600 4250
+Wire Wire Line
+	9100 4250 9600 4250
+Connection ~ 9100 4250
+Wire Wire Line
+	8800 4250 9100 4250
+Connection ~ 8800 4250
+Wire Wire Line
+	8300 4250 8800 4250
+Connection ~ 8300 4250
+Wire Wire Line
+	8000 4250 8300 4250
+Connection ~ 8000 4250
+Wire Wire Line
+	7500 4250 8000 4250
+Connection ~ 7500 4250
+Wire Wire Line
+	7200 4250 7500 4250
+Connection ~ 7200 4250
+Wire Wire Line
+	6700 4250 7200 4250
+Connection ~ 6700 4250
+Wire Wire Line
+	6400 4250 6700 4250
+Wire Wire Line
+	6700 4600 6700 4750
+Wire Wire Line
+	7500 4600 7500 4750
+Wire Wire Line
+	5900 4750 5900 4600
+Wire Wire Line
+	8300 4750 8300 4600
+Wire Wire Line
+	9100 4750 9100 4600
+Wire Wire Line
+	9900 4750 9900 4600
+Wire Wire Line
+	6400 4400 6400 4250
+Wire Wire Line
+	7200 4400 7200 4250
+Wire Wire Line
+	8000 4400 8000 4250
+Wire Wire Line
+	8800 4400 8800 4250
+Wire Wire Line
+	9600 4400 9600 4250
+Wire Wire Line
+	6550 4600 6400 4600
+Wire Wire Line
+	6550 4400 6550 4600
+Wire Wire Line
+	6700 4400 6550 4400
+$Comp
+L keyboard_parts:SK6812_mini L32
+U 1 1 60974681
+P 6150 4500
+F 0 "L32" H 6150 4500 50  0000 C CNN
+F 1 "SK6812_mini" H 6150 4300 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 6150 4300 50  0001 C CNN
+F 3 "" H 6150 4300 50  0001 C CNN
+	1    6150 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 4600 7200 4600
+Wire Wire Line
+	7350 4400 7350 4600
+Wire Wire Line
+	7500 4400 7350 4400
+$Comp
+L keyboard_parts:SK6812_mini L31
+U 1 1 60974678
+P 6950 4500
+F 0 "L31" H 6950 4500 50  0000 C CNN
+F 1 "SK6812_mini" H 6950 4300 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 6950 4300 50  0001 C CNN
+F 3 "" H 6950 4300 50  0001 C CNN
+	1    6950 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 4600 8000 4600
+Wire Wire Line
+	8150 4400 8150 4600
+Wire Wire Line
+	8300 4400 8150 4400
+$Comp
+L keyboard_parts:SK6812_mini L30
+U 1 1 6097466F
+P 7750 4500
+F 0 "L30" H 7750 4500 50  0000 C CNN
+F 1 "SK6812_mini" H 7750 4300 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 7750 4300 50  0001 C CNN
+F 3 "" H 7750 4300 50  0001 C CNN
+	1    7750 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 4600 8800 4600
+Wire Wire Line
+	8950 4400 8950 4600
+Wire Wire Line
+	9100 4400 8950 4400
+$Comp
+L keyboard_parts:SK6812_mini L29
+U 1 1 60974666
+P 8550 4500
+F 0 "L29" H 8550 4500 50  0000 C CNN
+F 1 "SK6812_mini" H 8550 4300 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 8550 4300 50  0001 C CNN
+F 3 "" H 8550 4300 50  0001 C CNN
+	1    8550 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 4600 9600 4600
+Wire Wire Line
+	9750 4400 9750 4600
+Wire Wire Line
+	9900 4400 9750 4400
+$Comp
+L keyboard_parts:SK6812_mini L28
+U 1 1 6097465D
+P 9350 4500
+F 0 "L28" H 9350 4500 50  0000 C CNN
+F 1 "SK6812_mini" H 9350 4300 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 9350 4300 50  0001 C CNN
+F 3 "" H 9350 4300 50  0001 C CNN
+	1    9350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:SK6812_mini L27
+U 1 1 60974657
+P 10150 4500
+F 0 "L27" H 10150 4500 50  0000 C CNN
+F 1 "SK6812_mini" H 10150 4300 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 10150 4300 50  0001 C CNN
+F 3 "" H 10150 4300 50  0001 C CNN
+	1    10150 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 10400 3750
+Wire Wire Line
+	5800 3900 5900 3900
+Wire Wire Line
+	5800 3350 5800 3900
+Wire Wire Line
+	5900 3350 5800 3350
+Wire Wire Line
+	9600 3750 9900 3750
+Connection ~ 9600 3750
+Wire Wire Line
+	9600 3900 9600 3750
+Wire Wire Line
+	8800 3750 9100 3750
+Connection ~ 8800 3750
+Wire Wire Line
+	8800 3900 8800 3750
+Wire Wire Line
+	9100 3550 9100 3750
+Wire Wire Line
+	9100 3750 9600 3750
+Connection ~ 9100 3750
+Wire Wire Line
+	9900 3750 10400 3750
+Connection ~ 9900 3750
+Wire Wire Line
+	9900 3550 9900 3750
+Connection ~ 8300 3750
+Wire Wire Line
+	10400 3750 10400 3900
+Wire Wire Line
+	8300 3750 8800 3750
+Connection ~ 8000 3750
+Wire Wire Line
+	8300 3750 8300 3550
+Wire Wire Line
+	8000 3750 8300 3750
+Connection ~ 7500 3750
+Wire Wire Line
+	8000 3750 8000 3900
+Wire Wire Line
+	7500 3750 8000 3750
+Connection ~ 7200 3750
+Wire Wire Line
+	7500 3750 7500 3550
+Wire Wire Line
+	7200 3750 7500 3750
+Connection ~ 6700 3750
+Wire Wire Line
+	7200 3750 7200 3900
+Wire Wire Line
+	6700 3750 7200 3750
+Connection ~ 6400 3750
+Wire Wire Line
+	6700 3750 6700 3550
+Wire Wire Line
+	6400 3750 6700 3750
+Wire Wire Line
+	6400 3750 6400 3900
+Wire Wire Line
+	5900 3750 6400 3750
+Wire Wire Line
+	5900 3750 5900 3550
+Wire Wire Line
+	10700 3750 10400 3750
+Wire Wire Line
+	9900 4100 9900 4250
+Wire Wire Line
+	9100 4100 9100 4250
+Wire Wire Line
+	8300 4100 8300 4250
+Wire Wire Line
+	7500 4100 7500 4250
+Wire Wire Line
+	6700 4100 6700 4250
+Wire Wire Line
+	9750 3900 9900 3900
+Wire Wire Line
+	9750 4100 9750 3900
+Wire Wire Line
+	9600 4100 9750 4100
+$Comp
+L keyboard_parts:SK6812_mini L26
+U 1 1 6088D17F
+P 10150 4000
+F 0 "L26" H 10150 4000 50  0000 C CNN
+F 1 "SK6812_mini" H 10150 3800 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 10150 3800 50  0001 C CNN
+F 3 "" H 10150 3800 50  0001 C CNN
+	1    10150 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8950 3900 9100 3900
+Wire Wire Line
+	8950 4100 8950 3900
+Wire Wire Line
+	8800 4100 8950 4100
+$Comp
+L keyboard_parts:SK6812_mini L25
+U 1 1 6088D176
+P 9350 4000
+F 0 "L25" H 9350 4000 50  0000 C CNN
+F 1 "SK6812_mini" H 9350 3800 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 9350 3800 50  0001 C CNN
+F 3 "" H 9350 3800 50  0001 C CNN
+	1    9350 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8150 3900 8300 3900
+Wire Wire Line
+	8150 4100 8150 3900
+Wire Wire Line
+	8000 4100 8150 4100
+$Comp
+L keyboard_parts:SK6812_mini L24
+U 1 1 6088D16D
+P 8550 4000
+F 0 "L24" H 8550 4000 50  0000 C CNN
+F 1 "SK6812_mini" H 8550 3800 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 8550 3800 50  0001 C CNN
+F 3 "" H 8550 3800 50  0001 C CNN
+	1    8550 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7350 3900 7500 3900
+Wire Wire Line
+	7350 4100 7350 3900
+Wire Wire Line
+	7200 4100 7350 4100
+$Comp
+L keyboard_parts:SK6812_mini L23
+U 1 1 6088D164
+P 7750 4000
+F 0 "L23" H 7750 4000 50  0000 C CNN
+F 1 "SK6812_mini" H 7750 3800 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 7750 3800 50  0001 C CNN
+F 3 "" H 7750 3800 50  0001 C CNN
+	1    7750 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6550 3900 6700 3900
+Wire Wire Line
+	6550 4100 6550 3900
+Wire Wire Line
+	6400 4100 6550 4100
+$Comp
+L keyboard_parts:SK6812_mini L22
+U 1 1 6088D15B
+P 6950 4000
+F 0 "L22" H 6950 4000 50  0000 C CNN
+F 1 "SK6812_mini" H 6950 3800 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 6950 3800 50  0001 C CNN
+F 3 "" H 6950 3800 50  0001 C CNN
+	1    6950 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:SK6812_mini L21
+U 1 1 6088D155
+P 6150 4000
+F 0 "L21" H 6150 4000 50  0000 C CNN
+F 1 "SK6812_mini" H 6150 3800 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 6150 3800 50  0001 C CNN
+F 3 "" H 6150 3800 50  0001 C CNN
+	1    6150 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6400 3200 6700 3200
+Connection ~ 6400 3200
+Wire Wire Line
+	6400 3350 6400 3200
+Wire Wire Line
+	7200 3200 7500 3200
+Connection ~ 7200 3200
+Wire Wire Line
+	7200 3350 7200 3200
+Wire Wire Line
+	8000 3200 8300 3200
+Connection ~ 8000 3200
+Wire Wire Line
+	8000 3350 8000 3200
+Wire Wire Line
+	8800 3200 9100 3200
+Connection ~ 8800 3200
+Wire Wire Line
+	8800 3350 8800 3200
+Wire Wire Line
+	9600 3200 9900 3200
+Connection ~ 9600 3200
+Wire Wire Line
+	9600 3350 9600 3200
+Wire Wire Line
+	6550 3550 6400 3550
+Wire Wire Line
+	6550 3350 6550 3550
+Wire Wire Line
+	6700 3350 6550 3350
+$Comp
+L keyboard_parts:SK6812_mini L20
+U 1 1 60853B86
+P 6150 3450
+F 0 "L20" H 6150 3450 50  0000 C CNN
+F 1 "SK6812_mini" H 6150 3250 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 6150 3250 50  0001 C CNN
+F 3 "" H 6150 3250 50  0001 C CNN
+	1    6150 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 3550 7200 3550
+Wire Wire Line
+	7350 3350 7350 3550
+Wire Wire Line
+	7500 3350 7350 3350
+$Comp
+L keyboard_parts:SK6812_mini L19
+U 1 1 6084C0A6
+P 6950 3450
+F 0 "L19" H 6950 3450 50  0000 C CNN
+F 1 "SK6812_mini" H 6950 3250 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 6950 3250 50  0001 C CNN
+F 3 "" H 6950 3250 50  0001 C CNN
+	1    6950 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 3550 8000 3550
+Wire Wire Line
+	8150 3350 8150 3550
+Wire Wire Line
+	8300 3350 8150 3350
+$Comp
+L keyboard_parts:SK6812_mini L18
+U 1 1 608449F0
+P 7750 3450
+F 0 "L18" H 7750 3450 50  0000 C CNN
+F 1 "SK6812_mini" H 7750 3250 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 7750 3250 50  0001 C CNN
+F 3 "" H 7750 3250 50  0001 C CNN
+	1    7750 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 3550 8800 3550
+Wire Wire Line
+	8950 3350 8950 3550
+Wire Wire Line
+	9100 3350 8950 3350
+$Comp
+L keyboard_parts:SK6812_mini L17
+U 1 1 60836139
+P 8550 3450
+F 0 "L17" H 8550 3450 50  0000 C CNN
+F 1 "SK6812_mini" H 8550 3250 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 8550 3250 50  0001 C CNN
+F 3 "" H 8550 3250 50  0001 C CNN
+	1    8550 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3550 9600 3550
+Wire Wire Line
+	9750 3350 9750 3550
+Wire Wire Line
+	9900 3350 9750 3350
+$Comp
+L keyboard_parts:SK6812_mini L16
+U 1 1 60827EF7
+P 9350 3450
+F 0 "L16" H 9350 3450 50  0000 C CNN
+F 1 "SK6812_mini" H 9350 3250 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 9350 3250 50  0001 C CNN
+F 3 "" H 9350 3250 50  0001 C CNN
+	1    9350 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 9900 3200
+Wire Wire Line
+	10400 3200 9900 3200
+Wire Wire Line
+	10400 3350 10400 3200
+Wire Wire Line
+	10600 3550 10400 3550
+Wire Wire Line
+	10600 3000 10600 3550
+Wire Wire Line
+	10400 3000 10600 3000
+$Comp
+L keyboard_parts:SK6812_mini L15
+U 1 1 60803E86
+P 10150 3450
+F 0 "L15" H 10150 3450 50  0000 C CNN
+F 1 "SK6812_mini" H 10150 3250 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 10150 3250 50  0001 C CNN
+F 3 "" H 10150 3250 50  0001 C CNN
+	1    10150 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 9100 3200
+Wire Wire Line
+	9900 3200 9900 3000
+Wire Wire Line
+	9100 3200 9600 3200
+Connection ~ 8300 3200
+Wire Wire Line
+	9100 3200 9100 3000
+Wire Wire Line
+	8300 3200 8800 3200
+Connection ~ 7500 3200
+Wire Wire Line
+	8300 3200 8300 3000
+Wire Wire Line
+	7500 3200 8000 3200
+Connection ~ 6700 3200
+Wire Wire Line
+	7500 3200 7500 3000
+Wire Wire Line
+	6700 3200 7200 3200
+Connection ~ 5900 3200
+Wire Wire Line
+	6700 3200 6700 3000
+Wire Wire Line
+	5900 3200 6400 3200
+Wire Wire Line
+	5900 3200 5600 3200
+Wire Wire Line
+	5900 3000 5900 3200
+$Comp
+L power:VCC #PWR01
+U 1 1 607A47CD
+P 5600 3200
+F 0 "#PWR01" H 5600 3050 50  0001 C CNN
+F 1 "VCC" H 5615 3373 50  0000 C CNN
+F 2 "" H 5600 3200 50  0001 C CNN
+F 3 "" H 5600 3200 50  0001 C CNN
+	1    5600 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 2800 9900 2800
+Wire Wire Line
+	9750 3000 9750 2800
+Wire Wire Line
+	9600 3000 9750 3000
+$Comp
+L keyboard_parts:SK6812_mini L14
+U 1 1 6078E8F5
+P 10150 2900
+F 0 "L14" H 10150 2900 50  0000 C CNN
+F 1 "SK6812_mini" H 10150 2700 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 10150 2700 50  0001 C CNN
+F 3 "" H 10150 2700 50  0001 C CNN
+	1    10150 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8950 2800 9100 2800
+Wire Wire Line
+	8950 3000 8950 2800
+Wire Wire Line
+	8800 3000 8950 3000
+$Comp
+L keyboard_parts:SK6812_mini L13
+U 1 1 6078A03A
+P 9350 2900
+F 0 "L13" H 9350 2900 50  0000 C CNN
+F 1 "SK6812_mini" H 9350 2700 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 9350 2700 50  0001 C CNN
+F 3 "" H 9350 2700 50  0001 C CNN
+	1    9350 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8150 2800 8300 2800
+Wire Wire Line
+	8150 3000 8150 2800
+Wire Wire Line
+	8000 3000 8150 3000
+Wire Wire Line
+	7350 2800 7500 2800
+Wire Wire Line
+	7350 3000 7350 2800
+Wire Wire Line
+	7200 3000 7350 3000
+Wire Wire Line
+	6550 2800 6700 2800
+Wire Wire Line
+	6550 3000 6550 2800
+Wire Wire Line
+	6400 3000 6550 3000
+$Comp
+L keyboard_parts:SK6812_mini L9
+U 1 1 60578ABF
+P 6150 2900
+F 0 "L9" H 6150 2900 50  0000 C CNN
+F 1 "SK6812_mini" H 6150 2700 50  0001 C CNN
+F 2 "keebio_parts:SK6812-MINI-E" H 6150 2700 50  0001 C CNN
+F 3 "" H 6150 2700 50  0001 C CNN
+	1    6150 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L keebio:Hole H1
+U 1 1 60561A20
+P 3550 3000
+F 0 "H1" H 3736 3053 60  0000 L CNN
+F 1 "Hole" H 3736 2947 60  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 3550 3000 60  0001 C CNN
+F 3 "" H 3550 3000 60  0001 C CNN
+	1    3550 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 2450
+Wire Wire Line
+	6150 2200 6150 2450
+Connection ~ 8800 2450
+Wire Wire Line
+	10100 2200 10100 2450
+Connection ~ 7450 2450
+Wire Wire Line
+	8800 2200 8800 2450
+Wire Wire Line
+	5750 2450 6150 2450
+Wire Wire Line
+	6150 2000 5900 2000
+$Comp
+L keyboard_parts:WS2812_LED L1
+U 1 1 60542481
+P 6450 1150
+F 0 "L1" H 6450 1503 50  0000 C CNN
+F 1 "WS2812_LED" H 6450 1418 42  0000 C CNN
+F 2 "keebio_parts:WS2812B" H 6450 1300 50  0001 C CNN
+F 3 "" H 6450 1300 50  0001 C CNN
+	1    6450 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:WS2812_LED L2
+U 1 1 6054B129
+P 7750 1150
+F 0 "L2" H 7750 1503 50  0000 C CNN
+F 1 "WS2812_LED" H 7750 1418 42  0000 C CNN
+F 2 "keebio_parts:WS2812B" H 7750 1300 50  0001 C CNN
+F 3 "" H 7750 1300 50  0001 C CNN
+	1    7750 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1250 7100 1250
+Wire Wire Line
+	7100 1250 7100 1050
+Wire Wire Line
+	7100 1050 7450 1050
+$Comp
+L power:VCC #PWR0113
+U 1 1 6056D6B6
+P 5800 1500
+F 0 "#PWR0113" H 5800 1350 50  0001 C CNN
+F 1 "VCC" H 5815 1673 50  0000 C CNN
+F 2 "" H 5800 1500 50  0001 C CNN
+F 3 "" H 5800 1500 50  0001 C CNN
+	1    5800 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6150 1250 6150 1500
+Wire Wire Line
+	6150 1500 5800 1500
+Wire Wire Line
+	7450 1250 7450 1500
+Wire Wire Line
+	7450 1500 6750 1500
+Connection ~ 6150 1500
+Wire Wire Line
+	6750 1050 6750 650 
+Wire Wire Line
+	8050 1050 8050 650 
+$Comp
+L keyboard_parts:WS2812_LED L3
+U 1 1 60587579
+P 9100 1150
+F 0 "L3" H 9100 1503 50  0000 C CNN
+F 1 "WS2812_LED" H 9100 1418 42  0000 C CNN
+F 2 "keebio_parts:WS2812B" H 9100 1300 50  0001 C CNN
+F 3 "" H 9100 1300 50  0001 C CNN
+	1    9100 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:WS2812_LED L4
+U 1 1 6058757F
+P 10400 1150
+F 0 "L4" H 10400 1503 50  0000 C CNN
+F 1 "WS2812_LED" H 10400 1418 42  0000 C CNN
+F 2 "keebio_parts:WS2812B" H 10400 1300 50  0001 C CNN
+F 3 "" H 10400 1300 50  0001 C CNN
+	1    10400 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 1250 9750 1250
+Wire Wire Line
+	9750 1250 9750 1050
+Wire Wire Line
+	9750 1050 10100 1050
+Wire Wire Line
+	8800 1250 8800 1500
+Wire Wire Line
+	10100 1250 10100 1500
+Wire Wire Line
+	9400 1050 9400 650 
+Wire Wire Line
+	10700 1050 10700 650 
+Wire Wire Line
+	8050 1250 8400 1250
+Wire Wire Line
+	8400 1250 8400 1050
+Wire Wire Line
+	8400 1050 8800 1050
+Wire Wire Line
+	7450 1500 8050 1500
+Connection ~ 7450 1500
+Connection ~ 8800 1500
+$Comp
+L keyboard_parts:WS2812_LED L8
+U 1 1 60597C8A
+P 6450 2100
+F 0 "L8" H 6450 1747 50  0000 C CNN
+F 1 "WS2812_LED" H 6450 1832 42  0000 C CNN
+F 2 "keebio_parts:WS2812B" H 6450 2250 50  0001 C CNN
+F 3 "" H 6450 2250 50  0001 C CNN
+	1    6450 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:WS2812_LED L6
+U 1 1 60597CA0
+P 9100 2100
+F 0 "L6" H 9100 1747 50  0000 C CNN
+F 1 "WS2812_LED" H 9100 1832 42  0000 C CNN
+F 2 "keebio_parts:WS2812B" H 9100 2250 50  0001 C CNN
+F 3 "" H 9100 2250 50  0001 C CNN
+	1    9100 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:WS2812_LED L5
+U 1 1 60597CA6
+P 10400 2100
+F 0 "L5" H 10400 1747 50  0000 C CNN
+F 1 "WS2812_LED" H 10400 1832 42  0000 C CNN
+F 2 "keebio_parts:WS2812B" H 10400 2250 50  0001 C CNN
+F 3 "" H 10400 2250 50  0001 C CNN
+	1    10400 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:WS2812_LED L7
+U 1 1 60597C90
+P 7750 2100
+F 0 "L7" H 7750 1747 50  0000 C CNN
+F 1 "WS2812_LED" H 7750 1832 42  0000 C CNN
+F 2 "keebio_parts:WS2812B" H 7750 2250 50  0001 C CNN
+F 3 "" H 7750 2250 50  0001 C CNN
+	1    7750 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10700 1250 10850 1250
+Wire Wire Line
+	10850 1250 10850 2200
+Wire Wire Line
+	10850 2200 10700 2200
+Wire Wire Line
+	10100 2000 9750 2000
+Wire Wire Line
+	9750 2000 9750 2200
+Wire Wire Line
+	9750 2200 9400 2200
+Wire Wire Line
+	8800 2000 8400 2000
+Wire Wire Line
+	8400 2000 8400 2200
+Wire Wire Line
+	8400 2200 8050 2200
+Wire Wire Line
+	7450 2000 7100 2000
+Wire Wire Line
+	7100 2000 7100 2200
+Wire Wire Line
+	7100 2200 6750 2200
+Wire Wire Line
+	6750 2000 6750 1500
+Connection ~ 6750 1500
+Wire Wire Line
+	6750 1500 6150 1500
+Wire Wire Line
+	8050 2000 8050 1500
+Connection ~ 8050 1500
+Wire Wire Line
+	8050 1500 8800 1500
+Wire Wire Line
+	8800 1500 9400 1500
+Wire Wire Line
+	9400 2000 9400 1500
+Connection ~ 9400 1500
+Wire Wire Line
+	9400 1500 10100 1500
+Wire Wire Line
+	10700 2000 10700 1500
+Wire Wire Line
+	10700 1500 10100 1500
+Connection ~ 10100 1500
+Wire Wire Line
+	7450 2200 7450 2450
+Wire Wire Line
+	6750 650  8050 650 
+Wire Wire Line
+	8050 650  9400 650 
+Connection ~ 8050 650 
+Connection ~ 9400 650 
+Wire Wire Line
+	9400 650  10700 650 
+$Comp
+L keyboard_parts:SW_PUSH SW24
+U 1 1 6070971B
+P 5650 7350
+F 0 "SW24" H 5650 7605 50  0000 C CNN
+F 1 "SW_PUSH" H 5650 7514 50  0000 C CNN
+F 2 "keebio_parts:MX-Alps_Switch_Cutout-1u_2u" H 5650 7350 60  0001 C CNN
+F 3 "" H 5650 7350 60  0000 C CNN
+	1    5650 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 60709727
+P 5950 7500
+F 0 "D24" V 5996 7617 50  0000 C BNN
+F 1 "D" V 5905 7420 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5950 7500 50  0001 C CNN
+F 3 "~" H 5950 7500 50  0001 C CNN
+	1    5950 7500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 650  4750 1    50   Input ~ 0
+COL0
+Text GLabel 1500 4750 1    50   Input ~ 0
+COL1
+Text GLabel 2500 4750 1    50   Input ~ 0
+COL2
+Text GLabel 3350 4750 1    50   Input ~ 0
+COL3
+Text GLabel 4350 4750 1    50   Input ~ 0
+COL4
+Connection ~ 1500 5850
+Wire Wire Line
+	1500 5850 1500 6600
+Connection ~ 2250 5400
+Connection ~ 2250 6150
+Connection ~ 4100 5400
+Wire Wire Line
+	4950 5400 4100 5400
+Wire Wire Line
+	4350 5100 4350 5850
+Connection ~ 4100 6150
+Connection ~ 4100 6900
+Connection ~ 2250 6900
+Connection ~ 5200 5850
+Wire Wire Line
+	5200 5850 5200 6600
+Connection ~ 4350 5850
+Wire Wire Line
+	4350 5850 4350 6600
+Connection ~ 3350 5850
+Wire Wire Line
+	3350 5850 3350 6600
+Connection ~ 2500 5850
+Wire Wire Line
+	2500 5850 2500 6600
+Connection ~ 650  5850
+Wire Wire Line
+	650  5850 650  6600
+Connection ~ 5200 6600
+Wire Wire Line
+	5200 6600 5200 7350
+Connection ~ 4350 6600
+Wire Wire Line
+	4350 6600 4350 7350
+Connection ~ 3350 6600
+Wire Wire Line
+	3350 6600 3350 7350
+Connection ~ 2500 6600
+Wire Wire Line
+	2500 6600 2500 7350
+Connection ~ 1500 6600
+Wire Wire Line
+	1500 6600 1500 7350
+Connection ~ 650  6600
+Wire Wire Line
+	650  6600 650  7100
+Connection ~ 1250 6900
+Wire Wire Line
+	1100 6900 1250 6900
+Wire Wire Line
+	5200 7350 5350 7350
+$Comp
+L Device:D D23
+U 1 1 60709721
+P 4950 7500
+F 0 "D23" V 4996 7617 50  0000 C BNN
+F 1 "D" V 4905 7420 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4950 7500 50  0001 C CNN
+F 3 "~" H 4950 7500 50  0001 C CNN
+	1    4950 7500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW23
+U 1 1 60709715
+P 4650 7350
+F 0 "SW23" H 4650 7605 50  0000 C CNN
+F 1 "SW_PUSH" H 4650 7514 50  0000 C CNN
+F 2 "keebio_parts:MX-Alps_Switch_Cutout-1u_2u" H 4650 7350 60  0001 C CNN
+F 3 "" H 4650 7350 60  0000 C CNN
+	1    4650 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 6070970F
+P 4100 7500
+F 0 "D22" V 4146 7617 50  0000 C BNN
+F 1 "D" V 4055 7420 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4100 7500 50  0001 C CNN
+F 3 "~" H 4100 7500 50  0001 C CNN
+	1    4100 7500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3350 7350 3500 7350
+$Comp
+L Device:D D21
+U 1 1 60709705
+P 3100 7500
+F 0 "D21" V 3146 7617 50  0000 C BNN
+F 1 "D" V 3055 7420 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3100 7500 50  0001 C CNN
+F 3 "~" H 3100 7500 50  0001 C CNN
+	1    3100 7500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW22
+U 1 1 607096FF
+P 3800 7350
+F 0 "SW22" H 3800 7605 50  0000 C CNN
+F 1 "SW_PUSH" H 3800 7514 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 3800 7350 60  0001 C CNN
+F 3 "" H 3800 7350 60  0000 C CNN
+	1    3800 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW21
+U 1 1 607096F9
+P 2800 7350
+F 0 "SW21" H 2800 7605 50  0000 C CNN
+F 1 "SW_PUSH" H 2800 7514 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 2800 7350 60  0001 C CNN
+F 3 "" H 2800 7350 60  0000 C CNN
+	1    2800 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 7350 1650 7350
+$Comp
+L Device:D D20
+U 1 1 607096F2
+P 2250 7500
+F 0 "D20" V 2296 7617 50  0000 C BNN
+F 1 "D" V 2205 7420 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2250 7500 50  0001 C CNN
+F 3 "~" H 2250 7500 50  0001 C CNN
+	1    2250 7500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW20
+U 1 1 607096EC
+P 1950 7350
+F 0 "SW20" H 1950 7605 50  0000 C CNN
+F 1 "SW_PUSH" H 1950 7514 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 1950 7350 60  0001 C CNN
+F 3 "" H 1950 7350 60  0000 C CNN
+	1    1950 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 607096E0
+P 1250 6750
+F 0 "D13" V 1296 6867 50  0000 C BNN
+F 1 "D" V 1250 6650 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 1250 6750 50  0001 C CNN
+F 3 "~" H 1250 6750 50  0001 C CNN
+	1    1250 6750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 6900 2250 6900
+Wire Wire Line
+	5200 6600 5350 6600
+Connection ~ 4950 6900
+Wire Wire Line
+	4950 6900 4100 6900
+Wire Wire Line
+	4950 6900 5950 6900
+$Comp
+L Device:D D18
+U 1 1 607096D4
+P 5950 6750
+F 0 "D18" V 5996 6867 50  0000 C BNN
+F 1 "D" V 5905 6670 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5950 6750 50  0001 C CNN
+F 3 "~" H 5950 6750 50  0001 C CNN
+	1    5950 6750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 607096CE
+P 4950 6750
+F 0 "D17" V 4996 6867 50  0000 C BNN
+F 1 "D" V 4905 6670 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4950 6750 50  0001 C CNN
+F 3 "~" H 4950 6750 50  0001 C CNN
+	1    4950 6750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW18
+U 1 1 607096C7
+P 5650 6600
+F 0 "SW18" H 5650 6855 50  0000 C CNN
+F 1 "SW_PUSH" H 5650 6764 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 5650 6600 60  0001 C CNN
+F 3 "" H 5650 6600 60  0000 C CNN
+	1    5650 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW17
+U 1 1 607096C1
+P 4650 6600
+F 0 "SW17" H 4650 6855 50  0000 C CNN
+F 1 "SW_PUSH" H 4650 6764 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 4650 6600 60  0001 C CNN
+F 3 "" H 4650 6600 60  0000 C CNN
+	1    4650 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 607096BB
+P 4100 6750
+F 0 "D16" V 4146 6867 50  0000 C BNN
+F 1 "D" V 4055 6670 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4100 6750 50  0001 C CNN
+F 3 "~" H 4100 6750 50  0001 C CNN
+	1    4100 6750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3350 6600 3500 6600
+Connection ~ 3100 6900
+Wire Wire Line
+	3100 6900 2250 6900
+Wire Wire Line
+	3100 6900 4100 6900
+$Comp
+L Device:D D15
+U 1 1 607096B0
+P 3100 6750
+F 0 "D15" V 3146 6867 50  0000 C BNN
+F 1 "D" V 3055 6670 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3100 6750 50  0001 C CNN
+F 3 "~" H 3100 6750 50  0001 C CNN
+	1    3100 6750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW16
+U 1 1 607096A9
+P 3800 6600
+F 0 "SW16" H 3800 6855 50  0000 C CNN
+F 1 "SW_PUSH" H 3800 6764 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 3800 6600 60  0001 C CNN
+F 3 "" H 3800 6600 60  0000 C CNN
+	1    3800 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW15
+U 1 1 607096A3
+P 2800 6600
+F 0 "SW15" H 2800 6855 50  0000 C CNN
+F 1 "SW_PUSH" H 2800 6764 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 2800 6600 60  0001 C CNN
+F 3 "" H 2800 6600 60  0000 C CNN
+	1    2800 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 6600 1650 6600
+$Comp
+L Device:D D14
+U 1 1 6070969B
+P 2250 6750
+F 0 "D14" V 2296 6867 50  0000 C BNN
+F 1 "D" V 2205 6670 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2250 6750 50  0001 C CNN
+F 3 "~" H 2250 6750 50  0001 C CNN
+	1    2250 6750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1100 6900 0    50   Input ~ 0
+ROW2
+$Comp
+L keyboard_parts:SW_PUSH SW14
+U 1 1 60709693
+P 1950 6600
+F 0 "SW14" H 1950 6855 50  0000 C CNN
+F 1 "SW_PUSH" H 1950 6764 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 1950 6600 60  0001 C CNN
+F 3 "" H 1950 6600 60  0000 C CNN
+	1    1950 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW13
+U 1 1 6070968D
+P 950 6600
+F 0 "SW13" H 950 6855 50  0000 C CNN
+F 1 "SW_PUSH" H 950 6764 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 950 6600 60  0001 C CNN
+F 3 "" H 950 6600 60  0000 C CNN
+	1    950  6600
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 6150
+Wire Wire Line
+	1100 6150 1250 6150
+Text GLabel 1100 6150 0    50   Input ~ 0
+ROW1
+Connection ~ 5200 5100
+Wire Wire Line
+	5200 5100 5200 5850
+Connection ~ 4350 5100
+Connection ~ 3350 5100
+Wire Wire Line
+	3350 5100 3350 5850
+Connection ~ 2500 5100
+Wire Wire Line
+	2500 5100 2500 5850
+Connection ~ 1500 5100
+Wire Wire Line
+	1500 5100 1500 5850
+Connection ~ 650  5100
+Wire Wire Line
+	650  5100 650  5850
+Connection ~ 1250 5400
+Wire Wire Line
+	1100 5400 1250 5400
+$Comp
+L Device:D D7
+U 1 1 606ED5D0
+P 1250 6000
+F 0 "D7" V 1296 6117 50  0000 C BNN
+F 1 "D" V 1250 5900 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 1250 6000 50  0001 C CNN
+F 3 "~" H 1250 6000 50  0001 C CNN
+	1    1250 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 6150 2250 6150
+Wire Wire Line
+	5200 5850 5350 5850
+Connection ~ 4950 6150
+Wire Wire Line
+	4950 6150 4100 6150
+Wire Wire Line
+	4950 6150 5950 6150
+$Comp
+L Device:D D12
+U 1 1 606ED5C2
+P 5950 6000
+F 0 "D12" V 5996 6117 50  0000 C BNN
+F 1 "D" V 5905 5920 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5950 6000 50  0001 C CNN
+F 3 "~" H 5950 6000 50  0001 C CNN
+	1    5950 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 606ED5BC
+P 4950 6000
+F 0 "D11" V 4996 6117 50  0000 C BNN
+F 1 "D" V 4905 5920 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4950 6000 50  0001 C CNN
+F 3 "~" H 4950 6000 50  0001 C CNN
+	1    4950 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW12
+U 1 1 606ED5B5
+P 5650 5850
+F 0 "SW12" H 5650 6105 50  0000 C CNN
+F 1 "SW_PUSH" H 5650 6014 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 5650 5850 60  0001 C CNN
+F 3 "" H 5650 5850 60  0000 C CNN
+	1    5650 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW11
+U 1 1 606ED5AF
+P 4650 5850
+F 0 "SW11" H 4650 6105 50  0000 C CNN
+F 1 "SW_PUSH" H 4650 6014 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 4650 5850 60  0001 C CNN
+F 3 "" H 4650 5850 60  0000 C CNN
+	1    4650 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 606ED5A9
+P 4100 6000
+F 0 "D10" V 4146 6117 50  0000 C BNN
+F 1 "D" V 4055 5920 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4100 6000 50  0001 C CNN
+F 3 "~" H 4100 6000 50  0001 C CNN
+	1    4100 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3350 5850 3500 5850
+Connection ~ 3100 6150
+Wire Wire Line
+	3100 6150 2250 6150
+Wire Wire Line
+	3100 6150 4100 6150
+$Comp
+L Device:D D9
+U 1 1 606ED59E
+P 3100 6000
+F 0 "D9" V 3146 6117 50  0000 C BNN
+F 1 "D" V 3055 5920 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3100 6000 50  0001 C CNN
+F 3 "~" H 3100 6000 50  0001 C CNN
+	1    3100 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW10
+U 1 1 606ED597
+P 3800 5850
+F 0 "SW10" H 3800 6105 50  0000 C CNN
+F 1 "SW_PUSH" H 3800 6014 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 3800 5850 60  0001 C CNN
+F 3 "" H 3800 5850 60  0000 C CNN
+	1    3800 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW9
+U 1 1 606ED591
+P 2800 5850
+F 0 "SW9" H 2800 6105 50  0000 C CNN
+F 1 "SW_PUSH" H 2800 6014 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 2800 5850 60  0001 C CNN
+F 3 "" H 2800 5850 60  0000 C CNN
+	1    2800 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 5850 1650 5850
+$Comp
+L Device:D D8
+U 1 1 606ED589
+P 2250 6000
+F 0 "D8" V 2296 6117 50  0000 C BNN
+F 1 "D" V 2205 5920 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2250 6000 50  0001 C CNN
+F 3 "~" H 2250 6000 50  0001 C CNN
+	1    2250 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW8
+U 1 1 606ED582
+P 1950 5850
+F 0 "SW8" H 1950 6105 50  0000 C CNN
+F 1 "SW_PUSH" H 1950 6014 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 1950 5850 60  0001 C CNN
+F 3 "" H 1950 5850 60  0000 C CNN
+	1    1950 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW7
+U 1 1 606ED57C
+P 950 5850
+F 0 "SW7" H 950 6105 50  0000 C CNN
+F 1 "SW_PUSH" H 950 6014 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 950 5850 60  0001 C CNN
+F 3 "" H 950 5850 60  0000 C CNN
+	1    950  5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 606C0569
+P 1250 5250
+F 0 "D1" V 1296 5367 50  0000 C BNN
+F 1 "D" V 1250 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 1250 5250 50  0001 C CNN
+F 3 "~" H 1250 5250 50  0001 C CNN
+	1    1250 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 5400 2250 5400
+Wire Wire Line
+	5200 5100 5350 5100
+Wire Wire Line
+	5200 4750 5200 5100
+Connection ~ 4950 5400
+Wire Wire Line
+	4950 5400 5950 5400
+$Comp
+L Device:D D6
+U 1 1 606C9673
+P 5950 5250
+F 0 "D6" V 5996 5367 50  0000 C BNN
+F 1 "D" V 5905 5170 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5950 5250 50  0001 C CNN
+F 3 "~" H 5950 5250 50  0001 C CNN
+	1    5950 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 606C966D
+P 4950 5250
+F 0 "D5" V 4996 5367 50  0000 C BNN
+F 1 "D" V 4905 5170 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4950 5250 50  0001 C CNN
+F 3 "~" H 4950 5250 50  0001 C CNN
+	1    4950 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4350 4750 4350 5100
+Text GLabel 5200 4750 1    50   Input ~ 0
+COL5
+$Comp
+L keyboard_parts:SW_PUSH SW6
+U 1 1 606C965C
+P 5650 5100
+F 0 "SW6" H 5650 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 5650 5264 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 5650 5100 60  0001 C CNN
+F 3 "" H 5650 5100 60  0000 C CNN
+	1    5650 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW5
+U 1 1 606C9656
+P 4650 5100
+F 0 "SW5" H 4650 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 4650 5264 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 4650 5100 60  0001 C CNN
+F 3 "" H 4650 5100 60  0000 C CNN
+	1    4650 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 606C6A91
+P 4100 5250
+F 0 "D4" V 4146 5367 50  0000 C BNN
+F 1 "D" V 4055 5170 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4100 5250 50  0001 C CNN
+F 3 "~" H 4100 5250 50  0001 C CNN
+	1    4100 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3350 5100 3500 5100
+Wire Wire Line
+	3350 4750 3350 5100
+Connection ~ 3100 5400
+Wire Wire Line
+	3100 5400 2250 5400
+Wire Wire Line
+	3100 5400 4100 5400
+$Comp
+L Device:D D3
+U 1 1 606C6A8B
+P 3100 5250
+F 0 "D3" V 3146 5367 50  0000 C BNN
+F 1 "D" V 3055 5170 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3100 5250 50  0001 C CNN
+F 3 "~" H 3100 5250 50  0001 C CNN
+	1    3100 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2500 4750 2500 5100
+$Comp
+L keyboard_parts:SW_PUSH SW4
+U 1 1 606C6A7A
+P 3800 5100
+F 0 "SW4" H 3800 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 3800 5264 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 3800 5100 60  0001 C CNN
+F 3 "" H 3800 5100 60  0000 C CNN
+	1    3800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW3
+U 1 1 606C6A74
+P 2800 5100
+F 0 "SW3" H 2800 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 2800 5264 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 2800 5100 60  0001 C CNN
+F 3 "" H 2800 5100 60  0000 C CNN
+	1    2800 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 5100 1650 5100
+Wire Wire Line
+	1500 4750 1500 5100
+$Comp
+L Device:D D2
+U 1 1 606C31D0
+P 2250 5250
+F 0 "D2" V 2296 5367 50  0000 C BNN
+F 1 "D" V 2205 5170 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2250 5250 50  0001 C CNN
+F 3 "~" H 2250 5250 50  0001 C CNN
+	1    2250 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	650  4750 650  5100
+Text GLabel 1250 3000 0    50   Input ~ 0
+RESET
+$Comp
+L keyboard_parts:SW_PUSH RESET_SW1
+U 1 1 606B5FE8
+P 1550 3000
+F 0 "RESET_SW1" H 1550 3255 50  0000 C CNN
+F 1 "SW_PUSH" H 1550 3164 50  0000 C CNN
+F 2 "keebio_parts:SW_Tactile_SPST_Angled_MJTP1117" H 1550 3000 60  0001 C CNN
+F 3 "" H 1550 3000 60  0000 C CNN
+	1    1550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW2
+U 1 1 6063E22B
+P 1950 5100
+F 0 "SW2" H 1950 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 1950 5264 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 1950 5100 60  0001 C CNN
+F 3 "" H 1950 5100 60  0000 C CNN
+	1    1950 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:SW_PUSH SW1
+U 1 1 6063DEB9
+P 950 5100
+F 0 "SW1" H 950 5355 50  0000 C CNN
+F 1 "SW_PUSH" H 950 5264 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_MX" H 950 5100 60  0001 C CNN
+F 3 "" H 950 5100 60  0000 C CNN
+	1    950  5100
+	1    0    0    -1  
+$EndComp
+Text GLabel -550 4950 2    50   Input ~ 0
+SDA
+Text GLabel -550 5100 2    50   Input ~ 0
+SCL
+Text GLabel -1100 4950 0    50   Input ~ 0
+D2
+Text GLabel -1100 5100 0    50   Input ~ 0
+D3
+Wire Wire Line
+	-1100 4950 -550 4950
+Wire Wire Line
+	-550 5100 -1100 5100
+Text GLabel -1100 5850 0    50   Input ~ 0
+D4
+Text GLabel -1100 6000 0    50   Input ~ 0
+D5
+Text GLabel -1100 6150 0    50   Input ~ 0
+D12
+Text GLabel -1100 6300 0    50   Input ~ 0
+D7
+Text GLabel -1100 6450 0    50   Input ~ 0
+D8
+Text GLabel -550 5850 2    50   Input ~ 0
+COL0
+Text GLabel -550 6000 2    50   Input ~ 0
+COL1
+Text GLabel -550 6150 2    50   Input ~ 0
+COL2
+Text GLabel -550 6300 2    50   Input ~ 0
+COL3
+Text GLabel -550 6450 2    50   Input ~ 0
+COL4
+Wire Wire Line
+	-1100 5850 -550 5850
+Wire Wire Line
+	-1100 6150 -550 6150
+Wire Wire Line
+	-1100 6000 -550 6000
+Wire Wire Line
+	-1100 6300 -550 6300
+Wire Wire Line
+	-550 6450 -1100 6450
+$Comp
+L power:GND #PWR0131
+U 1 1 60B1A86E
+P 1350 7200
+F 0 "#PWR0131" H 1350 6950 50  0001 C CNN
+F 1 "GND" V 1355 7072 50  0000 R CNN
+F 2 "" H 1350 7200 50  0001 C CNN
+F 3 "" H 1350 7200 50  0001 C CNN
+	1    1350 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW19
+U 1 1 60FFF05C
+P 1050 7200
+F 0 "SW19" H 1050 7350 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 1050 7476 50  0001 C CNN
+F 2 "keebio_parts:RotaryEncoder_EC11" H 900 7360 50  0001 C CNN
+F 3 "~" H 1050 7460 50  0001 C CNN
+	1    1050 7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 60709732
+P 750 7450
+F 0 "D19" V 796 7567 50  0000 C BNN
+F 1 "D" V 750 7350 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 750 7450 50  0001 C CNN
+F 3 "~" H 750 7450 50  0001 C CNN
+	1    750  7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 7650 1200 7650
+Wire Wire Line
+	650  7100 750  7100
+Wire Wire Line
+	750  7600 1200 7600
+Wire Wire Line
+	1200 7600 1200 7650
+Connection ~ 1200 7650
+Wire Wire Line
+	1200 7650 2250 7650
+Text GLabel -1100 6600 0    50   Input ~ 0
+D15
+Text GLabel -550 6600 2    50   Input ~ 0
+COL5
+Wire Wire Line
+	-1100 6600 -550 6600
+Wire Wire Line
+	-1100 6750 -550 6750
+Text GLabel -550 6750 2    50   Input ~ 0
+LED
+Text GLabel -1100 6750 0    50   Input ~ 0
+D9
+Text GLabel -1100 6900 0    50   Input ~ 0
+D10
+Text GLabel -550 6900 2    50   Input ~ 0
+LED_2
+Wire Wire Line
+	-1100 6900 -550 6900
+Wire Wire Line
+	-350 3350 -350 3450
+$Comp
+L Device:R_Small_US R10
+U 1 1 607E6EFF
+P -350 3250
+F 0 "R10" H -282 3296 50  0000 L CNN
+F 1 "330" H -282 3205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H -350 3250 50  0001 C CNN
+F 3 "~" H -350 3250 50  0001 C CNN
+	1    -350 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-700 3350 -700 3450
+$Comp
+L Device:R_Small_US R9
+U 1 1 607777D2
+P -700 3250
+F 0 "R9" H -632 3296 50  0000 L CNN
+F 1 "330" H -632 3205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H -700 3250 50  0001 C CNN
+F 3 "~" H -700 3250 50  0001 C CNN
+	1    -700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D28
+U 1 1 6065AA39
+P -700 3600
+F 0 "D28" V -753 3680 50  0000 L CNN
+F 1 "Blue" V -662 3680 50  0000 L CNN
+F 2 "" H -700 3600 50  0001 C CNN
+F 3 "~" H -700 3600 50  0001 C CNN
+	1    -700 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D27
+U 1 1 6065A1D0
+P -350 3600
+F 0 "D27" V -403 3680 50  0000 L CNN
+F 1 "Orange" V -312 3680 50  0000 L CNN
+F 2 "" H -350 3600 50  0001 C CNN
+F 3 "~" H -350 3600 50  0001 C CNN
+	1    -350 3600
+	0    1    1    0   
+$EndComp
+Text GLabel 6150 1050 0    50   Input ~ 0
+LED
+Text GLabel -1100 7050 0    50   Input ~ 0
+A4
+Text GLabel -1100 7200 0    50   Input ~ 0
+A5
+Text GLabel -550 7050 2    50   Input ~ 0
+ROT_A
+Text GLabel -550 7200 2    50   Input ~ 0
+ROT_B
+Text GLabel 1350 7100 2    50   Input ~ 0
+ROT_B
+Text GLabel 1350 7300 2    50   Input ~ 0
+ROT_A
+Wire Wire Line
+	-1100 7050 -550 7050
+Wire Wire Line
+	-550 7200 -1100 7200
+Text GLabel -1000 1200 2    50   Input ~ 0
+A5
+Text GLabel -1000 1300 2    50   Input ~ 0
+A4
+$Comp
+L power:VCC #PWR0134
+U 1 1 606FF4BE
+P 4450 800
+F 0 "#PWR0134" H 4450 650 50  0001 C CNN
+F 1 "VCC" H 4465 973 50  0000 C CNN
+F 2 "" H 4450 800 50  0001 C CNN
+F 3 "" H 4450 800 50  0001 C CNN
+	1    4450 800 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 1100 4950 1150
+Connection ~ 4950 1100
+Wire Wire Line
+	4750 1100 4950 1100
+Wire Wire Line
+	4950 1000 4950 1100
+Wire Wire Line
+	4750 1000 4950 1000
+$Comp
+L keyboard_parts:GND #PWR0135
+U 1 1 60731FA9
+P 4950 1150
+F 0 "#PWR0135" H 4950 1200 20  0001 C CNN
+F 1 "GND" H 5050 1150 30  0000 C CNN
+F 2 "" H 4950 1150 60  0000 C CNN
+F 3 "" H 4950 1150 60  0000 C CNN
+	1    4950 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R12
+U 1 1 60731FAF
+P 4600 1100
+F 0 "R12" V 4550 950 50  0000 C CNN
+F 1 "5.1k" V 4550 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4640 1090 50  0001 C CNN
+F 3 "~" H 4600 1100 50  0001 C CNN
+	1    4600 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R11
+U 1 1 60731FB5
+P 4600 1000
+F 0 "R11" V 4550 850 50  0000 C CNN
+F 1 "5.1k" V 4550 1150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4640 990 50  0001 C CNN
+F 3 "~" H 4600 1000 50  0001 C CNN
+	1    4600 1000
+	0    1    1    0   
+$EndComp
+NoConn ~ 2250 1900
+NoConn ~ 2250 2000
+Text GLabel 4600 1400 2    50   Input ~ 0
+RX
+Wire Wire Line
+	4450 1400 4600 1400
+$Comp
+L power:GND #PWR0133
+U 1 1 606CCEB8
+P 3550 2300
+F 0 "#PWR0133" H 3550 2050 50  0001 C CNN
+F 1 "GND" H 3555 2127 50  0000 C CNN
+F 2 "" H 3550 2300 50  0001 C CNN
+F 3 "" H 3550 2300 50  0001 C CNN
+	1    3550 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0132
+U 1 1 606CCEB2
+P 3850 2300
+F 0 "#PWR0132" H 3850 2050 50  0001 C CNN
+F 1 "GND" H 3855 2127 50  0000 C CNN
+F 2 "" H 3850 2300 50  0001 C CNN
+F 3 "" H 3850 2300 50  0001 C CNN
+	1    3850 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 J2
 U 1 1 60658E93
-P 4750 1350
-F 0 "J2" H 4857 2217 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 4857 2126 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 4900 1350 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4900 1350 50  0001 C CNN
-	1    4750 1350
+P 3850 1400
+F 0 "J2" H 3957 2267 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 3957 2176 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 4000 1400 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4000 1400 50  0001 C CNN
+	1    3850 1400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 1250 3150 1250
-Wire Wire Line
-	3150 1250 3150 1300
-Wire Wire Line
-	3150 1350 3100 1350
-Wire Wire Line
-	3100 1450 3150 1450
-Wire Wire Line
-	3100 1550 3150 1550
-Wire Wire Line
-	3150 1550 3150 1500
-Text GLabel 3300 750  2    50   Input ~ 0
-UVCC
-Wire Wire Line
-	3100 750  3300 750 
+NoConn ~ 4450 2000
+NoConn ~ 4450 1900
+NoConn ~ 5900 2000
 $Comp
-L keyboard_parts:PPTC F1
-U 1 1 6060CBCC
-P -3200 -900
-F 0 "F1" H -3200 -660 50  0000 C CNN
-F 1 "PPTC" H -3200 -751 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" V -3200 -900 60  0001 C CNN
-F 3 "" V -3200 -900 60  0000 C CNN
-	1    -3200 -900
-	1    0    0    -1  
+L power:VCC #PWR?
+U 1 1 606A210E
+P -350 3950
+F 0 "#PWR?" H -350 3800 50  0001 C CNN
+F 1 "VCC" H -335 4123 50  0000 C CNN
+F 2 "" H -350 3950 50  0001 C CNN
+F 3 "" H -350 3950 50  0001 C CNN
+	1    -350 3950
+	-1   0    0    1   
 $EndComp
-Text GLabel -3850 -900 0    50   Input ~ 0
-UVCC
 Wire Wire Line
-	-3850 -900 -3450 -900
-Text GLabel -3200 600  1    50   Input ~ 0
-UVCC
+	-350 3150 -350 2100
 Wire Wire Line
-	-3150 1100 -3200 1100
-Wire Wire Line
-	-3150 1600 -3200 1600
-Wire Wire Line
-	-3200 1600 -3200 1100
-NoConn ~ -600 2800
-Wire Wire Line
-	-1000 2800 -600 2800
-Text Notes -550 2850 0    50   ~ 0
+	-350 3750 -350 3950
+Text GLabel -1000 2700 2    50   Input ~ 0
 D12
-Text Notes -3250 2200 0    50   ~ 0
-D11
-NoConn ~ -3200 2100
 Wire Wire Line
-	-3150 2100 -3200 2100
-Text Notes -500 2250 0    50   ~ 0
-D13
-NoConn ~ -550 2200
+	-1500 2700 -1000 2700
 Wire Wire Line
-	-1000 2200 -550 2200
+	-1500 2100 -350 2100
+Wire Wire Line
+	-700 3150 -700 2600
+Wire Wire Line
+	-1500 2600 -700 2600
 $Comp
-L Device:D D25
-U 1 1 607F0B43
-P -2450 -900
-F 0 "D25" H -2450 -1117 50  0000 C CNN
-F 1 "D" H -2450 -1026 50  0000 C CNN
-F 2 "Diode_SMD:D_0805_2012Metric" H -2450 -900 50  0001 C CNN
-F 3 "~" H -2450 -900 50  0001 C CNN
-	1    -2450 -900
-	-1   0    0    1   
-$EndComp
-Text GLabel -2450 -550 0    50   Input ~ 0
-RAW
-Wire Wire Line
-	-2950 -900 -2700 -900
-Wire Wire Line
-	-2300 -900 -2300 -550
-Wire Wire Line
-	-2300 -550 -2450 -550
-$Comp
-L Regulator_Linear:MIC5219-5.0YMM U2
-U 1 1 60843220
-P -1600 -450
-F 0 "U2" H -1600 -108 50  0000 C CNN
-F 1 "MIC5219-5.0YMM" H -1600 -199 50  0000 C CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H -1600 -125 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf" H -1600 -450 50  0001 C CNN
-	1    -1600 -450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-2300 -550 -2000 -550
-Connection ~ -2300 -550
-Wire Wire Line
-	-1600 -50  -1600 -150
-Wire Wire Line
-	-2000 -550 -2000 -450
-Wire Wire Line
-	-2000 -450 -1900 -450
-Connection ~ -2000 -550
-Wire Wire Line
-	-2000 -550 -1900 -550
-NoConn ~ -1300 -450
-$Comp
-L Device:CP1_Small C19
-U 1 1 6093E73B
-P -2300 -300
-F 0 "C19" H -2209 -254 50  0000 L CNN
-F 1 "10uF" H -2209 -345 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H -2300 -300 50  0001 C CNN
-F 3 "~" H -2300 -300 50  0001 C CNN
-	1    -2300 -300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-2300 -550 -2300 -400
-Wire Wire Line
-	-2300 -200 -2300 -50 
-$Comp
-L Device:CP1_Small C6
-U 1 1 609BC551
-P -950 -300
-F 0 "C6" H -859 -254 50  0000 L CNN
-F 1 "10uF" H -859 -345 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I" H -950 -300 50  0001 C CNN
-F 3 "~" H -950 -300 50  0001 C CNN
-	1    -950 -300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-1300 -550 -950 -550
-Wire Wire Line
-	-950 -550 -950 -400
-Wire Wire Line
-	-950 -200 -950 -50 
-$Comp
-L Device:C C7
-U 1 1 60A66C17
-P -450 -300
-F 0 "C7" H -335 -254 50  0000 L CNN
-F 1 "1uF" H -335 -345 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H -412 -450 50  0001 C CNN
-F 3 "~" H -450 -300 50  0001 C CNN
-	1    -450 -300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C8
-U 1 1 60A69A80
-P 0 -300
-F 0 "C8" H 115 -254 50  0000 L CNN
-F 1 "1uF" H 115 -345 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 38  -450 50  0001 C CNN
-F 3 "~" H 0   -300 50  0001 C CNN
-	1    0    -300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-950 -550 -450 -550
-Wire Wire Line
-	-450 -550 -450 -450
-Connection ~ -950 -550
-Wire Wire Line
-	-450 -550 0    -550
-Wire Wire Line
-	0    -550 0    -450
-Connection ~ -450 -550
-Wire Wire Line
-	-450 -150 -450 -50 
-Wire Wire Line
-	0    -150 0    -50 
-Wire Wire Line
-	-2700 -900 -2700 -1300
-Wire Wire Line
-	-2700 -1300 -1950 -1300
-Wire Wire Line
-	-450 -1300 -450 -550
-Connection ~ -2700 -900
-Wire Wire Line
-	-2700 -900 -2600 -900
-$Comp
-L power:VCC #PWR0121
-U 1 1 60BC841F
-P 600 -700
-F 0 "#PWR0121" H 600 -850 50  0001 C CNN
-F 1 "VCC" H 615 -527 50  0000 C CNN
-F 2 "" H 600 -700 50  0001 C CNN
-F 3 "" H 600 -700 50  0001 C CNN
-	1    600  -700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R1
-U 1 1 60BC9C7D
-P 600 -250
-F 0 "R1" H 668 -204 50  0000 L CNN
-F 1 "1K" H 668 -295 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 640 -260 50  0001 C CNN
-F 3 "~" H 600 -250 50  0001 C CNN
-	1    600  -250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED RED1
-U 1 1 60BCAFF0
-P 600 200
-F 0 "RED1" V 639 82  50  0000 R CNN
-F 1 "LED1" V 548 82  50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 600 200 50  0001 C CNN
-F 3 "~" H 600 200 50  0001 C CNN
-	1    600  200 
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	600  350  600  450 
-Wire Wire Line
-	600  -100 600  50  
-Wire Wire Line
-	600  -700 600  -550
-Wire Wire Line
-	600  -550 0    -550
-Connection ~ 600  -550
-Wire Wire Line
-	600  -550 600  -400
-Connection ~ 0    -550
-Connection ~ 3150 1300
-Wire Wire Line
-	3150 1300 3150 1350
-Connection ~ 3150 1500
-Wire Wire Line
-	3150 1500 3150 1450
-$Comp
-L Device:C C3
-U 1 1 60D8F0AC
-P -3150 -400
-F 0 "C3" H -3035 -354 50  0000 L CNN
-F 1 "1uF" H -3035 -445 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H -3112 -550 50  0001 C CNN
-F 3 "~" H -3150 -400 50  0001 C CNN
-	1    -3150 -400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-3150 -650 -3150 -550
-Wire Wire Line
-	-3150 -250 -3150 -150
-Text GLabel -3150 -650 0    50   Input ~ 0
-UVCC
-$Comp
-L Device:Jumper JP1
-U 1 1 60E3FD21
-P -1650 -1300
-F 0 "JP1" H -1650 -1036 50  0000 C CNN
-F 1 "Jumper" H -1650 -1127 50  0000 C CNN
-F 2 "keyboard_parts:SOLDER_JUMPER_2" H -1650 -1300 50  0001 C CNN
-F 3 "~" H -1650 -1300 50  0001 C CNN
-	1    -1650 -1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-1350 -1300 -450 -1300
-$Comp
-L Private:OLED J3
-U 1 1 6061FF7E
-P 1150 3550
-F 0 "J3" H 1208 3875 50  0000 C CNN
-F 1 "OLED" H 1208 3784 50  0000 C CNN
-F 2 "Display:Generic_0.96in-128x64-OLED-Display-IIC" H 1000 3300 50  0001 C CNN
-F 3 "" H 1050 3300 50  0001 C CNN
-	1    1150 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R3
-U 1 1 60628AD4
-P 3500 950
-F 0 "R3" V 3450 800 50  0000 C CNN
-F 1 "5.1k" V 3450 1100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3540 940 50  0001 C CNN
-F 3 "~" H 3500 950 50  0001 C CNN
-	1    3500 950 
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R4
-U 1 1 60657B13
-P 3500 1050
-F 0 "R4" V 3450 900 50  0000 C CNN
-F 1 "5.1k" V 3450 1200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3540 1040 50  0001 C CNN
-F 3 "~" H 3500 1050 50  0001 C CNN
-	1    3500 1050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3100 950  3350 950 
-Wire Wire Line
-	3100 1050 3350 1050
-$Comp
-L keyboard_parts:GND #PWR0124
-U 1 1 606E6309
-P 3850 1100
-F 0 "#PWR0124" H 3850 1150 20  0001 C CNN
-F 1 "GND" H 3950 1100 30  0000 C CNN
-F 2 "" H 3850 1100 60  0000 C CNN
-F 3 "" H 3850 1100 60  0000 C CNN
-	1    3850 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3650 950  3850 950 
-Wire Wire Line
-	3850 950  3850 1050
-Wire Wire Line
-	3650 1050 3850 1050
-Connection ~ 3850 1050
-Wire Wire Line
-	3850 1050 3850 1100
-$Comp
-L power:VCC #PWR0126
-U 1 1 60797298
-P 1850 3650
-F 0 "#PWR0126" H 1850 3500 50  0001 C CNN
-F 1 "VCC" V 1850 3800 50  0000 L CNN
-F 2 "" H 1850 3650 50  0001 C CNN
-F 3 "" H 1850 3650 50  0001 C CNN
-	1    1850 3650
-	0    1    -1   0   
-$EndComp
-Text GLabel 1850 3550 2    50   Input ~ 0
-SCL
-Text GLabel 1850 3450 2    50   Input ~ 0
-SDA
-$Comp
-L Device:Rotary_Encoder_Switch SW25
-U 1 1 60FFF05C
-P 7000 5550
-F 0 "SW25" H 7000 5917 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 7000 5826 50  0000 C CNN
-F 2 "keebio_parts:RotaryEncoder_EC11" H 6850 5710 50  0001 C CNN
-F 3 "~" H 7000 5810 50  0001 C CNN
-	1    7000 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D27
-U 1 1 6065A1D0
-P 8750 5500
-F 0 "D27" V 8697 5580 50  0000 L CNN
-F 1 "LED" V 8788 5580 50  0000 L CNN
-F 2 "" H 8750 5500 50  0001 C CNN
-F 3 "~" H 8750 5500 50  0001 C CNN
-	1    8750 5500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D28
-U 1 1 6065AA39
-P 9200 5500
-F 0 "D28" V 9147 5580 50  0000 L CNN
-F 1 "LED" V 9238 5580 50  0000 L CNN
-F 2 "" H 9200 5500 50  0001 C CNN
-F 3 "~" H 9200 5500 50  0001 C CNN
-	1    9200 5500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1300 3450 1850 3450
-Wire Wire Line
-	1300 3550 1850 3550
-Wire Wire Line
-	1300 3650 1850 3650
-Wire Wire Line
-	1300 3750 1850 3750
-Wire Wire Line
-	3150 1500 3350 1500
-Wire Wire Line
-	3150 1300 3350 1300
-$Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
-U 1 1 6056609A
-P 2500 1350
-F 0 "J1" H 2607 2217 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 2607 2126 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 2650 1350 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2650 1350 50  0001 C CNN
-	1    2500 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0102
-U 1 1 607E4B98
-P -3150 4050
-F 0 "#PWR0102" H -3150 3900 50  0001 C CNN
-F 1 "VCC" H -3135 4223 50  0000 C CNN
-F 2 "" H -3150 4050 50  0001 C CNN
-F 3 "" H -3150 4050 50  0001 C CNN
-	1    -3150 4050
+L power:VCC #PWR?
+U 1 1 60933AB2
+P -700 3950
+F 0 "#PWR?" H -700 3800 50  0001 C CNN
+F 1 "VCC" H -685 4123 50  0000 C CNN
+F 2 "" H -700 3950 50  0001 C CNN
+F 3 "" H -700 3950 50  0001 C CNN
+	1    -700 3950
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	-3150 3450 -3150 3550
-$Comp
-L Device:R_Small_US R8
-U 1 1 6084A57C
-P -3150 3350
-F 0 "R8" H -3082 3396 50  0000 L CNN
-F 1 "330" H -3082 3305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H -3150 3350 50  0001 C CNN
-F 3 "~" H -3150 3350 50  0001 C CNN
-	1    -3150 3350
-	1    0    0    -1  
-$EndComp
+	-700 3750 -700 3950
+Text GLabel 4600 1500 2    50   Input ~ 0
+RX
 Wire Wire Line
-	-3150 3850 -3150 4050
-Wire Wire Line
-	-3150 3100 -3150 3250
-$Comp
-L Device:LED D26
-U 1 1 606594E0
-P -3150 3700
-F 0 "D26" V -3203 3780 50  0000 L CNN
-F 1 "Green" V -3112 3780 50  0000 L CNN
-F 2 "" H -3150 3700 50  0001 C CNN
-F 3 "~" H -3150 3700 50  0001 C CNN
-	1    -3150 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L keyboard_parts:ATMEGA32U4 U1
-U 1 1 60590795
-P -2100 2050
-F 0 "U1" H -2075 3387 60  0000 C CNN
-F 1 "ATMEGA32U4" H -2075 3281 60  0000 C CNN
-F 2 "keebio_parts:ATMEGA32U4-AU" H -2100 2050 60  0001 C CNN
-F 3 "" H -2100 2050 60  0000 C CNN
-	1    -2100 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR0115
-U 1 1 608EE946
-P -4550 600
-F 0 "#PWR0115" H -4550 450 50  0001 C CNN
-F 1 "VCC" H -4535 773 50  0000 C CNN
-F 2 "" H -4550 600 50  0001 C CNN
-F 3 "" H -4550 600 50  0001 C CNN
-	1    -4550 600 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-4550 1200 -4550 1100
-$Comp
-L Device:R_Small_US R6
-U 1 1 608EE94D
-P -4550 1300
-F 0 "R6" H -4482 1346 50  0000 L CNN
-F 1 "330" H -4482 1255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H -4550 1300 50  0001 C CNN
-F 3 "~" H -4550 1300 50  0001 C CNN
-	1    -4550 1300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	-4550 800  -4550 600 
-$Comp
-L Device:LED D29
-U 1 1 608EE955
-P -4550 950
-F 0 "D29" V -4603 1030 50  0000 L CNN
-F 1 "Green" V -4512 1030 50  0000 L CNN
-F 2 "" H -4550 950 50  0001 C CNN
-F 3 "~" H -4550 950 50  0001 C CNN
-	1    -4550 950 
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	-4200 1500 -4200 1050
-Wire Wire Line
-	-4200 1500 -3150 1500
-$Comp
-L Device:R_US R2
-U 1 1 60679433
-P -3850 3800
-F 0 "R2" H -4000 3900 50  0000 L CNN
-F 1 "10k" H -4050 3700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V -3810 3790 50  0001 C CNN
-F 3 "~" H -3850 3800 50  0001 C CNN
-	1    -3850 3800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	-3850 4050 -3850 3950
-$Comp
-L power:VCC #PWR0127
-U 1 1 60E570C7
-P -3850 4050
-F 0 "#PWR0127" H -3850 3900 50  0001 C CNN
-F 1 "VCC" H -3835 4223 50  0000 C CNN
-F 2 "" H -3850 4050 50  0001 C CNN
-F 3 "" H -3850 4050 50  0001 C CNN
-	1    -3850 4050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	-3150 1400 -3900 1400
-Wire Wire Line
-	-3900 600  -3900 1400
-Wire Wire Line
-	-3400 2400 -3150 2400
-Wire Wire Line
-	-3400 2400 -3400 4050
-Text GLabel -3550 1300 0    50   Input ~ 0
-D+
-Wire Wire Line
-	-4550 1700 -4550 1400
-Wire Wire Line
-	-3400 600  -3400 2300
-Text GLabel -3550 1800 0    50   Input ~ 0
-SCK
-Text GLabel -3550 1900 0    50   Input ~ 0
-MOSI
-Text GLabel -3550 2000 0    50   Input ~ 0
-MISO
-Wire Wire Line
-	-3550 1000 -3150 1000
-Wire Wire Line
-	-3550 1200 -3150 1200
-Wire Wire Line
-	-3550 1300 -3150 1300
-Wire Wire Line
-	-3550 1800 -3150 1800
-Wire Wire Line
-	-3550 1900 -3150 1900
-Wire Wire Line
-	-3550 2000 -3150 2000
-Wire Wire Line
-	-3550 2700 -3150 2700
-Wire Wire Line
-	-3550 2800 -3150 2800
-Wire Wire Line
-	-3550 2900 -3150 2900
-Wire Wire Line
-	-3550 3000 -3150 3000
-Wire Wire Line
-	-3400 2300 -3150 2300
-Wire Wire Line
-	-3200 1100 -3200 600 
-Connection ~ -3200 1100
-Wire Wire Line
-	-4550 1700 -3150 1700
-Wire Wire Line
-	-900 600  -900 1000
-Wire Wire Line
-	-400 1200 -400 1000
-Wire Wire Line
-	-1000 1200 -400 1200
-Wire Wire Line
-	-1000 3100 -650 3100
-Wire Wire Line
-	-650 600  -650 1100
-Wire Wire Line
-	-1000 2100 -650 2100
-Connection ~ -650 2100
-Wire Wire Line
-	-650 2100 -650 3100
-Wire Wire Line
-	-1000 1900 -650 1900
-Connection ~ -650 1900
-Wire Wire Line
-	-650 1900 -650 2100
-Wire Wire Line
-	-1000 1100 -650 1100
-Connection ~ -650 1100
-Wire Wire Line
-	-650 1100 -650 1900
-Text GLabel -3950 3200 0    50   Input ~ 0
-RESET
-Wire Wire Line
-	-3950 3200 -3850 3200
-Connection ~ -3850 3200
-Wire Wire Line
-	-3850 3200 -3850 3650
-Wire Wire Line
-	-3850 2200 -3850 3200
-Wire Wire Line
-	-3850 2200 -3150 2200
-Wire Wire Line
-	-4750 2600 -3150 2600
-Wire Wire Line
-	-4750 2500 -3150 2500
-Wire Wire Line
-	-5650 2550 -5650 2850
-Connection ~ -5650 2550
-Wire Wire Line
-	-5850 2550 -5650 2550
-Connection ~ -4900 2850
-Wire Wire Line
-	-5100 2850 -4900 2850
-Wire Wire Line
-	-5650 2850 -5500 2850
-Wire Wire Line
-	-5650 2250 -5650 2550
-Wire Wire Line
-	-5500 2250 -5650 2250
-Connection ~ -4900 2250
-Wire Wire Line
-	-5100 2250 -4900 2250
-$Comp
-L keyboard_parts:C C2
-U 1 1 60849CE6
-P -5300 2850
-F 0 "C2" V -5150 2850 50  0000 C CNN
-F 1 "22pF" V -5050 2850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H -5300 2850 60  0001 C CNN
-F 3 "" H -5300 2850 60  0000 C CNN
-	1    -5300 2850
-	0    1    1    0   
-$EndComp
-$Comp
-L keyboard_parts:C C4
-U 1 1 60848A7B
-P -5300 2250
-F 0 "C4" V -5567 2250 50  0000 C CNN
-F 1 "22pF" V -5476 2250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H -5300 2250 60  0001 C CNN
-F 3 "" H -5300 2250 60  0000 C CNN
-	1    -5300 2250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-4750 2850 -4750 2600
-Wire Wire Line
-	-4900 2850 -4750 2850
-Wire Wire Line
-	-4750 2250 -4900 2250
-Wire Wire Line
-	-4750 2500 -4750 2250
-$Comp
-L keyboard_parts:XTAL X1
-U 1 1 6080F4C1
-P -4900 2550
-F 0 "X1" V -4900 2300 60  0000 L CNN
-F 1 "16Mhz" V -4800 2250 60  0000 L CNN
-F 2 "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm" H -4900 2550 60  0001 C CNN
-F 3 "" H -4900 2550 60  0000 C CNN
-	1    -4900 2550
-	0    1    1    0   
-$EndComp
-Text GLabel -1900 4600 0    50   Input ~ 0
-A3
-Text GLabel -1900 4750 0    50   Input ~ 0
-A2
-Text GLabel -1900 4900 0    50   Input ~ 0
-A1
-Text GLabel -1900 5050 0    50   Input ~ 0
-A0
-Text GLabel -1350 4600 2    50   Input ~ 0
-ROW0
-Text GLabel -1350 4750 2    50   Input ~ 0
-ROW1
-Text GLabel -1350 4900 2    50   Input ~ 0
-ROW2
-Text GLabel -1350 5050 2    50   Input ~ 0
-ROW3
-Wire Wire Line
-	-1900 4600 -1350 4600
-Wire Wire Line
-	-1900 4750 -1350 4750
-Wire Wire Line
-	-1900 4900 -1350 4900
-Wire Wire Line
-	-1900 5050 -1350 5050
-Text GLabel 1100 5400 0    50   Input ~ 0
-ROW0
-$Comp
-L power:GND #PWR0117
-U 1 1 60774B53
-P -3150 -150
-F 0 "#PWR0117" H -3150 -400 50  0001 C CNN
-F 1 "GND" H -3145 -323 50  0000 C CNN
-F 2 "" H -3150 -150 50  0001 C CNN
-F 3 "" H -3150 -150 50  0001 C CNN
-	1    -3150 -150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0123
-U 1 1 607E6824
-P -2300 -50
-F 0 "#PWR0123" H -2300 -300 50  0001 C CNN
-F 1 "GND" H -2295 -223 50  0000 C CNN
-F 2 "" H -2300 -50 50  0001 C CNN
-F 3 "" H -2300 -50 50  0001 C CNN
-	1    -2300 -50 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 608216F9
-P -4200 600
-F 0 "#PWR0104" H -4200 350 50  0001 C CNN
-F 1 "GND" H -4195 427 50  0000 C CNN
-F 2 "" H -4200 600 50  0001 C CNN
-F 3 "" H -4200 600 50  0001 C CNN
-	1    -4200 600 
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 608914A8
-P -3900 600
-F 0 "#PWR0105" H -3900 350 50  0001 C CNN
-F 1 "GND" H -3895 427 50  0000 C CNN
-F 2 "" H -3900 600 50  0001 C CNN
-F 3 "" H -3900 600 50  0001 C CNN
-	1    -3900 600 
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0107
-U 1 1 60901457
-P -650 600
-F 0 "#PWR0107" H -650 350 50  0001 C CNN
-F 1 "GND" H -645 427 50  0000 C CNN
-F 2 "" H -650 600 50  0001 C CNN
-F 3 "" H -650 600 50  0001 C CNN
-	1    -650 600 
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0110
-U 1 1 6097058F
-P -400 600
-F 0 "#PWR0110" H -400 350 50  0001 C CNN
-F 1 "GND" H -395 427 50  0000 C CNN
-F 2 "" H -400 600 50  0001 C CNN
-F 3 "" H -400 600 50  0001 C CNN
-	1    -400 600 
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0111
-U 1 1 609E183F
-P 1950 2700
-F 0 "#PWR0111" H 1950 2450 50  0001 C CNN
-F 1 "GND" H 1955 2527 50  0000 C CNN
-F 2 "" H 1950 2700 50  0001 C CNN
-F 3 "" H 1950 2700 50  0001 C CNN
-	1    1950 2700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0114
-U 1 1 60A517B4
-P 1850 3750
-F 0 "#PWR0114" H 1850 3500 50  0001 C CNN
-F 1 "GND" V 1850 3550 50  0000 C CNN
-F 2 "" H 1850 3750 50  0001 C CNN
-F 3 "" H 1850 3750 50  0001 C CNN
-	1    1850 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0125
-U 1 1 60ACEA75
-P 2200 2250
-F 0 "#PWR0125" H 2200 2000 50  0001 C CNN
-F 1 "GND" H 2205 2077 50  0000 C CNN
-F 2 "" H 2200 2250 50  0001 C CNN
-F 3 "" H 2200 2250 50  0001 C CNN
-	1    2200 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0128
-U 1 1 60B0610C
-P 2500 2250
-F 0 "#PWR0128" H 2500 2000 50  0001 C CNN
-F 1 "GND" H 2505 2077 50  0000 C CNN
-F 2 "" H 2500 2250 50  0001 C CNN
-F 3 "" H 2500 2250 50  0001 C CNN
-	1    2500 2250
-	1    0    0    -1  
-$EndComp
-Connection ~ 10700 650 
-Wire Wire Line
-	10700 650  11050 650 
-$Comp
-L power:GND #PWR?
-U 1 1 60B7B7D5
-P 11050 650
-F 0 "#PWR?" H 11050 400 50  0001 C CNN
-F 1 "GND" H 11055 477 50  0000 C CNN
-F 2 "" H 11050 650 50  0001 C CNN
-F 3 "" H 11050 650 50  0001 C CNN
-	1    11050 650 
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60BB3973
-P 10700 3750
-F 0 "#PWR?" H 10700 3500 50  0001 C CNN
-F 1 "GND" H 10705 3577 50  0000 C CNN
-F 2 "" H 10700 3750 50  0001 C CNN
-F 3 "" H 10700 3750 50  0001 C CNN
-	1    10700 3750
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60BEB6B1
-P 10700 4750
-F 0 "#PWR?" H 10700 4500 50  0001 C CNN
-F 1 "GND" H 10705 4577 50  0000 C CNN
-F 2 "" H 10700 4750 50  0001 C CNN
-F 3 "" H 10700 4750 50  0001 C CNN
-	1    10700 4750
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60C24D30
-P 5750 2450
-F 0 "#PWR?" H 5750 2200 50  0001 C CNN
-F 1 "GND" H 5755 2277 50  0000 C CNN
-F 2 "" H 5750 2450 50  0001 C CNN
-F 3 "" H 5750 2450 50  0001 C CNN
-	1    5750 2450
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60CD4DDF
-P -3400 4050
-F 0 "#PWR?" H -3400 3800 50  0001 C CNN
-F 1 "GND" H -3395 3877 50  0000 C CNN
-F 2 "" H -3400 4050 50  0001 C CNN
-F 3 "" H -3400 4050 50  0001 C CNN
-	1    -3400 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60D45238
-P -1600 -50
-F 0 "#PWR?" H -1600 -300 50  0001 C CNN
-F 1 "GND" H -1595 -223 50  0000 C CNN
-F 2 "" H -1600 -50 50  0001 C CNN
-F 3 "" H -1600 -50 50  0001 C CNN
-	1    -1600 -50 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60D7C583
-P -950 -50
-F 0 "#PWR?" H -950 -300 50  0001 C CNN
-F 1 "GND" H -945 -223 50  0000 C CNN
-F 2 "" H -950 -50 50  0001 C CNN
-F 3 "" H -950 -50 50  0001 C CNN
-	1    -950 -50 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60DB3EA6
-P -450 -50
-F 0 "#PWR?" H -450 -300 50  0001 C CNN
-F 1 "GND" H -445 -223 50  0000 C CNN
-F 2 "" H -450 -50 50  0001 C CNN
-F 3 "" H -450 -50 50  0001 C CNN
-	1    -450 -50 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60DEB135
-P 0 -50
-F 0 "#PWR?" H 0   -300 50  0001 C CNN
-F 1 "GND" H 5   -223 50  0000 C CNN
-F 2 "" H 0   -50 50  0001 C CNN
-F 3 "" H 0   -50 50  0001 C CNN
-	1    0    -50 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60E22BFC
-P 600 450
-F 0 "#PWR?" H 600 200 50  0001 C CNN
-F 1 "GND" H 605 277 50  0000 C CNN
-F 2 "" H 600 450 50  0001 C CNN
-F 3 "" H 600 450 50  0001 C CNN
-	1    600  450 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60E5C8DE
-P -5850 2550
-F 0 "#PWR?" H -5850 2300 50  0001 C CNN
-F 1 "GND" H -5845 2377 50  0000 C CNN
-F 2 "" H -5850 2550 50  0001 C CNN
-F 3 "" H -5850 2550 50  0001 C CNN
-	1    -5850 2550
-	0    1    1    0   
-$EndComp
+	4450 1500 4600 1500
 $EndSCHEMATC
