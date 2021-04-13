@@ -90,43 +90,6 @@ F 3 "" H -2450 2550 60  0000 C CNN
 	1    -2450 2550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR0115
-U 1 1 608EE946
-P -4900 1100
-F 0 "#PWR0115" H -4900 950 50  0001 C CNN
-F 1 "VCC" H -4885 1273 50  0000 C CNN
-F 2 "" H -4900 1100 50  0001 C CNN
-F 3 "" H -4900 1100 50  0001 C CNN
-	1    -4900 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-4900 1700 -4900 1600
-$Comp
-L Device:R_Small_US R6
-U 1 1 608EE94D
-P -4900 1800
-F 0 "R6" H -4832 1846 50  0000 L CNN
-F 1 "330" H -4832 1755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H -4900 1800 50  0001 C CNN
-F 3 "~" H -4900 1800 50  0001 C CNN
-	1    -4900 1800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	-4900 1300 -4900 1100
-$Comp
-L Device:LED D29
-U 1 1 608EE955
-P -4900 1450
-F 0 "D29" V -4953 1530 50  0000 L CNN
-F 1 "Yellow" V -4862 1530 50  0000 L CNN
-F 2 "LED_THT:LED_D3.0mm" H -4900 1450 50  0001 C CNN
-F 3 "~" H -4900 1450 50  0001 C CNN
-	1    -4900 1450
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	-4550 2000 -4550 1550
 Wire Wire Line
@@ -165,8 +128,6 @@ Wire Wire Line
 	-3750 2900 -3750 4550
 Text GLabel -3900 1800 0    50   Input ~ 0
 D+
-Wire Wire Line
-	-4900 2200 -4900 1900
 Wire Wire Line
 	-3750 1100 -3750 2800
 Text GLabel -3900 2300 0    50   Input ~ 0
@@ -499,17 +460,6 @@ Wire Wire Line
 	-4900 -900 -4500 -900
 Text GLabel -4900 -900 0    50   Input ~ 0
 UVCC
-$Comp
-L keyboard_parts:PPTC F1
-U 1 1 6060CBCC
-P -4250 -900
-F 0 "F1" H -4250 -660 50  0000 C CNN
-F 1 "PPTC" H -4250 -751 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" V -4250 -900 60  0001 C CNN
-F 3 "" V -4250 -900 60  0000 C CNN
-	1    -4250 -900
-	1    0    0    -1  
-$EndComp
 Connection ~ -2000 -550
 Connection ~ 4950 7650
 Connection ~ 4100 7650
@@ -3133,13 +3083,22 @@ Connection ~ 6200 2000
 Connection ~ 6200 2850
 Connection ~ 9550 2000
 Connection ~ 9550 2850
-Wire Wire Line
-	-550 4350 -550 4550
 $Comp
-L power:VCC #PWR0137
-U 1 1 60933AB2
+L keyboard_parts:PPTC F1
+U 1 1 6060CBCC
+P -4250 -900
+F 0 "F1" H -4250 -660 50  0000 C CNN
+F 1 "PPTC" H -4250 -751 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" V -4250 -900 60  0001 C CNN
+F 3 "" V -4250 -900 60  0000 C CNN
+	1    -4250 -900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0115
+U 1 1 6084752F
 P -550 4550
-F 0 "#PWR0137" H -550 4400 50  0001 C CNN
+F 0 "#PWR0115" H -550 4400 50  0001 C CNN
 F 1 "VCC" H -535 4723 50  0000 C CNN
 F 2 "" H -550 4550 50  0001 C CNN
 F 3 "" H -550 4550 50  0001 C CNN
@@ -3147,23 +3106,12 @@ F 3 "" H -550 4550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	-550 3750 -550 3200
+	-550 3950 -550 4050
 $Comp
-L Device:LED D28
-U 1 1 6065AA39
-P -550 4200
-F 0 "D28" V -603 4280 50  0000 L CNN
-F 1 "Blue" V -512 4280 50  0000 L CNN
-F 2 "LED_THT:LED_D3.0mm" H -550 4200 50  0001 C CNN
-F 3 "~" H -550 4200 50  0001 C CNN
-	1    -550 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R9
-U 1 1 607777D2
+L Device:R_Small_US R6
+U 1 1 60847536
 P -550 3850
-F 0 "R9" H -482 3896 50  0000 L CNN
+F 0 "R6" H -482 3896 50  0000 L CNN
 F 1 "330" H -482 3805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H -550 3850 50  0001 C CNN
 F 3 "~" H -550 3850 50  0001 C CNN
@@ -3171,5 +3119,44 @@ F 3 "~" H -550 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-550 3950 -550 4050
+	-550 4350 -550 4550
+$Comp
+L Device:LED D27
+U 1 1 6084753D
+P -550 4200
+F 0 "D27" V -603 4280 50  0000 L CNN
+F 1 "Yellow" V -512 4280 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H -550 4200 50  0001 C CNN
+F 3 "~" H -550 4200 50  0001 C CNN
+	1    -550 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0137
+U 1 1 608DAD16
+P -4900 1100
+F 0 "#PWR0137" H -4900 850 50  0001 C CNN
+F 1 "GND" H -4895 927 50  0000 C CNN
+F 2 "" H -4900 1100 50  0001 C CNN
+F 3 "" H -4900 1100 50  0001 C CNN
+	1    -4900 1100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-4900 1300 -4900 1100
+$Comp
+L keyboard_parts:SW_PUSH Boot1
+U 1 1 608DAD1D
+P -4900 1600
+F 0 "Boot1" H -4900 1855 50  0000 C CNN
+F 1 "SW_PUSH" H -4900 1764 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H -4900 1600 60  0001 C CNN
+F 3 "" H -4900 1600 60  0000 C CNN
+	1    -4900 1600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-4900 1900 -4900 2200
+Wire Wire Line
+	-550 3200 -550 3750
 $EndSCHEMATC
