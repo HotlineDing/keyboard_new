@@ -2510,8 +2510,6 @@ F 3 "" H 4450 800 50  0001 C CNN
 	1    4450 800 
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4650 1100 4650 1150
 Connection ~ 4650 1100
 Wire Wire Line
 	4450 1100 4650 1100
@@ -2519,17 +2517,6 @@ Wire Wire Line
 	4650 1000 4650 1100
 Wire Wire Line
 	4450 1000 4650 1000
-$Comp
-L keyboard_parts:GND #PWR0135
-U 1 1 60731FA9
-P 4650 1150
-F 0 "#PWR0135" H 4650 1200 20  0001 C CNN
-F 1 "GND" H 4750 1150 30  0000 C CNN
-F 2 "" H 4650 1150 60  0000 C CNN
-F 3 "" H 4650 1150 60  0000 C CNN
-	1    4650 1150
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2250 1900
 NoConn ~ 2250 2000
 Text GLabel 4600 1400 2    50   Input ~ 0
@@ -3190,4 +3177,19 @@ Text GLabel -1000 7800 0    50   Input ~ 0
 SCK
 Text GLabel -1000 7950 0    50   Input ~ 0
 TX
+$Comp
+L power:GND #PWR?
+U 1 1 6082B89B
+P 4850 1000
+F 0 "#PWR?" H 4850 750 50  0001 C CNN
+F 1 "GND" H 4855 827 50  0000 C CNN
+F 2 "" H 4850 1000 50  0001 C CNN
+F 3 "" H 4850 1000 50  0001 C CNN
+	1    4850 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 1100 4850 1100
+Wire Wire Line
+	4850 1100 4850 1000
 $EndSCHEMATC
