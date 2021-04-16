@@ -183,18 +183,12 @@ Wire Wire Line
 Connection ~ -6000 3050
 Wire Wire Line
 	-6200 3050 -6000 3050
-Connection ~ -5250 3350
-Wire Wire Line
-	-5450 3350 -5250 3350
 Wire Wire Line
 	-6000 3350 -5850 3350
 Wire Wire Line
 	-6000 2750 -6000 3050
 Wire Wire Line
 	-5850 2750 -6000 2750
-Connection ~ -5250 2750
-Wire Wire Line
-	-5450 2750 -5250 2750
 $Comp
 L keyboard_parts:C C2
 U 1 1 60849CE6
@@ -220,25 +214,10 @@ $EndComp
 Wire Wire Line
 	-5100 3350 -5100 3100
 Wire Wire Line
-	-5250 3350 -5100 3350
-Wire Wire Line
-	-5100 2750 -5250 2750
-Wire Wire Line
 	-5100 3000 -5100 2750
-$Comp
-L keyboard_parts:XTAL X1
-U 1 1 6080F4C1
-P -5250 3050
-F 0 "X1" V -5250 2800 60  0000 L CNN
-F 1 "16Mhz" V -5150 2750 60  0000 L CNN
-F 2 "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm" H -5250 3050 60  0001 C CNN
-F 3 "" H -5250 3050 60  0000 C CNN
-	1    -5250 3050
-	0    1    1    0   
-$EndComp
-Text GLabel -1000 5700 0    50   Input ~ 0
-A3
 Text GLabel -1000 5850 0    50   Input ~ 0
+A3
+Text GLabel -1000 5700 0    50   Input ~ 0
 A2
 Text GLabel -1000 6000 0    50   Input ~ 0
 A1
@@ -693,7 +672,7 @@ U 1 1 6056609A
 P 1650 1400
 F 0 "J1" H 1757 2267 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1757 2176 50  0000 C CNN
-F 2 "private:USB_C_TH_6pin" H 1800 1400 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 1800 1400 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1800 1400 50  0001 C CNN
 	1    1650 1400
 	1    0    0    -1  
@@ -726,25 +705,11 @@ F 3 "" H 1850 3650 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	3000 1100 3000 1150
-Connection ~ 3000 1100
-Wire Wire Line
 	2800 1100 3000 1100
 Wire Wire Line
 	3000 1000 3000 1100
 Wire Wire Line
 	2800 1000 3000 1000
-$Comp
-L keyboard_parts:GND #PWR0124
-U 1 1 606E6309
-P 3000 1150
-F 0 "#PWR0124" H 3000 1200 20  0001 C CNN
-F 1 "GND" H 3100 1150 30  0000 C CNN
-F 2 "" H 3000 1150 60  0000 C CNN
-F 3 "" H 3000 1150 60  0000 C CNN
-	1    3000 1150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2250 1100 2500 1100
 Wire Wire Line
@@ -2599,7 +2564,7 @@ U 1 1 60658E93
 P 3850 1400
 F 0 "J2" H 3957 2267 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 3957 2176 50  0000 C CNN
-F 2 "private:USB_C_TH_6pin" H 4000 1400 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 4000 1400 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4000 1400 50  0001 C CNN
 	1    3850 1400
 	1    0    0    -1  
@@ -3173,10 +3138,10 @@ F 3 "" H 11450 6200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0141
 U 1 1 6093532B
 P 11400 4100
-F 0 "#PWR?" H 11400 3850 50  0001 C CNN
+F 0 "#PWR0141" H 11400 3850 50  0001 C CNN
 F 1 "GND" H 11405 3927 50  0000 C CNN
 F 2 "" H 11400 4100 50  0001 C CNN
 F 3 "" H 11400 4100 50  0001 C CNN
@@ -3186,4 +3151,43 @@ $EndComp
 Wire Wire Line
 	11400 4100 11150 4100
 Connection ~ 11150 4100
+$Comp
+L power:GND #PWR0124
+U 1 1 609A1212
+P 3000 900
+F 0 "#PWR0124" H 3000 650 50  0001 C CNN
+F 1 "GND" H 3005 727 50  0000 C CNN
+F 2 "" H 3000 900 50  0001 C CNN
+F 3 "" H 3000 900 50  0001 C CNN
+	1    3000 900 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3000 900  3000 1000
+Connection ~ 3000 1000
+Wire Wire Line
+	-5100 2750 -5250 2750
+Wire Wire Line
+	-5450 2750 -5250 2750
+Connection ~ -5250 2750
+Wire Wire Line
+	-5250 3350 -5100 3350
+Wire Wire Line
+	-5450 3350 -5250 3350
+Connection ~ -5250 3350
+$Comp
+L keyboard_parts:XTAL X1
+U 1 1 6080F4C1
+P -5250 3050
+F 0 "X1" V -5250 2800 60  0000 L CNN
+F 1 "16Mhz" V -5150 2750 60  0000 L CNN
+F 2 "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm" H -5250 3050 60  0001 C CNN
+F 3 "" H -5250 3050 60  0000 C CNN
+	1    -5250 3050
+	0    1    1    0   
+$EndComp
+Text GLabel -1000 7800 0    50   Input ~ 0
+SCK
+Text GLabel -1000 7950 0    50   Input ~ 0
+TX
 $EndSCHEMATC
