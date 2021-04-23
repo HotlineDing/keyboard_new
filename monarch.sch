@@ -174,47 +174,6 @@ Wire Wire Line
 	-4200 2700 -4200 3700
 Wire Wire Line
 	-4200 2700 -3500 2700
-Wire Wire Line
-	-5100 3100 -3500 3100
-Wire Wire Line
-	-5100 3000 -3500 3000
-Wire Wire Line
-	-6000 3050 -6000 3350
-Connection ~ -6000 3050
-Wire Wire Line
-	-6200 3050 -6000 3050
-Wire Wire Line
-	-6000 3350 -5850 3350
-Wire Wire Line
-	-6000 2750 -6000 3050
-Wire Wire Line
-	-5850 2750 -6000 2750
-$Comp
-L keyboard_parts:C C2
-U 1 1 60849CE6
-P -5650 3350
-F 0 "C2" V -5500 3350 50  0000 C CNN
-F 1 "22pF" V -5400 3350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H -5650 3350 60  0001 C CNN
-F 3 "" H -5650 3350 60  0000 C CNN
-	1    -5650 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L keyboard_parts:C C4
-U 1 1 60848A7B
-P -5650 2750
-F 0 "C4" V -5917 2750 50  0000 C CNN
-F 1 "22pF" V -5826 2750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H -5650 2750 60  0001 C CNN
-F 3 "" H -5650 2750 60  0000 C CNN
-	1    -5650 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-5100 3350 -5100 3100
-Wire Wire Line
-	-5100 3000 -5100 2750
 Text GLabel -1000 5850 0    50   Input ~ 0
 A3
 Text GLabel -1000 5700 0    50   Input ~ 0
@@ -271,17 +230,6 @@ F 2 "" H -3750 4550 50  0001 C CNN
 F 3 "" H -3750 4550 50  0001 C CNN
 	1    -3750 4550
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 60E5C8DE
-P -6200 3050
-F 0 "#PWR0103" H -6200 2800 50  0001 C CNN
-F 1 "GND" H -6195 2877 50  0000 C CNN
-F 2 "" H -6200 3050 50  0001 C CNN
-F 3 "" H -6200 3050 50  0001 C CNN
-	1    -6200 3050
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:LED D26
@@ -3152,27 +3100,6 @@ $EndComp
 Wire Wire Line
 	3000 900  3000 1000
 Connection ~ 3000 1000
-Wire Wire Line
-	-5100 2750 -5250 2750
-Wire Wire Line
-	-5450 2750 -5250 2750
-Connection ~ -5250 2750
-Wire Wire Line
-	-5250 3350 -5100 3350
-Wire Wire Line
-	-5450 3350 -5250 3350
-Connection ~ -5250 3350
-$Comp
-L keyboard_parts:XTAL X1
-U 1 1 6080F4C1
-P -5250 3050
-F 0 "X1" V -5250 2800 60  0000 L CNN
-F 1 "16Mhz" V -5150 2750 60  0000 L CNN
-F 2 "Crystal:Crystal_SMD_7050-4Pin_7.0x5.0mm" H -5250 3050 60  0001 C CNN
-F 3 "" H -5250 3050 60  0000 C CNN
-	1    -5250 3050
-	0    1    1    0   
-$EndComp
 Text GLabel -1000 7800 0    50   Input ~ 0
 SCK
 Text GLabel -1000 7950 0    50   Input ~ 0
@@ -3192,4 +3119,27 @@ Wire Wire Line
 	4650 1100 4850 1100
 Wire Wire Line
 	4850 1100 4850 1000
+$Comp
+L Device:Crystal 16mhz1
+U 1 1 60882EA9
+P -4950 3050
+F 0 "16mhz1" V -5000 2600 50  0000 L CNN
+F 1 "Crystal" V -4900 2600 50  0000 L CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H -4950 3050 50  0001 C CNN
+F 3 "~" H -4950 3050 50  0001 C CNN
+	1    -4950 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-3500 3000 -4650 3000
+Wire Wire Line
+	-4650 3000 -4650 2900
+Wire Wire Line
+	-4650 2900 -4950 2900
+Wire Wire Line
+	-4950 3200 -4650 3200
+Wire Wire Line
+	-4650 3200 -4650 3100
+Wire Wire Line
+	-4650 3100 -3500 3100
 $EndSCHEMATC
