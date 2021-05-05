@@ -1,4 +1,4 @@
-19757533702018597
+19759153697311597
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -85490,6 +85490,13 @@ USB_C_TH_6pin
 0
 10
 7
+private
+butterfly
+
+
+0
+0
+0
 private
 oled_breakout
 
